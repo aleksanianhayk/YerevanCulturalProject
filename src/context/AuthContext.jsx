@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config'; // Adjust path depending on your folder structure
 
 const AuthContext = createContext();
 
@@ -36,7 +37,7 @@ export const AuthProvider = ({ children }) => {
 
     try {
       // Try calling backend endpoint if available
-      const res = await fetch('/api/auth/register', {
+      const res = await fetch('${API_BASE_URL}/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password, age }),
@@ -91,7 +92,7 @@ export const AuthProvider = ({ children }) => {
   const loginUser = async (email, password) => {
     try {
       // Try calling backend endpoint if available
-      const res = await fetch('/api/auth/login', {
+      const res = await fetch('${API_BASE_URL}/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -157,7 +158,7 @@ export const AuthProvider = ({ children }) => {
 
     // Try sync with backend
     try {
-      await fetch('/api/auth/stamp', {
+      await fetch('${API_BASE_URL}/api/auth/stamp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, placeId }),

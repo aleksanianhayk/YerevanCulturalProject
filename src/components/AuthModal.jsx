@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useLanguage } from '../i18n/LanguageContext';
-import { User, Mail, Lock, Calendar, AlertCircle } from 'lucide-react';
+import { User, Mail, Lock, Calendar, AlertCircle, X } from 'lucide-react';
 
 export const AuthModal = () => {
   const { isAuthModalOpen, setIsAuthModalOpen, authMode, setAuthMode, loginUser, registerUser } = useAuth();
@@ -12,6 +12,16 @@ export const AuthModal = () => {
   const [password, setPassword] = useState('');
   const [age, setAge] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
+
+  // Prevent scrolling on the body when modal is open
+  useEffect(() => {
+    if (isAuthModalOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => { document.body.style.overflow = 'unset'; };
+  }, [isAuthModalOpen]);
 
   if (!isAuthModalOpen) return null;
 
@@ -28,18 +38,33 @@ export const AuthModal = () => {
     }
   };
 
+  // Close modal when clicking on the blurred background
+  const handleBackdropClick = (e) => {
+    if (e.target === e.currentTarget) {
+      setIsAuthModalOpen(false);
+    }
+  };
+
   return (
-    <div className="fixed inset-0 z-50 bg-stone-950/60 backdrop-blur-sm flex items-center justify-center p-4">
-      <div className="bg-white border border-stone-200 w-full max-w-sm rounded-2xl p-6 shadow-2xl relative">
-        <button
+    <div 
+      className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={handleBackdropClick}
+    >
+      <div 
+        className="bg-white border border-stone-200 w-full max-w-sm rounded-2xl p-6 shadow-2xl relative animate-in fade-in zoom-in-95 duration-200"
+        onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
+      >
+        
+        {/* Unified Close Button */}
+        <button 
           onClick={() => setIsAuthModalOpen(false)}
-          className="absolute top-4 right-4 text-stone-400 hover:text-stone-900 text-xs font-bold bg-stone-100 px-2 py-1 rounded-lg"
+          className="absolute top-3 right-3 w-8 h-8 bg-stone-100 text-stone-500 rounded-full flex items-center justify-center hover:bg-stone-200 transition z-10"
         >
-          ✕
+          <X className="w-5 h-5" />
         </button>
 
         {/* Tabs */}
-        <div className="flex border-b border-stone-200 mb-5">
+        <div className="flex border-b border-stone-200 mt-2 mb-5">
           <button
             onClick={() => { setAuthMode('login'); setErrorMsg(''); }}
             className={`flex-1 py-2 text-xs font-black border-b-2 transition ${

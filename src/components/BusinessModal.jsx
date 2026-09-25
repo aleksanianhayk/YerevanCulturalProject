@@ -1,15 +1,38 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import { MapPin, ExternalLink, Instagram, Facebook, X } from 'lucide-react';
 
 export const BusinessModal = ({ business, isOpen, onClose }) => {
   const { getLocalizedText, t } = useLanguage();
 
+  // Prevent scrolling on the body when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => { document.body.style.overflow = 'unset'; };
+  }, [isOpen]);
+
   if (!isOpen || !business) return null;
 
+  // Close modal when clicking on the blurred background
+  const handleBackdropClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
   return (
-    <div className="fixed inset-0 z-50 bg-stone-950/60 backdrop-blur-sm flex items-center justify-center p-4">
-      <div className="bg-white w-full max-w-md rounded-2xl overflow-hidden shadow-2xl relative animate-in fade-in zoom-in-95 duration-200">
+    <div 
+      className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={handleBackdropClick}
+    >
+      <div 
+        className="bg-white w-full max-w-md rounded-2xl overflow-hidden shadow-2xl relative animate-in fade-in zoom-in-95 duration-200"
+        onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
+      >
         
         {/* Header Image */}
         <div className="relative h-48 w-full bg-stone-200">
@@ -18,9 +41,10 @@ export const BusinessModal = ({ business, isOpen, onClose }) => {
             alt={getLocalizedText(business.name)} 
             className="w-full h-full object-cover"
           />
+          {/* Unified Close Button */}
           <button 
             onClick={onClose}
-            className="absolute top-3 right-3 w-8 h-8 bg-black/50 text-white rounded-full flex items-center justify-center backdrop-blur-md hover:bg-black/70 transition"
+            className="absolute top-3 right-3 w-8 h-8 bg-black/50 text-white rounded-full flex items-center justify-center backdrop-blur-md hover:bg-black/70 transition z-10"
           >
             <X className="w-5 h-5" />
           </button>

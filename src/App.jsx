@@ -9,7 +9,7 @@ import { QRScannerModal } from './components/QRScannerModal';
 import { HeroPage } from './pages/HeroPage';
 import { PlacePage } from './pages/PlacePage';
 import { PassportPage } from './pages/PassportPage';
-import { API_BASE_URL } from '../config'; // Adjust path depending on your folder structure
+import { API_BASE_URL } from './config';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);

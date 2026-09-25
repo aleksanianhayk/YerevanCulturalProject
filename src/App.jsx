@@ -29,7 +29,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    fetch('${API_BASE_URL}/api/places')
+    fetch(`${API_BASE_URL}/api/places`)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) setPlaces(data);

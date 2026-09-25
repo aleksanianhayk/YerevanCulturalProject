@@ -1,17 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
-import { Camera, MapPin, AlertCircle, X, CheckCircle2 } from 'lucide-react';
+import { Camera, AlertCircle, X, CheckCircle2 } from 'lucide-react';
 import jsQR from 'jsqr';
 
 export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
-  const { getLocalizedText, t } = useLanguage();
+  const { t } = useLanguage();
   
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
   const requestRef = useRef(null);
   
   const [cameraError, setCameraError] = useState(false);
-  const [scanSuccess, setScanSuccess] = useState(false); // To show a brief success animation
+  const [scanSuccess, setScanSuccess] = useState(false);
 
   // Prevent background scrolling
   useEffect(() => {
@@ -34,8 +34,7 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
         
         if (videoRef.current) {
           videoRef.current.srcObject = stream;
-          // Important: We must wait for the video to be ready before processing frames
-          videoRef.current.setAttribute("playsinline", true); // required to tell iOS safari we don't want fullscreen
+          videoRef.current.setAttribute("playsinline", true);
           videoRef.current.play();
           requestRef.current = requestAnimationFrame(tick);
         }
@@ -55,7 +54,6 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
     };
   }, [isOpen]);
 
-  // The function that continuously checks frames for a QR Code
   const tick = () => {
     if (videoRef.current && videoRef.current.readyState === videoRef.current.HAVE_ENOUGH_DATA) {
       const canvas = canvasRef.current;
@@ -77,24 +75,19 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
       }
     }
     
-    // Only continue looping if we haven't succeeded yet
     if (!scanSuccess) {
       requestRef.current = requestAnimationFrame(tick);
     }
   };
 
   const handleScan = (data) => {
-    // Example data: "https://yerevan-cultural-frontend.onrender.com/place/opera-theater"
     try {
       let placeId = null;
 
-      // Check if it's a full URL
       if (data.includes('/place/')) {
         const parts = data.split('/place/');
-        placeId = parts[parts.length - 1].replace(/\/$/, ""); // Get the part after /place/ and remove trailing slash
-      } 
-      // Fallback: In case the QR just contains the raw ID (e.g. "opera-theater")
-      else {
+        placeId = parts[parts.length - 1].replace(/\/$/, "");
+      } else {
         placeId = data;
       }
 
@@ -145,21 +138,19 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
         </div>
 
         {/* Camera Viewport */}
-        <div className={`relative aspect-video w-full bg-stone-900 rounded-xl overflow-hidden border-4 flex items-center justify-center shadow-inner transition-colors duration-300 ${scanSuccess ? 'border-emerald-500' : 'border-stone-200'}`}>
+        <div className={`relative aspect-[4/3] w-full bg-stone-900 rounded-xl overflow-hidden border-4 flex items-center justify-center shadow-inner transition-colors duration-300 ${scanSuccess ? 'border-emerald-500' : 'border-stone-200'}`}>
           {!cameraError ? (
             <>
               <video ref={videoRef} className="w-full h-full object-cover" muted playsInline />
-              {/* Invisible canvas for jsQR to read from */}
               <canvas ref={canvasRef} className="hidden" />
               
-              {/* Reticle / Success Overlay */}
               {scanSuccess ? (
                 <div className="absolute inset-0 bg-emerald-500/20 flex flex-col items-center justify-center backdrop-blur-sm animate-in fade-in duration-300">
                   <CheckCircle2 className="w-12 h-12 text-emerald-400 drop-shadow-md" />
                   <span className="text-white font-black mt-2 text-sm drop-shadow-md">Place Found!</span>
                 </div>
               ) : (
-                <div className="absolute inset-0 border-2 border-dashed border-amber-400 rounded-xl pointer-events-none m-6 animate-pulse" />
+                <div className="absolute inset-0 border-2 border-dashed border-amber-400 rounded-xl pointer-events-none m-8 animate-pulse" />
               )}
             </>
           ) : (
@@ -169,34 +160,10 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
             </div>
           )}
         </div>
-
-        {/* Fallback Manual Location Selection List */}
-        <div className="space-y-2">
-          <span className="text-[11px] font-bold text-stone-500 block">{t('selectPlace')}</span>
-          <div className="max-h-48 overflow-y-auto space-y-2 pr-1 no-scrollbar">
-            {places.map((place) => (
-              <button
-                key={place.id}
-                onClick={() => {
-                  onSelectPlace(place.id);
-                  onClose();
-                }}
-                className="w-full flex items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-200 hover:bg-amber-50 hover:border-amber-300 transition text-left group"
-              >
-                <div>
-                  <h4 className="text-xs font-extrabold text-stone-900 group-hover:text-amber-700">{getLocalizedText(place.title)}</h4>
-                  <p className="text-[10px] text-stone-500 flex items-center gap-1 mt-0.5 font-medium">
-                    <MapPin className="w-3 h-3 text-amber-600" />
-                    {getLocalizedText(place.location)}
-                  </p>
-                </div>
-                <span className="text-[10px] font-extrabold text-amber-800 bg-amber-100 px-2.5 py-1 rounded-lg">
-                  {t('viewLocation')}
-                </span>
-              </button>
-            ))}
-          </div>
-        </div>
+        
+        <p className="text-center text-xs text-stone-500 font-medium mt-4 pb-2">
+          Point your camera at a location's QR code to scan it.
+        </p>
 
       </div>
     </div>

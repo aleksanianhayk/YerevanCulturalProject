@@ -1,7 +1,7 @@
 [
   {
     "id": "republic-square",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Republic Square",
       "hy": "Հանրապետության Հրապարակ",
@@ -25,8 +25,8 @@
           "hy": "Հրապարակի տեսքը (1920 թ. vs Այսօր)",
           "ru": "Вид на площадь (1920 г. vs Настоящее время)"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1920",
         "newYear": "2026"
       },
@@ -37,8 +37,8 @@
           "hy": "Կառավարական տան կառուցումը",
           "ru": "Строительство здания Правительства"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1935",
         "newYear": "2026"
       }
@@ -58,7 +58,7 @@
           "ru": "В 1924 году по генеральному плану Александра Таманяна этот район был спроектирован как новый административный и общественный центр города."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "node-2",
@@ -74,7 +74,7 @@
           "ru": "С 1940 по 1990 год она называлась площадью Ленина, на которой стоял памятник Владимиру Ленину, демонтированный в 1991 году."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -82,7 +82,7 @@
         "id": "biz_rep_1",
         "name": { "en": "Sherep Restaurant", "hy": "Շերեփ Ռեստորան", "ru": "Ресторан Шереп" },
         "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "1 Amiryan St", "hy": "Ամիրյան 1", "ru": "ул. Амиряна 1" },
         "description": { 
           "en": "The first restaurant with an open kitchen in Armenia, offering authentic local flavors.", 
@@ -96,7 +96,7 @@
         "id": "biz_rep_2",
         "name": { "en": "Tavern Yerevan", "hy": "Պանդոկ Երևան", "ru": "Таверна Ереван" },
         "type": { "en": "Traditional Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Традиционный Ресторан" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "5 Amiryan St", "hy": "Ամիրյան 5", "ru": "ул. Амиряна 5" },
         "description": { 
           "en": "Famous for its cozy atmosphere and rich menu of traditional Armenian cuisine.", 
@@ -110,7 +110,7 @@
         "id": "biz_rep_3",
         "name": { "en": "Armenia Marriott Hotel", "hy": "Արմենիա Մարիոթ Հյուրանոց", "ru": "Гостиница Армения Марриотт" },
         "type": { "en": "Hotel & Lounge", "hy": "Հյուրանոց և Լաունջ", "ru": "Отель и Лаунж" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "2 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2", "ru": "ул. Вазгена Саргсяна 2" },
         "description": { 
           "en": "A prominent luxury hotel offering fine dining right on Republic Square.", 
@@ -124,7 +124,7 @@
   },
   {
     "id": "opera-theater",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Yerevan Opera Theatre",
       "hy": "Օպերայի և Բալետի Թատրոն",
@@ -148,8 +148,8 @@
           "hy": "Օպերայի շենքը (1933 թ. vs Այսօր)",
           "ru": "Здание Оперы (1933 г. vs Настоящее время)"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1933",
         "newYear": "2026"
       }
@@ -168,7 +168,7 @@
           "ru": "Александр Таманян спроектировал здание Театра оперы и балета в 1926–1936 годах, изначально назвав его Народным домом. Торжественная закладка фундамента состоялась 28 ноября 1930 года."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "op-node-2",
@@ -191,7 +191,7 @@
         "id": "biz_op_1",
         "name": { "en": "The Club Yerevan", "hy": "Ակումբ Երևան", "ru": "Клуб Ереван" },
         "type": { "en": "Restaurant / Cafe", "hy": "Ռեստորան / Սրճարան", "ru": "Ресторан / Кафе" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "40 Tumanyan St", "hy": "Թումանյան 40", "ru": "ул. Туманяна 40" },
         "description": { 
           "en": "A unique subterranean space featuring a French-Armenian restaurant, cafe, and art gallery.", 
@@ -205,7 +205,7 @@
         "id": "biz_op_2",
         "name": { "en": "Lavash Restaurant", "hy": "Լավաշ Ռեստորան", "ru": "Ресторан Лаваш" },
         "type": { "en": "Armenian Cuisine", "hy": "Հայկական Խոհանոց", "ru": "Армянская Кухня" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "21 Tumanyan St", "hy": "Թումանյան 21", "ru": "ул. Туманяна 21" },
         "description": { 
           "en": "A vibrant culinary destination celebrating regional Armenian recipes and farm-to-table dining.", 
@@ -219,7 +219,7 @@
         "id": "biz_op_3",
         "name": { "en": "Martini Royale", "hy": "Մարտինի Ռոյալ", "ru": "Мартини Роял" },
         "type": { "en": "Italian Restaurant & Bar", "hy": "Իտալական Ռեստորան և Բար", "ru": "Итальянский Ресторан и Бар" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "22 Tumanyan St", "hy": "Թումանյան 22", "ru": "ул. Туманяна 22" },
         "description": { 
           "en": "Elegant setting offering European cuisine, signature cocktails, and a view of Swan Lake.", 
@@ -233,7 +233,7 @@
   },
   {
     "id": "cascade-complex",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Cascade Complex",
       "hy": "Կասկադ Համալիր",
@@ -257,8 +257,8 @@
           "hy": "Կասկադի բլուրը (1971 թ. vs Այսօր)",
           "ru": "Склон Каскада (1971 г. vs Настоящее время)"
         },
-        "oldImage": "../../public/cascade_old.png",
-        "newImage": "../../public/cascade_new.png",
+        "oldImage": "/cascade_old.png",
+        "newImage": "/cascade_new.png",
         "oldYear": "1971",
         "newYear": "2026"
       }
@@ -278,7 +278,7 @@
           "ru": "В 1970-х годах под руководством главного архитектора Еревана Джима Торосяна началось строительство Каскада. Он был построен из белого травертина и украшен мотивами армянской истории."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "node-cas-2",
@@ -294,7 +294,7 @@
           "ru": "В 2002 году американский армянин, бизнесмен Джерард Гафесчян инициировал реставрацию комплекса, превратив его в центр искусства и культуры."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -302,7 +302,7 @@
         "id": "biz_cas_1",
         "name": { "en": "Charles Restaurant", "hy": "Շառլ Ռեստորան", "ru": "Ресторан Шарль" },
         "type": { "en": "French Cuisine", "hy": "Ֆրանսիական Խոհանոց", "ru": "Французская Кухня" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "3 Tamanyan St", "hy": "Թամանյան 3", "ru": "ул. Таманяна 3" },
         "description": { 
           "en": "A premium dining spot offering exquisite French dishes with a beautiful view of the Cascade.", 
@@ -316,7 +316,7 @@
         "id": "biz_cas_2",
         "name": { "en": "Cascade Chocolatier", "hy": "Կասկադ Շոկոլատիե", "ru": "Каскад Шоколатье" },
         "type": { "en": "Cafe & Dessert Shop", "hy": "Սրճարան և Աղանդեր", "ru": "Кафе и Десерты" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "10 Tamanyan St", "hy": "Թամանյան 10", "ru": "ул. Таманяна 10" },
         "description": { 
           "en": "Artisan chocolates, rich coffee, and decadent pastries in a cozy, modern environment.", 
@@ -330,7 +330,7 @@
         "id": "biz_cas_3",
         "name": { "en": "Wine Republic", "hy": "Գինու Հանրապետություն", "ru": "Винная Республика" },
         "type": { "en": "Wine Bar & Restaurant", "hy": "Գինետուն և Ռեստորան", "ru": "Винный Бар и Ресторан" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "2 Tamanyan St", "hy": "Թամանյան 2", "ru": "ул. Таманяна 2" },
         "description": { 
           "en": "An extensive wine selection paired with European and Asian fusion cuisine.", 
@@ -344,7 +344,7 @@
   },
   {
     "id": "pushkin-31",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Pushkin 31 & De Angelo",
       "hy": "Պուշկինի 31 և De Angelo",
@@ -368,8 +368,8 @@
           "hy": "Պուշկինի 31 (1930-ականներ vs Այսօր)",
           "ru": "Пушкина 31 (1930-е vs Настоящее время)"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1930",
         "newYear": "2026"
       }
@@ -388,7 +388,7 @@
           "ru": "В советские годы здание запомнилось ереванцам как «Магазин шоферов» из-за действовавшего здесь магазина."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "pushkin-node-2",
@@ -403,7 +403,7 @@
           "ru": "Торос Тораманян жил на первом этаже дома 31 по улице Пушкина. Перед зданием сегодня установлена мемориальная доска с изображением храма Звартноц в его честь."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -411,7 +411,7 @@
         "id": "biz_push_1",
         "name": { "en": "Dolmama", "hy": "Դոլմամա", "ru": "Долмама" },
         "type": { "en": "Authentic Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Аутентичный Ресторан" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "10 Pushkin St", "hy": "Պուշկինի 10", "ru": "ул. Пушкина 10" },
         "description": { 
           "en": "A celebrated restaurant bringing a creative and modern touch to traditional Armenian recipes.", 
@@ -425,7 +425,7 @@
         "id": "biz_push_2",
         "name": { "en": "Tapastan", "hy": "Տապաստան", "ru": "Тапастан" },
         "type": { "en": "Tapas Bar", "hy": "Տապաս Բար", "ru": "Тапас Бар" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "6 Saryan St", "hy": "Սարյան 6", "ru": "ул. Сарьяна 6" },
         "description": { 
           "en": "Armenian and Spanish fusion tapas bar known for its lively ambiance and creative appetizers.", 
@@ -439,7 +439,7 @@
         "id": "biz_push_3",
         "name": { "en": "Gouroo Club & Garden", "hy": "Գուրու Ակումբ և Այգի", "ru": "Гуру Клуб и Сад" },
         "type": { "en": "Healthy Living Restaurant", "hy": "Առողջ Ապրելակերպի Ռեստորան", "ru": "Ресторан Здорового Питания" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "13 Saryan St", "hy": "Սարյան 13", "ru": "ул. Сарьяна 13" },
         "description": { 
           "en": "A cozy, garden-like setting offering organic, plant-based, and healthy Mediterranean meals.", 
@@ -453,7 +453,7 @@
   },
   {
     "id": "moscow-cinema",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Moscow Cinema",
       "hy": "«Մոսկվա» Կինոթատրոն",
@@ -477,8 +477,8 @@
           "hy": "Կինոթատրոնի Կառուցումը (1930-ականներ vs Այսօր)",
           "ru": "Строительство кинотеатра (1930-е vs Настоящее время)"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1936",
         "newYear": "2026"
       }
@@ -498,7 +498,7 @@
           "ru": "Кинотеатр «Москва» открылся в 1936 году показом первого армянского звукового фильма «Пэпо», построенный на месте снесенной церкви Св. Погос-Петрос."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "moscow-node-2",
@@ -513,7 +513,7 @@
           "ru": "Фасад здания украшен барельефами на темы известных советских фильмов: «Чапаев», «Пэпо», «Давид Бек», «Саят-Нова»."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -521,7 +521,7 @@
         "id": "biz_mos_1",
         "name": { "en": "ArtBridge Bookstore Cafe", "hy": "ԱրտԲրիջ Գրախանութ-Սրճարան", "ru": "Книжный магазин-кафе АртБридж" },
         "type": { "en": "Cafe & Bookstore", "hy": "Սրճարան և Գրախանութ", "ru": "Кафе и Книжный Магазин" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "20 Abovyan St", "hy": "Աբովյան 20", "ru": "ул. Абовяна 20" },
         "description": { 
           "en": "A cultural staple where intellectuals and artists gather over coffee, light meals, and literature.", 
@@ -535,7 +535,7 @@
         "id": "biz_mos_2",
         "name": { "en": "Dalan Art Gallery", "hy": "Դալան Պատկերասրահ", "ru": "Арт-галерея Далан" },
         "type": { "en": "Gallery Cafe & Souvenirs", "hy": "Պատկերասրահ-Սրճարան", "ru": "Галерея-Кафе и Сувениры" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "12 Abovyan St", "hy": "Աբովյան 12", "ru": "ул. Абовяна 12" },
         "description": { 
           "en": "A hidden gem combining an art gallery, an open-air cafe, and authentic handmade souvenirs.", 
@@ -549,7 +549,7 @@
         "id": "biz_mos_3",
         "name": { "en": "Kino Cafe", "hy": "Կինո Սրճարան", "ru": "Кино Кафе" },
         "type": { "en": "Cafe / Bar", "hy": "Սրճարան / Բար", "ru": "Кафе / Бар" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "18 Abovyan St", "hy": "Աբովյան 18", "ru": "ул. Абовяна 18" },
         "description": { 
           "en": "A cinema-themed lounge located just a few steps from Moscow Cinema, offering great cocktails.", 
@@ -563,7 +563,7 @@
   },
   {
     "id": "shahumyan-square",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Stepan Shahumyan Square",
       "hy": "Ստեփան Շահումյանի Հրապարակ",
@@ -587,8 +587,8 @@
           "hy": "Շահումյանի Արձանի Տեսքը",
           "ru": "Вид на памятник Шаумяну"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1931",
         "newYear": "2026"
       }
@@ -608,7 +608,7 @@
           "ru": "20 сентября 1931 года был открыт памятник Степану Шаумяну, считающийся первым официально установленным монументальным памятником в Ереване."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       },
       {
         "id": "shahumyan-node-2",
@@ -624,7 +624,7 @@
           "ru": "В 1960 году в парке был установлен памятник «Вечный огонь», посвященный 40-летию советизации Армении."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -632,7 +632,7 @@
         "id": "biz_shah_1",
         "name": { "en": "The Alexander, a Luxury Collection Hotel", "hy": "Ալեքսանդր Հյուրանոց", "ru": "Отель The Alexander" },
         "type": { "en": "Luxury Hotel", "hy": "Շքեղ Հյուրանոց", "ru": "Роскошный Отель" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "3/4 Abovyan St", "hy": "Աբովյան 3/4", "ru": "ул. Абовяна 3/4" },
         "description": { 
           "en": "A world-class hotel featuring exceptional design, sophisticated dining, and a premium cigar lounge.", 
@@ -646,7 +646,7 @@
         "id": "biz_shah_2",
         "name": { "en": "Black Angus", "hy": "Բլեք Անգուս", "ru": "Блэк Ангус" },
         "type": { "en": "Burger & Steak House", "hy": "Բուրգեր և Սթեյք Հաուս", "ru": "Бургерная и Стейк-хаус" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "2/1 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2/1", "ru": "ул. Вазгена Саргсяна 2/1" },
         "description": { 
           "en": "A popular destination for high-quality meat lovers, offering the best burgers and steaks in town.", 
@@ -660,7 +660,7 @@
         "id": "biz_shah_3",
         "name": { "en": "Seasons Restaurant", "hy": "Սիզնս Ռեստորան", "ru": "Ресторан Seasons" },
         "type": { "en": "Fine Dining", "hy": "Բարձրակարգ Ռեստորան", "ru": "Изысканный Ресторан" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "15/5 Mashtots Ave", "hy": "Մաշտոցի 15/5", "ru": "пр. Маштоца 15/5" },
         "description": { 
           "en": "A sophisticated culinary project providing seasonal menus and an elegant parkside atmosphere.", 
@@ -674,7 +674,7 @@
   },
   {
     "id": "melik-adamyan-2",
-    "stampImage": "../../public/placeholder.jpg",
+    "stampImage": "/placeholder.jpg",
     "title": {
       "en": "Melik-Adamyan 2",
       "hy": "Մելիք-Ադամյան 2",
@@ -698,8 +698,8 @@
           "hy": "Շենքի Ճակատային Տեսքը",
           "ru": "Вид на фасад здания"
         },
-        "oldImage": "../../public/placeholder.jpg",
-        "newImage": "../../public/placeholder.jpg",
+        "oldImage": "/placeholder.jpg",
+        "newImage": "/placeholder.jpg",
         "oldYear": "1990",
         "newYear": "2026"
       }
@@ -735,7 +735,7 @@
           "ru": "Принятые здесь решения заложили основу для референдума 21 сентября 1991 года, который официально привел к независимости Армении."
         },
         "mediaType": "image",
-        "mediaUrl": "../../public/placeholder.jpg"
+        "mediaUrl": "/placeholder.jpg"
       }
     ],
     "nearbyBusinesses": [
@@ -743,7 +743,7 @@
         "id": "biz_mel_1",
         "name": { "en": "AGBU Cafe", "hy": "ՀԲԸՄ Սրճարան", "ru": "Кафе AGBU" },
         "type": { "en": "Modern Cafe", "hy": "Ժամանակակից Սրճարան", "ru": "Современное Кафе" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "2/2 Melik-Adamyan St", "hy": "Մելիք-Ադամյան 2/2", "ru": "ул. Мелик-Адамяна 2/2" },
         "description": { 
           "en": "A sleek, contemporary spot inside the AGBU building ideal for business lunches and coffee.", 
@@ -757,7 +757,7 @@
         "id": "biz_mel_2",
         "name": { "en": "Dors Craft Beer & Kitchen", "hy": "Դորս Գարեջրատուն", "ru": "Дорс Крафтовое Пиво" },
         "type": { "en": "Pub & Grill", "hy": "Փաբ և Գրիլ", "ru": "Паб и Гриль" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "38 Hanrapetutyan St", "hy": "Հանրապետության 38", "ru": "ул. Анрапетутяна 38" },
         "description": { 
           "en": "A lively gastropub featuring local craft beers on tap and hearty pub fare.", 
@@ -771,7 +771,7 @@
         "id": "biz_mel_3",
         "name": { "en": "Montmartre Restaurant-Cafe", "hy": "Մոնմարտր Ռեստորան-Սրճարան", "ru": "Ресторан-кафе Монмартр" },
         "type": { "en": "Rooftop Restaurant", "hy": "Տանիքի Ռեստորան", "ru": "Ресторан на Крыше" },
-        "image": "../../public/placeholder.jpg",
+        "image": "/placeholder.jpg",
         "address": { "en": "4/6 Amiryan St", "hy": "Ամիրյան 4/6", "ru": "ул. Амиряна 4/6" },
         "description": { 
           "en": "Located atop the Paris Hotel, offering stunning panoramic views of Yerevan and Mount Ararat.", 

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "demo-user-1",
+    "name": "Arman Sargsyan",
+    "age": "24",
+    "email": "arman@example.am",
+    "collectedStamps": [
+      {
+        "placeId": "republic-square",
+        "collectedAt": "2026-09-20T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "usr_1789913603067",
+    "name": "wwe",
+    "email": "hayk_aleksanyan@edu.aua.am",
+    "age": "22",
+    "collectedStamps": [
+      {
+        "placeId": "republic-square",
+        "collectedAt": "2026-09-20T14:13:23.076Z"
+      },
+      {
+        "placeId": "opera-theater",
+        "collectedAt": "2026-09-20T14:19:47.749Z"
+      }
+    ]
+  }
+]

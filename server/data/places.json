@@ -1,0 +1,333 @@
+[
+  {
+    "id": "republic-square",
+    "stampImage": "https://images.unsplash.com/photo-1580835845971-a393b73bf370?w=300&auto=format&fit=crop",
+    "title": {
+      "en": "Republic Square",
+      "hy": "Հանրապետության Հրապարակ",
+      "ru": "Площадь Республики"
+    },
+    "subtitle": {
+      "en": "Central Hub of Yerevan",
+      "hy": "Երևանի Կենտրոնական Հրապարակը",
+      "ru": "Центральная площадь Еревана"
+    },
+    "location": {
+      "en": "Kentron District, Yerevan",
+      "hy": "Կենտրոն վարչական շրջան, Երևան",
+      "ru": "Район Кентрон, Ереван"
+    },
+    "sliders": [
+      {
+        "id": "slider-1",
+        "title": {
+          "en": "Main Square View (1920 vs Present)",
+          "hy": "Հրապարակի տեսքը (1920 թ. vs Այսօր)",
+          "ru": "Вид на площадь (1920 г. vs Настоящее время)"
+        },
+        "oldImage": "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?w=1000&auto=format&fit=crop",
+        "newImage": "https://images.unsplash.com/photo-1580835845971-a393b73bf370?w=1000&auto=format&fit=crop",
+        "oldYear": "1920",
+        "newYear": "2026"
+      },
+      {
+        "id": "slider-2",
+        "title": {
+          "en": "Government Building Construction",
+          "hy": "Կառավարական տան կառուցումը",
+          "ru": "Строительство здания Правительства"
+        },
+        "oldImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1000&auto=format&fit=crop",
+        "newImage": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=1000&auto=format&fit=crop",
+        "oldYear": "1935",
+        "newYear": "2026"
+      }
+    ],
+    "storyline": [
+      {
+        "id": "node-1",
+        "date": "1924",
+        "title": {
+          "en": "Tamanyan's Master Plan",
+          "hy": "Թամանյանի Գլխավոր Հատակագիծը",
+          "ru": "Генеральный план Таманяна"
+        },
+        "description": {
+          "en": "Alexander Tamanyan designed modern Yerevan's radial master plan inspired by garden cities.",
+          "hy": "Ալեքսանդր Թամանյանը նախագծեց ժամանակակից Երևանի գլխավոր հատակագիծը։",
+          "ru": "Александр Таманян разработал генеральный план современного Еревана."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&auto=format&fit=crop"
+      },
+      {
+        "id": "node-2",
+        "date": "1950",
+        "title": {
+          "en": "Architectural Completion",
+          "hy": "Ճարտարապետական Ավարտը",
+          "ru": "Завершение ансамбля"
+        },
+        "description": {
+          "en": "The iconic pink tuff buildings were completed around the central square.",
+          "hy": "Վարդագույն տուֆով կառուցված շենքերն ավարտվեցին՝ ձևավորելով հրապարակը։",
+          "ru": "Здания из розового туфа сформировали знаменитый овальный ансамбль."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?w=600&auto=format&fit=crop"
+      },
+      {
+        "id": "node-3",
+        "date": "2007",
+        "title": {
+          "en": "Singing Fountains Upgrade",
+          "hy": "Երգող Աղբյուրների Վերազինումը",
+          "ru": "Модернизация поющих фонтанов"
+        },
+        "description": {
+          "en": "The iconic dancing fountains received advanced laser audio and light systems.",
+          "hy": "Կենտրոնական երգող աղբյուրները վերազինվեցին ժամանակակից լազերային համակարգերով։",
+          "ru": "Поющие фонтаны были обновлены современными световыми и лазерными системами."
+        },
+        "mediaType": "video",
+        "mediaUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      }
+    ],
+    "nearbyBusinesses": [
+      {
+        "id": "biz_rep_1",
+        "name": { "en": "Sherep Restaurant", "hy": "Շերեփ Ռեստորան", "ru": "Ресторан Шереп" },
+        "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "1 Amiryan St", "hy": "Ամիրյան 1", "ru": "ул. Амиряна 1" },
+        "description": { 
+          "en": "The first restaurant with an open kitchen in Armenia, offering authentic local flavors.", 
+          "hy": "Հայաստանում բաց խոհանոցով առաջին ռեստորանը:", 
+          "ru": "Первый ресторан с открытой кухней в Армении." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+1",
+        "socials": { "instagram": "https://instagram.com", "facebook": "https://facebook.com" }
+      },
+      {
+        "id": "biz_rep_2",
+        "name": { "en": "Lumen Coffee", "hy": "Լյումեն Սուրճ", "ru": "Люмен Кофе" },
+        "type": { "en": "Café", "hy": "Սրճարան", "ru": "Кафе" },
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "3 Buzand St", "hy": "Բուզանդի 3", "ru": "ул. Бузанда 3" },
+        "description": { 
+          "en": "Specialty coffee shop near the square with a minimalist atmosphere.", 
+          "hy": "Մասնագիտացված սրճարան հրապարակի մոտ:", 
+          "ru": "Кофейня спешелти недалеко от площади." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Buzand+3",
+        "socials": { "instagram": "https://instagram.com" }
+      }
+    ]
+  },
+  {
+    "id": "opera-theater",
+    "stampImage": "https://images.unsplash.com/photo-1508997449629-303059a039c0?w=300&auto=format&fit=crop",
+    "title": {
+      "en": "Yerevan Opera Theatre",
+      "hy": "Օպերայի և Բալետի Թատրոն",
+      "ru": "Театр оперы и балета"
+    },
+    "subtitle": {
+      "en": "Cultural Heart of Armenia",
+      "hy": "Հայաստանի Մշակութային Սիրտը",
+      "ru": "Культурное сердце Армении"
+    },
+    "location": {
+      "en": "Tumanyan St, Yerevan",
+      "hy": "Թումանյան փողոց, Երևան",
+      "ru": "Улица Туманяна, Ереван"
+    },
+    "sliders": [
+      {
+        "id": "slider-opera-1",
+        "title": {
+          "en": "Opera Building (1933 vs Present)",
+          "hy": "Օպերայի շենքը (1933 թ. vs Այսօր)",
+          "ru": "Здание Оперы (1933 г. vs Настоящее время)"
+        },
+        "oldImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1000&auto=format&fit=crop",
+        "newImage": "https://images.unsplash.com/photo-1508997449629-303059a039c0?w=1000&auto=format&fit=crop",
+        "oldYear": "1933",
+        "newYear": "2026"
+      }
+    ],
+    "storyline": [
+      {
+        "id": "op-node-1",
+        "title": {
+          "en": "More Than Just a Building",
+          "hy": "Ավելին, Քան Պարզապես Շենք",
+          "ru": "Больше, Чем Просто Здание"
+        },
+        "description": {
+          "en": "Today, the Opera House standing in the center of Yerevan is so familiar to us that it's hard to imagine it wasn't just a building once, but a wonderful idea—to create a place where music and the city would unite. Alexander Tamanyan designed the Opera and Ballet Theater building from 1926-1936, initially calling it the People's House. The solemn foundation laying took place on November 28, 1930.",
+          "hy": "Այսօր Երևանի կենտրոնում կանգնած Օպերայի շենքը մեզ այնքան ծանոթ է, որ դժվար է պատկերացնել՝ այն ժամանակին պարզապես շենք չէր, այլ մի հրաշալի գաղափար՝ ստեղծելու մի վայր, որտեղ երաժշտությունն ու քաղաքը պիտի միավորվեին։ Ալեքսանդր Թամանյանը Օպերայի և բալետի թատրոնի շենքը նախագծել է 1926–1936 թվականներին՝ այն սկզբում անվանելով Ժողովրդական տուն։ Շենքի հանդիսավոր հիմնարկեքը տեղի է ունեցել 1930 թվականի նոյեմբերի 28-ին։",
+          "ru": "Сегодня здание Оперы, стоящее в центре Еревана, настолько знакомо нам, что трудно представить: когда-то это было не просто здание, а прекрасная идея — создать место, где музыка и город сольются воедино. Александр Таманян спроектировал здание Театра оперы и балета в 1926–1936 годах, изначально назвав его Народным домом. Торжественная закладка фундамента состоялась 28 ноября 1930 года."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "op-node-2",
+        "title": {
+          "en": "A Bold Transformable Concept",
+          "hy": "Համարձակ Փոխակերպվող Գաղափար",
+          "ru": "Смелая Трансформируемая Концепция"
+        },
+        "description": {
+          "en": "Tamanyan's concept wasn't building an ordinary theater. He designed a two-hall, transformable theatrical complex. The building was initially intended for a southern winter hall and a northern summer hall. There was an idea too bold for its time: if necessary, the partition would be removed, the two halls and stages would merge, creating one large, oval hall for 3000 spectators. Though never fully realized due to technical limits and Tamanyan's death in 1936, the design won the Grand Prix Gold Medal at the 1937 World Exhibition in Paris.",
+          "hy": "Թամանյանի մտահղացումը սովորական թատրոնի կառուցում չէր։ Նա նախագծել էր երկդահլիճ, փոխակերպվող թատերական համալիր։ Նախատեսված էր հարավային՝ ձմեռային, և հյուսիսային՝ ամառային դահլիճներ։ Կար մի համարձակ գաղափար․ անհրաժեշտության դեպքում միջնորմը հեռացվում էր՝ ստեղծելով 3000 հանդիսականի համար մեկ մեծ, օվալաձև սրահ։ Թեև այն երբեք չիրականացավ, 1937 թվականին Փարիզի համաշխարհային ցուցահանդեսում նախագիծն արժանացավ Գրան պրիի՝ Ոսկե մեդալի։",
+          "ru": "Замысел Таманяна не заключался в постройке обычного театра. Он спроектировал двухзальный трансформирующийся комплекс для зимнего и летнего залов. Была и смелая идея: при необходимости перегородка убиралась, объединяя залы в один большой овальный на 3000 зрителей. Хотя идея не была полностью реализована, в 1937 году на Всемирной выставке в Париже проект был удостоен Гран-при — Золотой медали."
+        },
+        "mediaType": "video",
+        "mediaUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      },
+      {
+        "id": "op-node-3",
+        "title": {
+          "en": "Evolution & Reconstruction",
+          "hy": "Էվոլյուցիա և Վերակառուցում",
+          "ru": "Эволюция и Реконструкция"
+        },
+        "description": {
+          "en": "Construction was carried out in stages. In 1939, the winter theater was completed, and by 1940, the Opera and Ballet Theater began operating. Instead of the summer theater, a modified concert hall was completed in 1953 by Tamanyan's son, Gevorg Tamanyan. After massive renovations in the late 70s and 80s, the opera hall seats 1200, and the concert hall seats 1400. Since 1979, the concert hall proudly bears the name of the great Armenian composer Aram Khachaturian.",
+          "hy": "Շինարարությունն իրականացվեց փուլերով։ 1939-ին ավարտվեց ձմեռային թատրոնը, և 1940-ին սկսեց գործել Օպերայի թատրոնը։ Ամառային թատրոնի փոխարեն 1953 թվականին Գևորգ Թամանյանի կողմից ավարտվեց համերգային դահլիճը։ 70-80-ականների վերանորոգումներից հետո օպերայի դահլիճը տեղավորում է 1200, իսկ համերգայինը՝ 1400 հանդիսական։ 1979-ից համերգային դահլիճը կրում է Արամ Խաչատրյանի անունը։",
+          "ru": "Строительство велось поэтапно. В 1939 году был завершен зимний театр, а в 1940-м начала действовать Опера. Вместо летнего театра в 1953 году сыном Таманяна, Геворгом, был достроен концертный зал. После реконструкции 70-80-х годов зал оперы вмещает 1200 зрителей, а концертный — 1400. С 1979 года концертный зал носит имя Арама Хачатуряна."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "op-node-4",
+        "title": {
+          "en": "A Symbol of Identity",
+          "hy": "Ինքնության Խորհրդանիշ",
+          "ru": "Символ Идентичности"
+        },
+        "description": {
+          "en": "The importance of the Opera House isn't just in its history or size. Tamanyan tried to create a structure that would be monumental and harmonious, national and modern at the same time. The traditional forms of Armenian architecture were reinterpreted, acquiring a new expressiveness. It is the continuation of an idea to create a city where architecture not only builds space but also shapes the city's identity.",
+          "hy": "Օպերայի շենքի կարևորությունը միայն պատմության կամ չափերի մեջ չէ։ Թամանյանը ստեղծեց կառույց, որը մոնումենտալ է, ներդաշնակ, ազգային և ժամանակակից։ Հայկական ճարտարապետության ավանդական ձևերը վերաիմաստավորվեցին։ Այն մի գաղափարի շարունակությունն է՝ ստեղծել մի քաղաք, որտեղ ճարտարապետությունը ոչ միայն տարածք է կառուցում, այլև ձևավորում է քաղաքի ինքնությունը։",
+          "ru": "Значимость Оперы не только в ее истории или размерах. Таманян создал сооружение, монументальное и гармоничное, национальное и современное. Традиционные формы армянской архитектуры были переосмыслены. Это продолжение идеи создать город, где архитектура не только выстраивает пространство, но и формирует идентичность города."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1582236021213-9b6d806d2039?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "nearbyBusinesses": [
+      {
+        "id": "biz_op_1",
+        "name": { "en": "The Club Yerevan", "hy": "Ակումբ Երևան", "ru": "Клуб Ереван" },
+        "type": { "en": "Restaurant / Cafe", "hy": "Ռեստորան / Սրճարան", "ru": "Ресторан / Кафе" },
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "40 Tumanyan St", "hy": "Թումանյան 40", "ru": "ул. Туманяна 40" },
+        "description": { 
+          "en": "A unique subterranean space featuring a French-Armenian restaurant, cafe, and art gallery.", 
+          "hy": "Բացառիկ ստորգետնյա վայր՝ ֆրանս-հայկական ռեստորանով և պատկերասրահով:", 
+          "ru": "Уникальное подземное пространство с франко-армянским рестораном и галереей." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Tumanyan+40",
+        "socials": { "instagram": "https://instagram.com" }
+      }
+    ]
+  },
+  {
+    "id": "cascade-complex",
+    "stampImage": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=300&auto=format&fit=crop",
+    "title": {
+      "en": "Cascade Complex",
+      "hy": "Կասկադ Համալիր",
+      "ru": "Комплекс Каскад"
+    },
+    "subtitle": {
+      "en": "Art Center & Panoramic View",
+      "hy": "Արվեստի Կենտրոն և Տեսարան",
+      "ru": "Центр искусств и панорама"
+    },
+    "location": {
+      "en": "Tamanyan St, Yerevan",
+      "hy": "Թումանյան փողոց, Երևան",
+      "ru": "Улица Туманяна, Ереван"
+    },
+    "sliders": [
+      {
+        "id": "slider-cas-1",
+        "title": {
+          "en": "Cascade Hillside (1971 vs Present)",
+          "hy": "Կասկադի բլուրը (1971 թ. vs Այսօր)",
+          "ru": "Склон Каскада (1971 г. vs Настоящее время)"
+        },
+        "oldImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1000&auto=format&fit=crop",
+        "newImage": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=1000&auto=format&fit=crop",
+        "oldYear": "1971",
+        "newYear": "2026"
+      }
+    ],
+    "storyline": [
+      {
+        "id": "node-cas-1",
+        "date": "1971",
+        "title": {
+          "en": "Construction Begins",
+          "hy": "Շինարարության Սկիզբը",
+          "ru": "Начало строительства"
+        },
+        "description": {
+          "en": "Architect Jim Torosyan envisioned connecting the center with Victory Park.",
+          "hy": "Ճարտարապետ Ջիմ Թորոսյանի հղացած նախագիծը։",
+          "ru": "Архитектор Джим Торосян задумал соединить центр с парком Победы."
+        },
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=600&auto=format&fit=crop"
+      }
+    ],
+    "nearbyBusinesses": [
+      {
+        "id": "biz_cas_1",
+        "name": { "en": "Gouroo Club & Garden", "hy": "Գուրու Ակումբ և Այգի", "ru": "Гуру Клуб и Сад" },
+        "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
+        "image": "https://images.unsplash.com/photo-1585518419759-7fe2eeb9927b?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "14 Saryan St", "hy": "Սարյան 14", "ru": "ул. Сарьяна 14" },
+        "description": { 
+          "en": "Healthy and organic food in a beautiful hidden garden setting.", 
+          "hy": "Առողջարար և օրգանական սնունդ գեղեցիկ այգում:", 
+          "ru": "Здоровая и органическая еда в красивом скрытом саду." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Saryan+14",
+        "socials": { "instagram": "https://instagram.com", "facebook": "https://facebook.com" }
+      },
+      {
+        "id": "biz_cas_2",
+        "name": { "en": "Green Bean Cascade", "hy": "Գրին Բին Կասկադ", "ru": "Грин Бин Каскад" },
+        "type": { "en": "Coffee Shop", "hy": "Սրճարան", "ru": "Кофейня" },
+        "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "38 Isahakyan St", "hy": "Իսահակյան 38", "ru": "ул. Исаакяна 38" },
+        "description": { 
+          "en": "Eco-friendly coffee shop popular among digital nomads and locals.", 
+          "hy": "Էկոլոգիապես մաքուր սրճարան հայտնի տեղացիների շրջանում:", 
+          "ru": "Экологичная кофейня, популярная среди фрилансеров." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Isahakyan+38",
+        "socials": { "instagram": "https://instagram.com" }
+      },
+      {
+        "id": "biz_cas_3",
+        "name": { "en": "Wine Republic", "hy": "Գինու Հանրապետություն", "ru": "Винная Республика" },
+        "type": { "en": "Wine Bar & Restaurant", "hy": "Գինետուն և Ռեստորան", "ru": "Винный бар и ресторан" },
+        "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=400&q=80",
+        "address": { "en": "2 Tamanyan St", "hy": "Թամանյան 2", "ru": "ул. Таманяна 2" },
+        "description": { 
+          "en": "Extensive wine list paired with excellent European and Asian cuisine.", 
+          "hy": "Գինիների մեծ տեսականի եվրոպական և ասիական խոհանոցով:", 
+          "ru": "Обширная винная карта в сочетании с отличной европейской и азиатской кухней." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Tamanyan+2",
+        "socials": { "instagram": "https://instagram.com", "facebook": "https://facebook.com" }
+      }
+    ]
+  }
+]

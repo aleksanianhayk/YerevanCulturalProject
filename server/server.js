@@ -48,12 +48,12 @@ app.get('/', (req, res) => {
 });
 
 // GET all places
-app.get('${API_BASE_URL}/api/places', (req, res) => {
+app.get(`${API_BASE_URL}/api/places`, (req, res) => {
   res.json(readData(PLACES_FILE));
 });
 
 // GET single place
-app.get('${API_BASE_URL}/api/places/:id', (req, res) => {
+app.get(`${API_BASE_URL}/api/places/:id`, (req, res) => {
   const places = readData(PLACES_FILE);
   const place = places.find(p => p.id === req.params.id);
   if (!place) return res.status(404).json({ error: 'Place not found' });
@@ -61,7 +61,7 @@ app.get('${API_BASE_URL}/api/places/:id', (req, res) => {
 });
 
 // AUTH: Login with Email & Password
-app.post('${API_BASE_URL}/api/auth/login', (req, res) => {
+app.post(`${API_BASE_URL}/api/auth/login`, (req, res) => {
   const { email, password } = req.body;
   const users = readData(USERS_FILE);
   const user = users.find(u => u.email.toLowerCase() === email.toLowerCase() && u.password === password);
@@ -74,7 +74,7 @@ app.post('${API_BASE_URL}/api/auth/login', (req, res) => {
 });
 
 // AUTH: Register New User
-app.post('${API_BASE_URL}/api/auth/register', (req, res) => {
+app.post(`${API_BASE_URL}/api/auth/register`, (req, res) => {
   const { name, email, age, password } = req.body;
   if (!email || !name || !password) {
     return res.status(400).json({ error: 'Name, email, and password are required' });
@@ -104,7 +104,7 @@ app.post('${API_BASE_URL}/api/auth/register', (req, res) => {
 });
 
 // POST: Add Stamp to User Passport
-app.post('${API_BASE_URL}/api/users/stamp', (req, res) => {
+app.post(`${API_BASE_URL}/api/users/stamp`, (req, res) => {
   const { userId, placeId } = req.body;
   const users = readData(USERS_FILE);
   const user = users.find(u => u.id === userId);
@@ -120,6 +120,9 @@ app.post('${API_BASE_URL}/api/users/stamp', (req, res) => {
   res.json(userWithoutPassword);
 });
 
+
 app.listen(PORT, () => {
   console.log(`🚀 Yerevan TimeLens Server running on port ${PORT}`);
 });
+
+

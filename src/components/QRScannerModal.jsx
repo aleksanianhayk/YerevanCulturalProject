@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useLanguage } from '../i18n/LanguageContext';
 import { Camera, AlertCircle, X, CheckCircle2 } from 'lucide-react';
 import jsQR from 'jsqr';
@@ -13,7 +14,6 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
   const [cameraError, setCameraError] = useState(false);
   const [scanSuccess, setScanSuccess] = useState(false);
 
-  // Prevent background scrolling
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -91,12 +91,10 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
         placeId = data;
       }
 
-      // Verify the extracted ID exists in our places database
       if (places.some(p => p.id === placeId)) {
         setScanSuccess(true);
         if (requestRef.current) cancelAnimationFrame(requestRef.current);
         
-        // Show success ring briefly before navigating
         setTimeout(() => {
           onSelectPlace(placeId);
           onClose();
@@ -115,7 +113,7 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
     }
   };
 
-  return (
+  return createPortal(
     <div 
       className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
       onClick={handleBackdropClick}
@@ -124,7 +122,6 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
         className="bg-white border border-stone-200 w-full max-w-md rounded-2xl p-5 pt-6 space-y-4 shadow-2xl relative animate-in fade-in zoom-in-95 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
-        
         <button 
           onClick={onClose}
           className="absolute top-3 right-3 w-8 h-8 bg-stone-100 text-stone-500 rounded-full flex items-center justify-center hover:bg-stone-200 transition z-10"
@@ -137,7 +134,6 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
           <h3 className="font-black text-sm">QR Camera Scanner</h3>
         </div>
 
-        {/* Camera Viewport */}
         <div className={`relative aspect-[4/3] w-full bg-stone-900 rounded-xl overflow-hidden border-4 flex items-center justify-center shadow-inner transition-colors duration-300 ${scanSuccess ? 'border-emerald-500' : 'border-stone-200'}`}>
           {!cameraError ? (
             <>
@@ -164,8 +160,8 @@ export const QRScannerModal = ({ isOpen, onClose, places, onSelectPlace }) => {
         <p className="text-center text-xs text-stone-500 font-medium mt-4 pb-2">
           Point your camera at a location's QR code to scan it.
         </p>
-
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

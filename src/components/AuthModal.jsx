@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { useAuth } from '../context/AuthContext';
 import { useLanguage } from '../i18n/LanguageContext';
 import { User, Mail, Lock, Calendar, AlertCircle, X } from 'lucide-react';
@@ -13,7 +14,6 @@ export const AuthModal = () => {
   const [age, setAge] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
 
-  // Prevent scrolling on the body when modal is open
   useEffect(() => {
     if (isAuthModalOpen) {
       document.body.style.overflow = 'hidden';
@@ -38,24 +38,21 @@ export const AuthModal = () => {
     }
   };
 
-  // Close modal when clicking on the blurred background
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
       setIsAuthModalOpen(false);
     }
   };
 
-  return (
+  return createPortal(
     <div 
       className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
       onClick={handleBackdropClick}
     >
       <div 
         className="bg-white border border-stone-200 w-full max-w-sm rounded-2xl p-6 shadow-2xl relative animate-in fade-in zoom-in-95 duration-200"
-        onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
+        onClick={(e) => e.stopPropagation()}
       >
-        
-        {/* Unified Close Button */}
         <button 
           onClick={() => setIsAuthModalOpen(false)}
           className="absolute top-3 right-3 w-8 h-8 bg-stone-100 text-stone-500 rounded-full flex items-center justify-center hover:bg-stone-200 transition z-10"
@@ -63,7 +60,6 @@ export const AuthModal = () => {
           <X className="w-5 h-5" />
         </button>
 
-        {/* Tabs */}
         <div className="flex border-b border-stone-200 mt-2 mb-5">
           <button
             onClick={() => { setAuthMode('login'); setErrorMsg(''); }}
@@ -171,6 +167,7 @@ export const AuthModal = () => {
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

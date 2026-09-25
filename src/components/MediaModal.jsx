@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const MediaModal = ({ isOpen, onClose, initialIndex, images, videoUrl }) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex || 0);
 
-  // Prevent scrolling on the body when modal is open
   useEffect(() => {
     setCurrentIndex(initialIndex || 0);
     
@@ -28,24 +28,21 @@ export const MediaModal = ({ isOpen, onClose, initialIndex, images, videoUrl }) 
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
-  // Close modal when clicking on the blurred background
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
       onClose();
     }
   };
 
-  return (
+  return createPortal(
     <div 
       className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
       onClick={handleBackdropClick}
     >
       <div 
         className="relative w-full max-w-5xl bg-stone-950 border border-stone-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col items-center justify-center p-6 animate-in fade-in zoom-in-95 duration-200"
-        onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
+        onClick={(e) => e.stopPropagation()}
       >
-        
-        {/* Unified Close Button */}
         <button 
           onClick={onClose}
           className="absolute top-3 right-3 w-8 h-8 bg-white/10 text-white rounded-full flex items-center justify-center backdrop-blur-md hover:bg-white/20 transition z-50"
@@ -94,6 +91,7 @@ export const MediaModal = ({ isOpen, onClose, initialIndex, images, videoUrl }) 
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

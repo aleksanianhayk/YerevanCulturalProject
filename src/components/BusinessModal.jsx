@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { useLanguage } from '../i18n/LanguageContext';
 import { MapPin, ExternalLink, Instagram, Facebook, X } from 'lucide-react';
 
 export const BusinessModal = ({ business, isOpen, onClose }) => {
   const { getLocalizedText, t } = useLanguage();
 
-  // Prevent scrolling on the body when modal is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -17,31 +17,27 @@ export const BusinessModal = ({ business, isOpen, onClose }) => {
 
   if (!isOpen || !business) return null;
 
-  // Close modal when clicking on the blurred background
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
       onClose();
     }
   };
 
-  return (
+  return createPortal(
     <div 
       className="fixed inset-0 z-[9999] w-screen h-[100dvh] bg-stone-950/80 backdrop-blur-sm flex items-center justify-center p-4"
       onClick={handleBackdropClick}
     >
       <div 
         className="bg-white w-full max-w-md rounded-2xl overflow-hidden shadow-2xl relative animate-in fade-in zoom-in-95 duration-200"
-        onClick={(e) => e.stopPropagation()} // Prevent clicks inside modal from closing it
+        onClick={(e) => e.stopPropagation()}
       >
-        
-        {/* Header Image */}
         <div className="relative h-48 w-full bg-stone-200">
           <img 
             src={business.image} 
             alt={getLocalizedText(business.name)} 
             className="w-full h-full object-cover"
           />
-          {/* Unified Close Button */}
           <button 
             onClick={onClose}
             className="absolute top-3 right-3 w-8 h-8 bg-black/50 text-white rounded-full flex items-center justify-center backdrop-blur-md hover:bg-black/70 transition z-10"
@@ -50,7 +46,6 @@ export const BusinessModal = ({ business, isOpen, onClose }) => {
           </button>
         </div>
 
-        {/* Content */}
         <div className="p-5 space-y-5">
           <div>
             <div className="flex items-center justify-between mb-1">
@@ -98,6 +93,7 @@ export const BusinessModal = ({ business, isOpen, onClose }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };

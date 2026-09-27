@@ -42,6 +42,25 @@ const writeData = (filePath, data) => {
   }
 };
 
+// Helper function to split text into chunks for TTS processing
+function splitTextIntoChunks(text, maxLength = 180) {
+  if (!text) return [];
+  const sentences = text.match(/[^.!?\n]+[.!?\n]+/g) || [text];
+  const chunks = [];
+  let currentChunk = '';
+
+  for (const sentence of sentences) {
+    if ((currentChunk + sentence).length <= maxLength) {
+      currentChunk += sentence;
+    } else {
+      if (currentChunk.trim()) chunks.push(currentChunk.trim());
+      currentChunk = sentence;
+    }
+  }
+  if (currentChunk.trim()) chunks.push(currentChunk.trim());
+  return chunks.length > 0 ? chunks : [text];
+}
+
 // Base route for health check
 app.get('/', (req, res) => {
   res.send('🚀 Yerevan TimeLens API is running successfully');
@@ -120,9 +139,52 @@ app.post(`/api/users/stamp`, (req, res) => {
   res.json(userWithoutPassword);
 });
 
+// POST: Multi-language Text-To-Speech (English, Russian, Armenian)
+// POST: Multi-language Text-To-Speech (English, Russian, Armenian)
+app.post('/api/tts', async (req, res) => {
+  try {
+    const { text, lang } = req.body;
+    if (!text) return res.status(400).json({ error: 'Text is required' });
+
+    const langMap = { en: 'en', ru: 'ru', hy: 'hy' };
+    const targetLang = langMap[lang] || 'en';
+
+    const chunks = splitTextIntoChunks(text, 180);
+    const audioBuffers = [];
+
+    for (const chunk of chunks) {
+      // Switch to client=gtx and translate.googleapis.com for stable, token-less access
+      const url = `https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=${targetLang}&q=${encodeURIComponent(chunk)}`;
+      
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+        }
+      });
+
+      if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(`Google TTS rejected request with status ${response.status}: ${errText}`);
+      }
+
+      const arrayBuffer = await response.arrayBuffer();
+      audioBuffers.push(Buffer.from(arrayBuffer));
+    }
+
+    const combinedBuffer = Buffer.concat(audioBuffers);
+    
+    res.set({
+      'Content-Type': 'audio/mpeg',
+      'Content-Length': combinedBuffer.length,
+    });
+    
+    res.send(combinedBuffer);
+  } catch (err) {
+    console.error('TTS Generation Error:', err.message);
+    res.status(500).json({ error: 'Failed to generate TTS audio', details: err.message });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`🚀 Yerevan TimeLens Server running on port ${PORT}`);
 });
-
-

@@ -1,22 +1,30 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { SliderCarousel } from '../components/SliderCarousel';
 import { MagazineStoryline } from '../components/MagazineStoryline';
 import { BusinessModal } from '../components/BusinessModal';
-import { MapPin, Award, CheckCircle, Clock, Volume2, VolumeX, Store, BookOpen } from 'lucide-react';
+import { MapPin, Award, CheckCircle, Clock, Volume2, VolumeX, Store, BookOpen, Loader2 } from 'lucide-react';
+import { API_BASE_URL } from '../config';
 
 export const PlacePage = ({ place }) => {
   const { getLocalizedText, t, lang } = useLanguage();
   const { user, claimStamp, setIsAuthModalOpen, setAuthMode, setPendingStampPlaceId } = useAuth();
   
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [selectedBusiness, setSelectedBusiness] = useState(null);
+  
+  const audioRef = useRef(null);
 
+  // Stop audio playback when language or place changes
   useEffect(() => {
-    window.speechSynthesis.cancel();
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
     setIsPlaying(false);
-    return () => window.speechSynthesis.cancel();
+    setIsLoadingAudio(false);
   }, [lang, place?.id]);
 
   if (!place) return null;
@@ -37,22 +45,51 @@ export const PlacePage = ({ place }) => {
   const wordCount = fullText.split(/\s+/).length;
   const readTime = Math.max(1, Math.ceil(wordCount / 200));
 
-  const handleTTS = () => {
-    if (!('speechSynthesis' in window)) {
-      alert("Text-to-speech is not supported in this browser.");
+  const handleTTS = async () => {
+    if (isPlaying) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+      setIsPlaying(false);
       return;
     }
 
-    if (isPlaying) {
-      window.speechSynthesis.cancel();
-      setIsPlaying(false);
-    } else {
-      const utterance = new SpeechSynthesisUtterance(fullText);
-      const langMap = { en: 'en-US', ru: 'ru-RU', hy: 'hy-AM' }; 
-      utterance.lang = langMap[lang] || 'en-US';
-      utterance.onend = () => setIsPlaying(false);
-      window.speechSynthesis.speak(utterance);
+    try {
+      setIsLoadingAudio(true);
+      
+      const response = await fetch(`${API_BASE_URL}/api/tts`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: fullText, lang })
+      });
+
+      if (!response.ok) throw new Error('Audio generation failed');
+
+      const blob = await response.blob();
+      const audioUrl = URL.createObjectURL(blob);
+
+      const audio = new Audio(audioUrl);
+      audioRef.current = audio;
+
+      audio.onended = () => {
+        setIsPlaying(false);
+        setIsLoadingAudio(false);
+      };
+
+      audio.onerror = () => {
+        setIsPlaying(false);
+        setIsLoadingAudio(false);
+      };
+
+      await audio.play();
+      setIsLoadingAudio(false);
       setIsPlaying(true);
+    } catch (err) {
+      console.error('Audio playback error:', err);
+      setIsLoadingAudio(false);
+      setIsPlaying(false);
+      alert('Could not generate voiceover for this storyline.');
     }
   };
 
@@ -93,14 +130,22 @@ export const PlacePage = ({ place }) => {
           
           <button 
             onClick={handleTTS}
+            disabled={isLoadingAudio}
             className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all shadow-sm ${
               isPlaying 
                 ? 'bg-rose-100 text-rose-700 hover:bg-rose-200 border border-rose-200'
-                : 'bg-stone-900 text-white hover:bg-stone-800'
+                : 'bg-stone-900 text-white hover:bg-stone-800 disabled:opacity-50'
             }`}
           >
-            {isPlaying ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-            {isPlaying ? t('stopListen') : t('listen')}
+            {isLoadingAudio ? (
+              <Loader2 className="w-4 h-4 animate-spin text-amber-500" />
+            ) : isPlaying ? (
+              <VolumeX className="w-4 h-4" />
+            ) : (
+              <Volume2 className="w-4 h-4" />
+            )}
+            
+            {isLoadingAudio ? 'Loading...' : isPlaying ? t('stopListen') : t('listen')}
           </button>
         </div>
 

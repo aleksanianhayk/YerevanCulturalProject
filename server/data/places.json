@@ -1,7 +1,7 @@
 [
   {
     "id": "republic-square",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/republic_stamp.jpeg",
     "title": {
       "en": "Republic Square",
       "hy": "Հանրապետության Հրապարակ",
@@ -25,8 +25,8 @@
           "hy": "Հրապարակի տեսքը (1920 թ. vs Այսօր)",
           "ru": "Вид на площадь (1920 г. vs Настоящее время)"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/republic_square_aligned_old.jpg",
+        "newImage": "/republic_square_aligned_new.png",
         "oldYear": "1920",
         "newYear": "2026"
       },
@@ -37,52 +37,125 @@
           "hy": "Կառավարական տան կառուցումը",
           "ru": "Строительство здания Правительства"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/republic_square_aligned_old.jpg",
+        "newImage": "/republic_square_aligned_new.png",
         "oldYear": "1935",
         "newYear": "2026"
       }
     ],
     "storyline": [
-      {
-        "id": "node-1",
-        "date": "1924",
-        "title": {
-          "en": "Tamanyan's Master Plan",
-          "hy": "Թամանյանի Գլխավոր Հատակագիծը",
-          "ru": "Генеральный план Таманяна"
-        },
-        "description": {
-          "en": "In 1924, Alexander Tamanyan's master plan designed this area as the city's new administrative and public center.",
-          "hy": "1924 թվականին Ալեքսանդր Թամանյանի մշակած Երևանի գլխավոր հատակագծով այս հատվածը նախատեսվեց որպես նոր կենտրոն։",
-          "ru": "В 1924 году по генеральному плану Александра Таманяна этот район был спроектирован как новый административный и общественный центр города."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "node-2",
-        "date": "1940",
-        "title": {
-          "en": "Lenin Square Era",
-          "hy": "Լենինի Հրապարակի Դարաշրջանը",
-          "ru": "Эпоха Площади Ленина"
-        },
-        "description": {
-          "en": "From 1940 to 1990, it was called Lenin Square, featuring a prominent statue of Vladimir Lenin that was eventually removed in 1991.",
-          "hy": "1940 թվականից մինչև 1990 թվականը այն կոչվում էր Լենինի հրապարակ՝ ունենալով Վլադիմիր Լենինի արձանը, որը հանվեց 1991 թվականին։",
-          "ru": "С 1940 по 1990 год она называлась площадью Ленина, на которой стоял памятник Владимиру Ленину, демонтированный в 1991 году."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
+  {
+    "id": "republic-node-1",
+    "title": {
+      "en": "Republic Square",
+      "hy": "Հանրապետության հրապարակ",
+      "ru": "Площадь Республики"
+    },
+    "description": {
+      "en": "Imagine standing where the singing fountains are today and looking toward the area where Republic Square is located. The Yerevan in front of you is not the Yerevan we are used to. The square does not yet exist. In front of you is a large, open, dusty area filled with the noise of construction and the activity of workers. Everything here was yet to begin.\n\nAt the beginning of the 20th century, the center of Yerevan looked completely different. The area of today's Republic Square was part of the city's old residential development; there were residential houses and various public buildings here. In the 1920s, Yerevan's urban environment was preparing to change completely. According to Alexander Tamanyan's master plan for Yerevan, developed in 1924, this very area was designated as the main square of the city's new administrative and public center.",
+      "hy": "Պատկերացրեք՝ կանգնած եք այնտեղ, որտեղ այսօր երգող շատրվաններն են, և նայում եք դեպի այն տարածքը, որտեղ Հանրապետության հրապարակն է։ Ձեր առջև այն Երևանը չէ, որին մենք սովոր ենք։ Հրապարակը դեռ չկա։ Ձեր առջև մեծ, բաց ու փոշոտ տարածք է՝ շինարարության աղմուկով և աշխատող մարդկանց եռուզեռով։ Այստեղ դեռ ամեն ինչ սկսվելու էր։\n\n20-րդ դարի սկզբին Երևանի կենտրոնը բոլորովին այլ տեսք ուներ։ Այսօրվա Հանրապետության հրապարակի տարածքը մտնում էր քաղաքի հին բնակելի կառուցապատման մեջ․ այստեղ կային բնակելի տներ և տարբեր հասարակական կառույցներ։ 1920-ականներին Երևանի քաղաքային միջավայրը պատրաստվում էր ամբողջությամբ փոխվել։ 1924 թվականին Ալեքսանդր Թամանյանի մշակած Երևանի գլխավոր հատակագծով հենց այս հատվածը նախատեսվեց որպես քաղաքի նոր վարչական և հասարակական կենտրոնի գլխավոր հրապարակ։",
+      "ru": "Представьте, что вы стоите там, где сегодня находятся поющие фонтаны, и смотрите в сторону территории, где находится Площадь Республики. Перед вами не тот Ереван, к которому мы привыкли. Площади еще нет. Перед вами большое, открытое и пыльное пространство, наполненное шумом строительства и суетой работающих людей. Здесь все только должно было начаться.\n\nВ начале XX века центр Еревана выглядел совершенно иначе. Территория сегодняшней Площади Республики входила в старую жилую застройку города; здесь находились жилые дома и различные общественные здания. В 1920-е годы городская среда Еревана готовилась полностью измениться. Согласно генеральному плану Еревана, разработанному Александром Таманяном в 1924 году, именно эта территория была предназначена для главной площади нового административного и общественного центра города."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic1.JPG"
+  },
+  {
+    "id": "republic-node-2",
+    "title": {
+      "en": "The Heart of the New Yerevan",
+      "hy": "Նոր Երևանի սիրտը",
+      "ru": "Сердце нового Еревана"
+    },
+    "description": {
+      "en": "Alexander Tamanyan's idea was not simply to create another square. He was trying to shape the heart of a new Yerevan—a space where government institutions, culture, public life, and the city's main streets would come together. Yerevan was no longer supposed to be simply a regional city; according to the new plan, it was gradually to acquire a center appropriate for a modern capital.\n\nOne of the first important constructions on Republic Square was the two-story building of the People's Commissariat of Agriculture on Nalbandyan Street, which was later incorporated into the First Government House.",
+      "hy": "Ալեքսանդր Թամանյանի գաղափարը պարզապես ևս մեկ հրապարակ ստեղծելը չէր։ Նա փորձում էր ձևավորել նոր Երևանի սիրտը՝ մի տարածք, որտեղ պիտի միավորվեին պետական կառույցները, մշակույթը, հասարակական կյանքն ու քաղաքի գլխավոր փողոցները։ Երևանը պետք է այլևս չլիներ պարզապես տարածաշրջանային քաղաք․ նոր հատակագծով այն աստիճանաբար պետք է ստանար ժամանակակից մայրաքաղաքին համապատասխան կենտրոն։\n\nՀանրապետության հրապարակում առաջին կարևոր շինարարություններից մեկը Նալբանդյան փողոցում կառուցված երկհարկանի Ժողովրդական կոմիսարիատի գյուղատնտեսության շենքն էր, որը հետագայում ներառվեց Առաջին կառավարության տան կազմում։",
+      "ru": "Идея Александра Таманяна заключалась не просто в создании еще одной площади. Он стремился сформировать сердце нового Еревана — пространство, где должны были объединиться государственные учреждения, культура, общественная жизнь и главные улицы города. Ереван больше не должен был быть просто региональным городом; согласно новому плану, он постепенно должен был получить центр, соответствующий современному столичному городу.\n\nОдним из первых важных сооружений на Площади Республики стало двухэтажное здание Народного комиссариата сельского хозяйства на улице Налбандяна, которое позднее вошло в состав Дома первого правительства."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic2.JPG"
+  },
+  {
+    "id": "republic-node-3",
+    "title": {
+      "en": "A Unified Architectural Ensemble",
+      "hy": "Միասնական ճարտարապետական համալիր",
+      "ru": "Единый архитектурный ансамбль"
+    },
+    "description": {
+      "en": "Later, the Government House became one of the main architectural anchors of the square, while the other structures surrounding the square were built in such a way that they formed one unified image. That is why the buildings standing here today do not seem like separate structures; together, they create the appearance of Republic Square that we recognize.\n\nIt is especially noteworthy that the square was being built at a time when a new architectural language for Yerevan was already taking shape in Alexander Tamanyan's life and work. In Tamanyan's designs, elements of historical Armenian architecture were combined with modern urban planning. On the facades of the buildings of Republic Square, one can see forms inspired by medieval Armenian architecture—motifs from the monuments of Tekor, Dvin, Zvartnots, and Talin.",
+      "hy": "Հետագայում կառավարական տունը դարձավ հրապարակի հիմնական ճարտարապետական հենակետերից մեկը, իսկ հրապարակը շրջապատող մյուս կառույցները կառուցվեցին այնպես, որ միմյանց հետ կազմեն մեկ ամբողջական պատկեր։ Այդ պատճառով այսօր այստեղ կանգնած շենքերը պարզապես առանձին կառույցներ չեն թվում․ դրանք միասին ստեղծում են Հանրապետության հրապարակի այն տեսքը, որը մենք ճանաչում ենք։\n\nՀատկապես ուշագրավ է, որ հրապարակը կառուցվում էր այն ժամանակ, երբ Ալեքսանդր Թամանյանի կյանքում և աշխատանքում արդեն ձևավորվում էր Երևանի նոր ճարտարապետական լեզուն։ Թամանյանի նախագծերում հայկական պատմական ճարտարապետության տարրերը միավորվում էին ժամանակակից քաղաքաշինության հետ։ Հանրապետության հրապարակի շենքերի ճակատներում կարելի է տեսնել հայկական միջնադարյան ճարտարապետությունից ներշնչված ձևեր՝ Տեկորի, Դվինի, Զվարթնոցի և Տալինի հուշարձանների մոտիվներ։",
+      "ru": "Позднее Дом правительства стал одним из главных архитектурных опорных элементов площади, а остальные здания вокруг площади строились таким образом, чтобы составлять единую композицию. Поэтому здания, которые мы видим здесь сегодня, не воспринимаются просто как отдельные сооружения; вместе они создают тот облик Площади Республики, который мы знаем.\n\nОсобенно примечательно, что площадь строилась в период, когда в жизни и работе Александра Таманяна уже формировался новый архитектурный язык Еревана. В проектах Таманяна элементы исторической армянской архитектуры сочетались с современным градостроительством. На фасадах зданий Площади Республики можно увидеть формы, вдохновленные средневековой армянской архитектурой — мотивы памятников Текора, Двина, Звартноца и Талина."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic3.JPG"
+  },
+  {
+    "id": "republic-node-4",
+    "title": {
+      "en": "Construction After Tamanyan",
+      "hy": "Շինարարությունը Թամանյանից հետո",
+      "ru": "Строительство после Таманяна"
+    },
+    "description": {
+      "en": "But after Tamanyan's death in 1936, the square was still unfinished. Part of the construction was continued by his son, Gevorg Tamanyan, while the entire complex took shape in different stages. Construction of the main section of the First Government House had begun in 1935, while work on separate parts of the complex continued in the following decades.\n\nThe square gradually became not only an administrative center, but also the main stage of urban life. State and public events, celebrations, concerts, public gatherings, and other important events for the city have been held here. The square is also one of Yerevan's main transportation and urban-planning hubs.",
+      "hy": "Բայց Թամանյանի մահից հետո՝ 1936 թվականին, հրապարակը դեռ ավարտված չէր։ Շինարարության մի մասը շարունակեց նրա որդին՝ Գևորգ Թամանյանը, իսկ ամբողջ համալիրը ձևավորվեց տարբեր փուլերում։ Առաջին կառավարության տան հիմնական հատվածի շինարարությունը սկսվել էր 1935 թվականին, իսկ համալիրի առանձին հատվածների աշխատանքները շարունակվել են նաև հետագա տասնամյակներում։\n\nՀրապարակն աստիճանաբար դարձավ ոչ միայն վարչական, այլև քաղաքային կյանքի գլխավոր բեմը։ Այստեղ անցկացվել են պետական և հասարակական միջոցառումներ, տոնակատարություններ, համերգներ, հանրային հավաքներ և քաղաքի համար կարևոր այլ իրադարձություններ։ Հրապարակը նաև Երևանի գլխավոր տրանսպորտային և քաղաքաշինական հանգույցներից մեկն է։",
+      "ru": "Однако после смерти Таманяна в 1936 году площадь еще не была завершена. Часть строительства продолжил его сын Геворг Таманян, а весь комплекс формировался в несколько этапов. Строительство основной части Дома первого правительства началось в 1935 году, а работы над отдельными частями комплекса продолжались и в последующие десятилетия.\n\nПостепенно площадь стала не только административным центром, но и главной сценой городской жизни. Здесь проводились государственные и общественные мероприятия, празднования, концерты, общественные собрания и другие важные для города события. Площадь также является одним из главных транспортных и градостроительных узлов Еревана."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic4.JPG"
+  },
+  {
+    "id": "republic-node-5",
+    "title": {
+      "en": "Lenin Square",
+      "hy": "Լենինի հրապարակ",
+      "ru": "Площадь Ленина"
+    },
+    "description": {
+      "en": "However, Republic Square was not always called Republic Square.\n\nFrom 1940 until 1990, it was called Lenin Square. At its center stood a statue of Vladimir Lenin, one of the most famous symbols of Soviet Yerevan. The statue was placed in the center of the square and for many years served as the visual focal point of the area. On April 13, 1991, it was removed from its pedestal based on a decision of the Yerevan City Council dated March 28, 1991. The pedestal remained in place for several more years and was finally dismantled in 1996.",
+      "hy": "Այնուամենայնիվ, Հանրապետության հրապարակը միշտ չէ, որ կոչվել է Հանրապետության հրապարակ։\n\n1940 թվականից մինչև 1990 թվականը այն կոչվում էր Լենինի հրապարակ։ Նրա կենտրոնում կանգնած էր Վլադիմիր Լենինի արձանը՝ խորհրդային Երևանի ամենահայտնի խորհրդանիշներից մեկը։ Արձանը տեղադրվել էր հրապարակի կենտրոնում և երկար տարիներ հանդիսանում էր տարածքի տեսողական առանցքը։ 1991 թվականի ապրիլի 13-ին այն հանվեց պատվանդանից՝ Երևանի քաղաքային խորհրդի 1991 թվականի մարտի 28-ի որոշման հիման վրա։ Պատվանդանն իր տեղում մնաց ևս մի քանի տարի և վերջնականապես ապամոնտաժվեց 1996 թվականին։",
+      "ru": "Однако Площадь Республики не всегда называлась Площадью Республики.\n\nС 1940 по 1990 год она называлась площадью Ленина. В ее центре стояла статуя Владимира Ленина — один из самых известных символов советского Еревана. Статуя была установлена в центре площади и долгие годы являлась визуальной доминантой пространства. 13 апреля 1991 года она была снята с постамента на основании решения Ереванского городского совета от 28 марта 1991 года. Постамент оставался на своем месте еще несколько лет и окончательно был демонтирован в 1996 году."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic5.PNG"
+  },
+  {
+    "id": "republic-node-6",
+    "title": {
+      "en": "A Square That Did Not Yet Exist",
+      "hy": "Հրապարակ, որը դեռ գոյություն չուներ",
+      "ru": "Площадь, которой еще не существовало"
+    },
+    "description": {
+      "en": "But the most interesting thing is that this entire history, which seems so natural and unchanged to us today, did not yet exist in 1926, almost a century ago.",
+      "hy": "Բայց ամենահետաքրքիրն այն է, որ այս ամբողջ պատմությունը, որը մեզ այսօր թվում է այնքան բնական ու անփոփոխ, 1926 թվականին՝ շուրջ մեկ դար առաջ դեռ գոյություն չուներ։",
+      "ru": "Но самое интересное заключается в том, что вся эта история, которая сегодня кажется нам настолько естественной и неизменной, в 1926 году, почти столетие назад, еще не существовала."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic6.JPG"
+  },
+  {
+    "id": "republic-node-7",
+    "title": {
+      "en": "Republic Square Today",
+      "hy": "Հանրապետության հրապարակն այսօր",
+      "ru": "Площадь Республики сегодня"
+    },
+    "description": {
+      "en": "Years later, this same area would become one of the most recognizable places in Yerevan—the Republic Square.",
+      "hy": "Տարիներ անց այդ նույն տարածքը պիտի դառնար Երևանի ամենաճանաչելի վայրերից մեկը՝ Հանրապետության Հրապրակը։ ",
+      "ru": "Годы спустя эта же территория должна была стать одним из самых узнаваемых мест Еревана — Площадью Республики."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic7.PNG"
+  }
+  ],
     "nearbyBusinesses": [
       {
         "id": "biz_rep_1",
         "name": { "en": "Sherep Restaurant", "hy": "Շերեփ Ռեստորան", "ru": "Ресторан Шереп" },
         "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
-        "image": "/placeholder.jpg",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIMeEt3ggqBPzifI0wg2vSXVA4cMN3w0BaP3vP-_nao-Yj0BtQJQ7qNlcpelifGpLP_dN3GkxQkO_xW-tfWDNVAbjzl1-YWT8gnqrgCbzmLsIgh_vqffmZ0AxYujmHL6g9w38S=s1360-w1360-h1020-rw",
         "address": { "en": "1 Amiryan St", "hy": "Ամիրյան 1", "ru": "ул. Амиряна 1" },
         "description": { 
           "en": "The first restaurant with an open kitchen in Armenia, offering authentic local flavors.", 
@@ -96,7 +169,7 @@
         "id": "biz_rep_2",
         "name": { "en": "Tavern Yerevan", "hy": "Պանդոկ Երևան", "ru": "Таверна Ереван" },
         "type": { "en": "Traditional Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Традиционный Ресторан" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NHxG9-HAs8q8Juq82us7AnLlCUEFVFGPq8chorvq87681IHmwTjX72s&s=10",
         "address": { "en": "5 Amiryan St", "hy": "Ամիրյան 5", "ru": "ул. Амиряна 5" },
         "description": { 
           "en": "Famous for its cozy atmosphere and rich menu of traditional Armenian cuisine.", 
@@ -110,7 +183,7 @@
         "id": "biz_rep_3",
         "name": { "en": "Armenia Marriott Hotel", "hy": "Արմենիա Մարիոթ Հյուրանոց", "ru": "Гостиница Армения Марриотт" },
         "type": { "en": "Hotel & Lounge", "hy": "Հյուրանոց և Լաունջ", "ru": "Отель и Лаунж" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4uhyu8BzSjBtIBpW5pjun_pg4ve5SiH1dEZdaPTvLvSU5yc-8G7p4HKM&s=10",
         "address": { "en": "2 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2", "ru": "ул. Вазгена Саргсяна 2" },
         "description": { 
           "en": "A prominent luxury hotel offering fine dining right on Republic Square.", 
@@ -124,7 +197,7 @@
   },
   {
     "id": "opera-theater",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/opera_stamp.jpeg",
     "title": {
       "en": "Yerevan Opera Theatre",
       "hy": "Օպերայի և Բալետի Թատրոն",
@@ -148,64 +221,125 @@
           "hy": "Օպերայի շենքը (1933 թ. vs Այսօր)",
           "ru": "Здание Оперы (1933 г. vs Настоящее время)"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/opera_old_aligned.png",
+        "newImage": "/opera_modern_aligned.png",
         "oldYear": "1933",
         "newYear": "2026"
       }
     ],
-    "storyline": [
-      {
-        "id": "op-node-1",
-        "title": {
-          "en": "More Than Just a Building",
-          "hy": "Ավելին, Քան Պարզապես Շենք",
-          "ru": "Больше, Чем Просто Здание"
-        },
-        "description": {
-          "en": "Alexander Tamanyan designed the Opera and Ballet Theater building from 1926-1936, initially calling it the People's House. The solemn foundation laying took place on November 28, 1930.",
-          "hy": "Ալեքսանդր Թամանյանը Օպերայի և բալետի թատրոնի շենքը նախագծել է 1926–1936 թվականներին՝ այն սկզբում անվանելով Ժողովրդական տուն։ Շենքի հանդիսավոր հիմնարկեքը տեղի է ունեցել 1930 թվականի նոյեմբերի 28-ին։",
-          "ru": "Александр Таманян спроектировал здание Театра оперы и балета в 1926–1936 годах, изначально назвав его Народным домом. Торжественная закладка фундамента состоялась 28 ноября 1930 года."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "op-node-2",
-        "title": {
-          "en": "A Bold Transformable Concept",
-          "hy": "Համարձակ Փոխակերպվող Գաղափար",
-          "ru": "Смелая Трансформируемая Концепция"
-        },
-        "description": {
-          "en": "Tamanyan designed a two-hall, transformable theatrical complex where a partition could be removed to merge the halls for 3000 spectators. In 1937, the design won the Grand Prix Gold Medal at the World Exhibition in Paris.",
-          "hy": "Թամանյանը նախագծել էր երկդահլիճ, փոխակերպվող թատերական համալիր, որտեղ միջնորմը հեռացվելով ստեղծվում էր 3000 հանդիսականի համար մեկ մեծ սրահ։ 1937 թվականին Փարիզի համաշխարհային ցուցահանդեսում նախագիծն արժանացավ Գրան պրիի։",
-          "ru": "Таманян спроектировал двухзальный трансформирующийся комплекс, в котором перегородка могла быть убрана для объединения залов на 3000 зрителей. В 1937 году проект был удостоен Гран-при на Всемирной выставке в Париже."
-        },
-        "mediaType": "video",
-        "mediaUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-      }
-    ],
+"storyline": [
+  {
+    "id": "opera-node-1",
+    "title": {
+      "en": "Opera",
+      "hy": "Օպերա",
+      "ru": "Опера"
+    },
+    "description": {
+      "en": "Today, the Opera building standing in the center of Yerevan is so familiar to us that it is difficult to imagine that at one time it was not simply a building, but a wonderful idea—to create a place where music and the city would come together.\n\nAlexander Tamanyan designed the building of the Opera and Ballet Theatre from 1926–1936, initially calling it the People's House. The ceremonial laying of the foundation took place on November 28, 1930.",
+      "hy": "Այսօր Երևանի կենտրոնում կանգնած Օպերայի շենքը մեզ այնքան ծանոթ է, որ դժվար է պատկերացնել՝ այն ժամանակին պարզապես շենք չէր, այլ մի հրաշալի գաղափար՝ ստեղծելու մի վայր, որտեղ երաժշտությունն ու քաղաքը պիտի միավորվեին։\n\nԱլեքսանդր Թամանյանը Օպերայի և բալետի թատրոնի շենքը նախագծել է 1926–1936 թվականներին՝ այն սկզբում անվանելով Ժողովրդական տուն։ Շենքի հանդիսավոր հիմնարկեքը տեղի է ունեցել 1930 թվականի նոյեմբերի 28-ին։",
+      "ru": "Сегодня здание Оперы, стоящее в центре Еревана, настолько привычно для нас, что трудно представить, что когда-то это было не просто здание, а прекрасная идея — создать место, где музыка и город должны были объединиться.\n\nАлександр Таманян спроектировал здание Театра оперы и балета в 1926–1936 годах, первоначально назвав его Народным домом. Торжественная закладка фундамента состоялась 28 ноября 1930 года."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera1.PNG"
+  },
+  {
+    "id": "opera-node-2",
+    "title": {
+      "en": "A Transformable Theatre",
+      "hy": "Փոխակերպվող թատրոն",
+      "ru": "Трансформируемый театр"
+    },
+    "description": {
+      "en": "Tamanyan's concept was not simply the construction of an ordinary theatre. He designed a two-hall, transformable theatrical complex that could change its entire internal structure.\n\nThe building was initially designed for two separate halls—the southern winter hall and the northern summer hall. Each had its own stage, stalls, and amphitheater. But there was also an idea that was extremely bold for its time: if necessary, the partition could be removed, the two halls and stages could be combined, and they would create one large, oval-shaped hall designed for about 3,000 spectators.",
+      "hy": "Թամանյանի մտահղացումը սովորական թատրոնի կառուցում չէր։ Նա նախագծել էր երկդահլիճ, փոխակերպվող թատերական համալիր, որը կարող էր փոխել իր ամբողջ ներքին կառուցվածքը։\n\nՇենքը սկզբում նախատեսված էր երկու առանձին դահլիճների համար՝ հարավային՝ ձմեռային, և հյուսիսային՝ ամառային։ Յուրաքանչյուրն ուներ իր բեմը, պարտերն ու ամֆիթատրոնը։ Բայց կար նաև մի գաղափար, որն իր ժամանակի համար չափազանց համարձակ էր․ անհրաժեշտության դեպքում միջնորմը պետք է հեռացվեր, երկու դահլիճներն ու բեմերը միավորվեին և ստեղծեին մոտ 3000 հանդիսականի համար նախատեսված մեկ մեծ, օվալաձև սրահ։",
+      "ru": "Замысел Таманяна заключался не просто в строительстве обычного театра. Он спроектировал двухзальный, трансформируемый театральный комплекс, который мог менять всю свою внутреннюю структуру.\n\nИзначально здание было рассчитано на два отдельных зала — южный зимний и северный летний. Каждый имел собственную сцену, партер и амфитеатр. Но была и идея, чрезвычайно смелая для своего времени: при необходимости перегородка должна была удаляться, два зала и сцены объединялись, создавая один большой овальный зал примерно на 3000 зрителей."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera2.JPG"
+  },
+  {
+    "id": "opera-node-3",
+    "title": {
+      "en": "A Vision That Was Never Fully Realized",
+      "hy": "Գաղափար, որն ամբողջությամբ չիրականացավ",
+      "ru": "Замысел, который так и не был полностью реализован"
+    },
+    "description": {
+      "en": "However, this idea was never fully realized. Technical difficulties, followed by Tamanyan's death in 1936, prevented the project of merging the two halls from being implemented.\n\nNevertheless, the building's design had already gained international recognition. In 1937, at the World Exhibition in Paris, it was awarded the Grand Prix—the Gold Medal.",
+      "hy": "Սակայն այդ գաղափարը երբեք ամբողջությամբ չիրականացավ։ Տեխնիկական դժվարությունները, իսկ հետո՝ 1936 թվականին Թամանյանի մահը, թույլ չտվեցին կյանքի կոչել երկու դահլիճների միավորման նախագիծը։\n\nԱյնուամենայնիվ, շենքի նախագիծն արդեն հասցրել էր միջազգային ճանաչում ստանալ։ 1937 թվականին Փարիզի համաշխարհային ցուցահանդեսում այն արժանացավ Գրան պրիի՝ Ոսկե մեդալի։",
+      "ru": "Однако эта идея так и не была полностью реализована. Технические трудности, а затем смерть Таманяна в 1936 году не позволили воплотить проект объединения двух залов.\n\nТем не менее проект здания уже успел получить международное признание. В 1937 году на Всемирной выставке в Париже он был удостоен Гран-при — Золотой медали."
+    },
+    "mediaType": "video",
+    "mediaUrl": "https://www.youtube.com/embed/eYRky9f8h0c?si=D93LcZXcvM5hI3HV"
+  },
+  {
+    "id": "opera-node-4",
+    "title": {
+      "en": "The Opera and Ballet Theatre",
+      "hy": "Օպերայի և բալետի թատրոնը",
+      "ru": "Театр оперы и балета"
+    },
+    "description": {
+      "en": "Construction was carried out in stages. In 1939, the section intended for the winter theatre was completed, and one year later, in 1940, the Alexander Spendiaryan Opera and Ballet Theatre began operating here.\n\nThe history of the other section also changed in its own way. Instead of the summer theatre planned in the original design, a transformed concert hall was completed in 1953, which became the Great Hall of the Armenian Philharmonic. The architect of this section was Tamanyan's son, Gevorg Tamanyan.",
+      "hy": "Շինարարությունն իրականացվեց փուլերով։ 1939 թվականին ավարտվեց ձմեռային թատրոնի համար նախատեսված հատվածը, իսկ մեկ տարի անց՝ 1940-ին, այստեղ սկսեց գործել Ալեքսանդր Սպենդիարյանի անվան օպերայի և բալետի թատրոնը։\n\nՄյուս հատվածի պատմությունն էլ իր հերթին փոխվեց։ Նախագծով նախատեսված ամառային թատրոնի փոխարեն 1953 թվականին ավարտվեց վերափոխված համերգային դահլիճը, որը դարձավ Հայֆիլհարմոնիայի մեծ դահլիճ։ Այս հատվածի ճարտարապետը Թամանյանի որդին՝ Գևորգ Թամանյանն էր։",
+      "ru": "Строительство осуществлялось поэтапно. В 1939 году была завершена часть, предназначенная для зимнего театра, а год спустя, в 1940 году, здесь начал действовать Театр оперы и балета имени Александра Спендиаряна.\n\nИстория другой части также изменилась. Вместо предусмотренного проектом летнего театра в 1953 году был завершен преобразованный концертный зал, который стал Большим залом Армянской филармонии. Архитектором этой части был сын Таманяна — Геворг Таманян."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera4.PNG"
+  },
+  {
+    "id": "opera-node-5",
+    "title": {
+      "en": "Transformations and the Aram Khachaturian Concert Hall",
+      "hy": "Վերափոխումներ և «Արամ Խաչատրյան» համերգասրահը",
+      "ru": "Реконструкции и концертный зал «Арам Хачатурян»"
+    },
+    "description": {
+      "en": "Later, these two sections of the building also underwent transformations. From 1978–1980, the Opera and Ballet Theatre section was completely renovated, and from 1981–1983, the concert hall was renovated. After the reconstructions, the Opera and Ballet Theatre hall was designed for 1,200 spectators, while the concert hall was designed for 1,400 spectators.\n\nSince 1979, the concert hall has been named after the great Armenian composer Aram Khachaturian and is today known as the Aram Khachaturian Concert Hall. But the importance of the Opera building lies not only in its history or size.",
+      "hy": "Հետագայում շենքի այս երկու հատվածները ևս անցան վերափոխումների միջով։ 1978–1980 թվականներին հիմնովին վերանորոգվեց օպերայի և բալետի թատրոնի հատվածը, իսկ 1981–1983 թվականներին՝ համերգային դահլիճը։ Վերակառուցումներից հետո օպերայի և բալետի թատրոնի դահլիճը նախատեսված էր 1200 հանդիսականի, իսկ համերգային դահլիճը՝ 1400 հանդիսականի համար։\n\n1979 թվականից համերգային դահլիճը կրում է մեծանուն հայ կոմպոզիտոր Արամ Խաչատրյանի անունը և այսօր հայտնի է որպես «Արամ Խաչատրյան» համերգասրահ։ Բայց Օպերայի շենքի կարևորությունը միայն նրա պատմության կամ չափերի մեջ չէ։",
+      "ru": "Позднее эти две части здания также претерпели изменения. В 1978–1980 годах часть Театра оперы и балета была полностью реконструирована, а в 1981–1983 годах был реконструирован концертный зал. После реконструкции зал Театра оперы и балета был рассчитан на 1200 зрителей, а концертный зал — на 1400 зрителей.\n\nС 1979 года концертный зал носит имя великого армянского композитора Арама Хачатуряна и сегодня известен как Концертный зал «Арам Хачатурян». Но значение здания Оперы заключается не только в его истории или размерах."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera5.PNG"
+  },
+  {
+    "id": "opera-node-6",
+    "title": {
+      "en": "Architecture and the Identity of Yerevan",
+      "hy": "Ճարտարապետությունը և Երևանի ինքնությունը",
+      "ru": "Архитектура и идентичность Еревана"
+    },
+    "description": {
+      "en": "Tamanyan tried to create a structure that would be monumental and harmonious at the same time, national and modern. In the building, traditional forms and vibrant elements of Armenian architecture were reinterpreted for a new era, receiving a completely new expressiveness.\n\nFor this reason, the Opera building became not only a cultural center, but also one of the most important architectural symbols of the new Yerevan envisioned by Tamanyan.",
+      "hy": "Թամանյանը փորձել էր ստեղծել մի կառույց, որը միաժամանակ կլիներ մոնումենտալ և ներդաշնակ, ազգային և ժամանակակից։ Շենքում հայկական ճարտարապետության ավանդական ձևերն ու կենսունակ տարրերը վերաիմաստավորվեցին նոր ժամանակների համար՝ ստանալով բոլորովին նոր արտահայտչականություն։\n\nԱյդ պատճառով Օպերայի շենքը դարձավ ոչ միայն մշակութային կենտրոն, այլև Թամանյանի պատկերացրած նոր Երևանի ամենակարևոր ճարտարապետական խորհրդանիշներից մեկը։",
+      "ru": "Таманян стремился создать сооружение, которое одновременно было бы монументальным и гармоничным, национальным и современным. В здании традиционные формы и живые элементы армянской архитектуры были переосмыслены для нового времени, получив совершенно новую выразительность.\n\nПоэтому здание Оперы стало не только культурным центром, но и одним из важнейших архитектурных символов нового Еревана, каким его представлял Таманян."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera6.PNG"
+  },
+  {
+    "id": "opera-node-7",
+    "title": {
+      "en": "More Than a Theatre",
+      "hy": "Ավելին, քան թատրոն",
+      "ru": "Больше, чем театр"
+    },
+    "description": {
+      "en": "And today, when we walk past the Opera, it is difficult to see it simply as a theatre. It is a continuation of an idea that Tamanyan began shaping almost a century ago—to create a city where architecture not only builds space, but also shapes the identity of the city.",
+      "hy": "Եվ այսօր, երբ անցնում ենք Օպերայի կողքով, դժվար է տեսնել այն պարզապես որպես թատրոն։ Այն մի գաղափարի շարունակությունն է, որը Թամանյանը սկսել էր ձևավորել դեռևս մեկ դար առաջ՝ ստեղծել մի քաղաք, որտեղ ճարտարապետությունը ոչ միայն տարածք է կառուցում, այլև ձևավորում է քաղաքի ինքնությունը։",
+      "ru": "И сегодня, когда мы проходим мимо Оперы, трудно воспринимать ее просто как театр. Это продолжение идеи, которую Таманян начал формировать почти столетие назад — создать город, где архитектура не только создает пространство, но и формирует идентичность города."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/opera7.PNG"
+  }
+],
     "nearbyBusinesses": [
-      {
-        "id": "biz_op_1",
-        "name": { "en": "The Club Yerevan", "hy": "Ակումբ Երևան", "ru": "Клуб Ереван" },
-        "type": { "en": "Restaurant / Cafe", "hy": "Ռեստորան / Սրճարան", "ru": "Ресторан / Кафе" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "40 Tumanyan St", "hy": "Թումանյան 40", "ru": "ул. Туманяна 40" },
-        "description": { 
-          "en": "A unique subterranean space featuring a French-Armenian restaurant, cafe, and art gallery.", 
-          "hy": "Բացառիկ ստորգետնյա վայր՝ ֆրանս-հայկական ռեստորանով և պատկերասրահով:", 
-          "ru": "Уникальное подземное пространство с франко-армянским рестораном и галереей." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Tumanyan+40",
-        "socials": { "instagram": "https://instagram.com/theclubyerevan" }
-      },
       {
         "id": "biz_op_2",
         "name": { "en": "Lavash Restaurant", "hy": "Լավաշ Ռեստորան", "ru": "Ресторан Лаваш" },
         "type": { "en": "Armenian Cuisine", "hy": "Հայկական Խոհանոց", "ru": "Армянская Кухня" },
-        "image": "/placeholder.jpg",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ff/0e/f0/caption.jpg?w=900&h=500&s=1",
         "address": { "en": "21 Tumanyan St", "hy": "Թումանյան 21", "ru": "ул. Туманяна 21" },
         "description": { 
           "en": "A vibrant culinary destination celebrating regional Armenian recipes and farm-to-table dining.", 
@@ -219,7 +353,7 @@
         "id": "biz_op_3",
         "name": { "en": "Martini Royale", "hy": "Մարտինի Ռոյալ", "ru": "Мартини Роял" },
         "type": { "en": "Italian Restaurant & Bar", "hy": "Իտալական Ռեստորան և Բար", "ru": "Итальянский Ресторан и Бар" },
-        "image": "/placeholder.jpg",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdAkIC0sdEInABJILDevp9U2xcYLElCDgMP7mhWCWBXkMQEC1joAlizthHA5o7sq87hPekBXZITwiGDHMaqhGi0AJ_dT_A3CHuwQlhmZmv5ymZ8OVBkqB7ZSQzRVLqbTDUjvkvLg=s1360-w1360-h1020-rw",
         "address": { "en": "22 Tumanyan St", "hy": "Թումանյան 22", "ru": "ул. Туманяна 22" },
         "description": { 
           "en": "Elegant setting offering European cuisine, signature cocktails, and a view of Swan Lake.", 
@@ -233,7 +367,7 @@
   },
   {
     "id": "cascade-complex",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/cascade_stamp.jpeg",
     "title": {
       "en": "Cascade Complex",
       "hy": "Կասկադ Համալիր",
@@ -264,45 +398,118 @@
       }
     ],
     "storyline": [
-      {
-        "id": "node-cas-1",
-        "date": "1971",
-        "title": {
-          "en": "Construction Begins",
-          "hy": "Շինարարության Սկիզբը",
-          "ru": "Начало строительства"
-        },
-        "description": {
-          "en": "In the 1970s, under the leadership of Yerevan's chief architect Jim Torosyan, the construction of the Cascade began. It was built from white travertine and decorated with motifs of Armenian history.",
-          "hy": "1970-ականներին Երևանի գլխավոր ճարտարապետ Ջիմ Թորոսյանի ղեկավարությամբ սկսվեց Կասկադի կառուցումը։ Այն կառուցված է սպիտակ տրավերտինից և զարդարված է հայկական պատմության մոտիվներով։",
-          "ru": "В 1970-х годах под руководством главного архитектора Еревана Джима Торосяна началось строительство Каскада. Он был построен из белого травертина и украшен мотивами армянской истории."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "node-cas-2",
-        "date": "2002",
-        "title": {
-          "en": "Cafesjian Art Center",
-          "hy": "Գաֆէսճեան Արվեստի Կենտրոն",
-          "ru": "Центр искусств Гафесчяна"
-        },
-        "description": {
-          "en": "In 2002, American-Armenian businessman Gerard Cafesjian initiated the restoration of the complex, transforming it into a center of art and culture.",
-          "hy": "2002 թվականին ամերիկահայ բարերար Ջերարդ Գաֆէսճեանը նախաձեռնեց համալիրի վերականգնումը՝ վերածելով այն արվեստի և մշակույթի կենտրոնի։",
-          "ru": "В 2002 году американский армянин, бизнесмен Джерард Гафесчян инициировал реставрацию комплекса, превратив его в центр искусства и культуры."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
+  {
+    "id": "cascade-node-1",
+    "title": {
+      "en": "Cascade",
+      "hy": "Կասկադ",
+      "ru": "Каскад"
+    },
+    "description": {
+      "en": "Today, the Cascade is one of the most recognizable places in Yerevan. But the history of these huge stairs, sculptures, and fountains began almost a century ago—with an idea that was born back in 1924.\nThe idea of the Cascade was already included in Alexander Tamanyan's master plan for Yerevan in 1924. Tamanyan wanted to connect the central part of the city with the northern districts and create a large, stepped complex in that area.\nDecades later, that idea was brought to life. In the 1970s, construction of the Cascade began under the leadership of Yerevan's chief architect Jim Torosyan. The complex was designed by Jim Torosyan, Sargis Gurzadyan, and Aslan Mkhitaryan.",
+      "hy": "Այսօր Կասկադը Երևանի ամենաճանաչելի վայրերից մեկն է։ Բայց այս հսկայական աստիճանների, քանդակների ու շատրվանների պատմությունը սկսվել է գրեթե մեկ դար առաջ՝ մի գաղափարից, որը ծնվել էր դեռևս 1924 թվականին։\nԿասկադի գաղափարը դեռևս 1924 թվականին ներառված էր Ալեքսանդր Թամանյանի՝ Երևանի գլխավոր հատակագծում։ Թամանյանը ցանկանում էր քաղաքի կենտրոնական հատվածը կապել հյուսիսային թաղամասերի հետ և այդ տարածքում ստեղծել մեծ, աստիճանաձև համալիր։\nՏասնամյակներ անց այդ գաղափարը կյանքի կոչվեց։ 1970-ականներին Երևանի գլխավոր ճարտարապետ Ջիմ Թորոսյանի ղեկավարությամբ սկսվեց Կասկադի կառուցումը։ Համալիրը նախագծել են Ջիմ Թորոսյանը, Սարգիս Գուրզադյանը և Ասլան Մխիթարյանը։",
+      "ru": "Сегодня Каскад является одним из самых узнаваемых мест Еревана. Но история этих огромных лестниц, скульптур и фонтанов началась почти столетие назад — с идеи, родившейся еще в 1924 году.\nИдея Каскада была включена в генеральный план Еревана Александра Таманяна еще в 1924 году. Таманян хотел связать центральную часть города с северными районами и создать на этой территории большой ступенчатый комплекс.\nСпустя десятилетия эта идея была воплощена в жизнь. В 1970-х годах под руководством главного архитектора Еревана Джима Торосяна началось строительство Каскада. Комплекс спроектировали Джим Торосян, Саргис Гурзадян и Аслан Мхитарян."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade1.PNG"
+  },
+  {
+    "id": "cascade-node-2",
+    "title": {
+      "en": "The Architecture of the Cascade",
+      "hy": "Կասկադի ճարտարապետությունը",
+      "ru": "Архитектура Каскада"
+    },
+    "description": {
+      "en": "The architecture of the Cascade was based not only on a large-scale engineering solution, but also on the idea of Armenian culture and national symbols. The complex is built from white travertine and decorated with motifs from Armenian history and culture—pomegranates, grapes, doves, the solar cross, and other symbols.\nDuring the construction of the Cascade, in 1971, a 56-meter-high monument called \"Reborn Armenia\" was erected above the complex, dedicated to the 50th anniversary of Soviet rule in Armenia. It is decorated with elements of Urartian and Armenian iconography, while the sun disk depicted in its lower section symbolizes eternity.",
+      "hy": "Կասկադի ճարտարապետության հիմքում ոչ միայն մեծածավալ ինժեներական լուծումն էր, այլև հայկական մշակույթի և ազգային խորհրդանիշների գաղափարը։ Համալիրը կառուցված է սպիտակ տրավերտինից և զարդարված է հայկական պատմության ու մշակույթի մոտիվներով՝ նուռ, խաղող, աղավնիներ, արևախաչ և այլ խորհրդանիշներ։\nԿասկադի կառուցման ընթացքում՝ 1971 թվականին, համալիրի վերևում կանգնեցվեց 56 մետր բարձրությամբ «Վերածնված Հայաստան» սյունակոթողը՝ նվիրված Հայաստանում խորհրդային իշխանության 50-ամյակին։ Այն զարդարված է ուրարտական և հայկական պատկերագրության տարրերով, իսկ ներքևի հատվածում պատկերված արևի սկավառակը խորհրդանշում է հավերժությունը։",
+      "ru": "В основе архитектуры Каскада лежало не только масштабное инженерное решение, но и идея армянской культуры и национальных символов. Комплекс построен из белого травертина и украшен мотивами армянской истории и культуры — гранатом, виноградом, голубями, солнечным крестом и другими символами.\nВо время строительства Каскада, в 1971 году, над комплексом был установлен 56-метровый монумент «Возрожденная Армения», посвященный 50-летию советской власти в Армении. Он украшен элементами урартской и армянской иконографии, а изображенный в нижней части солнечный диск символизирует вечность."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade2.PNG"
+  },
+  {
+    "id": "cascade-node-3",
+    "title": {
+      "en": "The Interruption in the History of the Cascade",
+      "hy": "Կասկադի պատմության ընդհատումը",
+      "ru": "Перерыв в истории Каскада"
+    },
+    "description": {
+      "en": "However, the history of the Cascade was interrupted for a time. The 1988 earthquake, followed by the collapse of the Soviet Union in 1991, stopped the construction work. The complex remained unfinished for many years. After that, the Cascade received a new life.\nIn 2002, Armenian-American businessman and philanthropist Gerard Cafesjian initiated the restoration of the complex. The Cascade was completely transformed, becoming one of the most recognizable centers of art, culture, and modern Yerevan. The Cafesjian Center for the Arts was established here, while the outdoor area was transformed into a unique sculpture park.\nToday, climbing the Cascade feels like taking a walk through Yerevan and world art at the same time.",
+      "hy": "Սակայն Կասկադի պատմությունը մի պահ ընդհատվեց։ 1988 թվականի երկրաշարժը, իսկ այնուհետև 1991 թվականին Խորհրդային Միության փլուզումը կանգնեցրին շինարարական աշխատանքները։ Համալիրը երկար տարիներ մնաց կիսավարտ վիճակում։ Որից հետո Կասկադը ստացավ նոր կյանք։\n2002 թվականին ամերիկահայ գործարար և բարերար Ջերարդ Գաֆէսճեանը նախաձեռնեց համալիրի վերականգնումը։ Կասկադը հիմնովին վերափոխվեց՝ վերածվելով արվեստի, մշակույթի և ժամանակակից Երևանի ամենաճանաչելի կենտրոններից մեկի։ Այստեղ ստեղծվեց Գաֆէսճեան արվեստի կենտրոնը, իսկ բացօթյա տարածքը վերածվեց քանդակների յուրահատուկ պուրակի։\nԱյսօր Կասկադով բարձրանալը կարծես միաժամանակ զբոսանք լինի Երևանի և համաշխարհային արվեստի միջով։",
+      "ru": "Однако история Каскада на некоторое время прервалась. Землетрясение 1988 года, а затем распад Советского Союза в 1991 году остановили строительные работы. Комплекс долгие годы оставался недостроенным. После этого Каскад получил новую жизнь.\nВ 2002 году американский армянин, бизнесмен и филантроп Джерард Гафесчян инициировал восстановление комплекса. Каскад был полностью преобразован, превратившись в один из самых узнаваемых центров искусства, культуры и современного Еревана. Здесь был создан Центр искусств Гафесчяна, а открытая территория превратилась в уникальный парк скульптур.\nСегодня подъем по Каскаду словно одновременно представляет собой прогулку по Еревану и мировому искусству."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade3.PNG"
+  },
+  {
+    "id": "cascade-node-4",
+    "title": {
+      "en": "Sculptures at the Cascade",
+      "hy": "Քանդակները Կասկադում",
+      "ru": "Скульптуры Каскада"
+    },
+    "description": {
+      "en": "To the right of Tamanyan's statue, you can see the geometric human figures by British artist Lynn Chadwick—\"Stairs\" and \"Seated Figures\", as well as \"The Observers\". The Cascade area is also home to Jaume Plensa's \"Seated Tattoo\", whose body depicts the rivers of the world.\nThe garden also features Barry Flanagan's bronze rabbits—\"The Rabbit on the Bell\", \"The Boxer Rabbit on the Anvil\", \"Acrobat Rabbits\", and \"Rabbits on Elephants\". Among the most recognizable sculptures at the Cascade are Fernando Botero's \"Roman Warrior\", \"Smoking Woman\", and \"Black Cat\". During the walk, you can also encounter Jim Dine's amusing work—a trunk of an elephant looking out from a circus tent.",
+      "hy": "Թամանյանի արձանից աջ կարելի է տեսնել բրիտանացի նկարիչ Լին Չադվիքի երկրաչափական մարդկային ֆիգուրները՝ «Աստիճաններ» և «Նստած Ֆիգուրներ» աշխատանքները, ինչպես նաև «Դիտորդներին»։ Կասկադի տարածքում է նաև Ժաումե Պլենսայի «Նստած դաջվածքը», որի մարմնի վրա պատկերված են աշխարհի գետերը։\nԱյգում հանդիպում են նաև Բերի Ֆլանագանի բրոնզե նապաստակները՝ «Նապաստակը զանգի վրա», «Բռնցքամարտիկ Նապաստակը կոճի վրա», «Ակրոբատ Նապաստակները» և «Նապաստակները փղերի վրա»։ Իսկ Կասկադի ամենաճանաչելի քանդակներից են Ֆեռնանդո Բոտերոյի «Հռոմեական ռազմիկը», «Ծխող կինը» և «Սև կատուն» աշխատանքները։ Զբոսանքի ընթացքում կարելի է հանդիպել նաև Ջիմ Անսվորթիի զվարճալի աշխատանքին՝ կրկեսային վրանից դուրս նայող փղի կնճիթին։",
+      "ru": "Справа от памятника Таманяну можно увидеть геометрические человеческие фигуры британского художника Линна Чедвика — работы «Лестницы» и «Сидящие фигуры», а также «Наблюдатели». На территории Каскада также находится работа Жауме Пленсы «Сидящая татуировка», на теле которой изображены реки мира.\nВ саду также можно увидеть бронзовых кроликов Барри Фланагана — «Кролик на колоколе», «Кролик-боксер на наковальне», «Кролики-акробаты» и «Кролики на слонах». Среди самых узнаваемых скульптур Каскада — «Римский воин», «Курящая женщина» и «Черный кот» Фернандо Ботеро. Во время прогулки можно также встретить забавную работу Джима Ансуорти — хобот слона, выглядывающий из циркового шатра."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade4.PNG"
+  },
+  {
+    "id": "cascade-node-5",
+    "title": {
+      "en": "The Cafesjian Center for the Arts and the Russian Art Museum",
+      "hy": "Գաֆէսճեան արվեստի կենտրոնը և Ռուսական արվեստի թանգարանը",
+      "ru": "Центр искусств Гафесчяна и Музей русского искусства"
+    },
+    "description": {
+      "en": "On the way to the entrance of the Cafesjian Center for the Arts, you can also see Sarraj Guchi's \"Jumping Gazelles\", Martin Low's small metal horse, and other sculptures. The Russian Art Museum is also located inside the Cascade. This two-story building was formerly a fashion house. Today, it displays works by renowned masters of Russian painting, collected and donated to Armenia by physician and professor Aram Abrahamyan.",
+      "hy": "Գաֆէսճեան արվեստի կենտրոնի մուտքի ճանապարհին կարելի է տեսնել նաև Սարրաջ Գուխի «Ցատկող այծյամները», Մարտին Լոուի փոքրիկ մետաղական ձին և այլ քանդակներ։ Կասկադի ներսում է գտնվում նաև Ռուսական արվեստի թանգարանը։ Երկհարկանի այս շենքը նախկինում եղել է նորաձևության տուն։ Այսօր այստեղ ցուցադրվում են ռուսական գեղանկարչության նշանավոր վարպետների ստեղծագործությունները, որոնք հավաքել և Հայաստանին է նվիրել բժիշկ-պրոֆեսոր Արամ Աբրահամյանը։",
+      "ru": "На пути ко входу в Центр искусств Гафесчяна также можно увидеть «Прыгающих газелей» Сарраджа Гухи, маленькую металлическую лошадь Мартина Лоу и другие скульптуры. Внутри Каскада также находится Музей русского искусства. Это двухэтажное здание ранее было Домом моды. Сегодня здесь представлены произведения выдающихся мастеров русской живописи, собранные и подаренные Армении врачом-профессором Арамом Абрамяном."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade5.PNG"
+  },
+  {
+    "id": "cascade-node-6",
+    "title": {
+      "en": "The Dimensions and Details of the Cascade",
+      "hy": "Կասկադի չափերն ու մանրամասները",
+      "ru": "Размеры и детали Каскада"
+    },
+    "description": {
+      "en": "But perhaps one of the greatest features of the Cascade is that it is not simply a series of stairs. The complex has 572 steps, its height from the base to the top is about 302 meters, and its width is about 50 meters. Each platform features fountain areas, sundial sculptures, and Armenian ornamental carvings. Symbols of Van and ancient Armenian culture are especially noticeable among them.\nAnd there is an interesting detail here: almost no sculpture, ornament, or composition is repeated exactly in different parts of the Cascade. The different elements are united by a common language of Armenian symbols—the pomegranate, grapes, doves, the solar cross, and other images. And when you finally reach the top, you understand that the idea of the Cascade was not only about climbing. From here, a wide panorama of Yerevan opens up, with a view of Mount Ararat stretching beyond the city's rooftops.",
+      "hy": "Բայց Կասկադի ամենամեծ առանձնահատկություններից մեկը թերևս այն է, որ այն պարզապես աստիճանների շարք չէ։ Համալիրն ունի 572 աստիճան, հիմքից մինչև գագաթ բարձրությունը մոտ 302 մետր է, իսկ լայնությունը՝ մոտ 50 մետր։ Յուրաքանչյուր հարթակում ստեղծված են շատրվանային գոտիներ, արևային ժամացույցների քանդակներ և հայկական զարդաքանդակներ։ Դրանցում հատկապես նկատելի են Վանի և հին հայկական մշակույթի խորհրդանիշները։\nԵվ այստեղ մի հետաքրքիր մանրուք կա․ Կասկադի տարբեր հատվածներում գրեթե ոչ մի քանդակ, զարդանախշ կամ հորինվածք նույնությամբ չի կրկնվում։ Տարբեր տարրերը միմյանց միավորում է հայկական խորհրդանիշների ընդհանուր լեզուն՝ նուռը, խաղողը, աղավնիները, արևախաչը և այլ պատկերներ։ Իսկ երբ վերջապես հասնում եք վերև, հասկանում եք, որ Կասկադի գաղափարը միայն բարձրանալը չէր։ Այստեղից բացվում է Երևանի լայն համայնապատկերը՝ քաղաքի տանիքներից այն կողմ հասնող Արարատի տեսարանով։",
+      "ru": "Но, пожалуй, одна из главных особенностей Каскада заключается в том, что это не просто ряд лестниц. Комплекс насчитывает 572 ступени, высота от основания до вершины составляет около 302 метров, а ширина — около 50 метров. На каждой площадке созданы фонтанные зоны, скульптуры солнечных часов и армянские орнаментальные элементы. Среди них особенно заметны символы Вана и древней армянской культуры.\nИ здесь есть одна интересная деталь: в разных частях Каскада почти ни одна скульптура, орнамент или композиция не повторяется в точности. Различные элементы объединяет общий язык армянских символов — гранат, виноград, голуби, солнечный крест и другие изображения. И когда вы наконец достигаете вершины, понимаете, что идея Каскада заключалась не только в подъеме. Отсюда открывается широкая панорама Еревана с видом на Арарат, простирающимся за крышами города."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade6.JPG"
+  },
+  {
+    "id": "cascade-node-7",
+    "title": {
+      "en": "The Cascade Today",
+      "hy": "Կասկադը այսօր",
+      "ru": "Каскад сегодня"
+    },
+    "description": {
+      "en": "An idea that was born back in 1924 became, decades later, a place where urban planning, Armenian culture, contemporary art, and the panorama of Yerevan meet in the same space today. The Cascade is not simply a staircase rising above the center of Yerevan. It is a complex that brings together Yerevan's past, present, and art along the same path.",
+      "hy": "Մի գաղափար, որը ծնվել էր դեռ 1924 թվականին, տասնամյակներ անց դարձավ մի վայր, որտեղ այսօր միևնույն տարածքում հանդիպում են քաղաքաշինությունը, հայկական մշակույթը, ժամանակակից արվեստը և Երևանի համայնապատկերը։ Կասկադը պարզապես Երևանի կենտրոնից վեր բարձրացող աստիճաններ չէ։ Այն Երևանի անցյալը, ներկան և արվեստը միևնույն ճանապարհի վրա միավորող համալիր է։",
+      "ru": "Идея, родившаяся еще в 1924 году, спустя десятилетия превратилась в место, где сегодня в одном пространстве встречаются градостроительство, армянская культура, современное искусство и панорама Еревана. Каскад — это не просто лестница, поднимающаяся над центром Еревана. Это комплекс, объединяющий прошлое, настоящее и искусство Еревана на одном пути."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/cascade7.PNG"
+  }
+],
     "nearbyBusinesses": [
       {
         "id": "biz_cas_1",
         "name": { "en": "Charles Restaurant", "hy": "Շառլ Ռեստորան", "ru": "Ресторан Шарль" },
         "type": { "en": "French Cuisine", "hy": "Ֆրանսիական Խոհանոց", "ru": "Французская Кухня" },
-        "image": "/placeholder.jpg",
+        "image": "https://avatars.mds.yandex.net/get-altay/14079384/2a00000192478bc84fe221874396080e33c8/orig",
         "address": { "en": "3 Tamanyan St", "hy": "Թամանյան 3", "ru": "ул. Таманяна 3" },
         "description": { 
           "en": "A premium dining spot offering exquisite French dishes with a beautiful view of the Cascade.", 
@@ -314,9 +521,9 @@
       },
       {
         "id": "biz_cas_2",
-        "name": { "en": "Cascade Chocolatier", "hy": "Կասկադ Շոկոլատիե", "ru": "Каскад Шоколатье" },
+        "name": { "en": "Cascade Chocolateria", "hy": "Կասկադ Շոկոլատիե", "ru": "Каскад Шоколатье" },
         "type": { "en": "Cafe & Dessert Shop", "hy": "Սրճարան և Աղանդեր", "ru": "Кафе и Десерты" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw2veayfozTLKtVYoVFRQ92xqMD59ga-jWJL2Pyh4mkf60RteK11HLYp0&s=10",
         "address": { "en": "10 Tamanyan St", "hy": "Թամանյան 10", "ru": "ул. Таманяна 10" },
         "description": { 
           "en": "Artisan chocolates, rich coffee, and decadent pastries in a cozy, modern environment.", 
@@ -330,7 +537,7 @@
         "id": "biz_cas_3",
         "name": { "en": "Wine Republic", "hy": "Գինու Հանրապետություն", "ru": "Винная Республика" },
         "type": { "en": "Wine Bar & Restaurant", "hy": "Գինետուն և Ռեստորան", "ru": "Винный Бар и Ресторан" },
-        "image": "/placeholder.jpg",
+        "image": "https://instagram.fevn15-1.fna.fbcdn.net/v/t51.2885-19/19367664_298266590633909_7701912866185543680_a.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MTUuQzMifQ%3D%3D&_nc_ohc=BAqkykMScz8Q7kNvwEcys2L&_nc_oc=Adrgo-ODtBX29GzJFBCgnrUHev3-g1iCMFgebjLy6_xyQnKk1Lbec2u_kwRtknE1OgY&_nc_zt=24&_nc_ht=instagram.fevn15-1.fna&_nc_ss=7b6a8&oh=00_AQI5U2arkev8s1I3ljiNC631oYsyJEVosXUcpjut92pL8A&oe=6ABE0F68",
         "address": { "en": "2 Tamanyan St", "hy": "Թամանյան 2", "ru": "ул. Таманяна 2" },
         "description": { 
           "en": "An extensive wine selection paired with European and Asian fusion cuisine.", 
@@ -344,11 +551,11 @@
   },
   {
     "id": "pushkin-31",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/deangelo_stamp.jpeg",
     "title": {
-      "en": "Pushkin 31 & De Angelo",
-      "hy": "Պուշկինի 31 և De Angelo",
-      "ru": "Пушкина 31 и De Angelo"
+      "en": "De Angelo",
+      "hy": "De Angelo",
+      "ru": "De Angelo"
     },
     "subtitle": {
       "en": "Toros Toramanian's Residence",
@@ -368,50 +575,80 @@
           "hy": "Պուշկինի 31 (1930-ականներ vs Այսօր)",
           "ru": "Пушкина 31 (1930-е vs Настоящее время)"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/deangelo_aligned_old.png",
+        "newImage": "/deangelo_aligned_modern.png",
         "oldYear": "1930",
         "newYear": "2026"
       }
     ],
     "storyline": [
-      {
-        "id": "pushkin-node-1",
-        "title": {
-          "en": "The Chauffeurs' Shop",
-          "hy": "Շոֆերների խանութ",
-          "ru": "Магазин Шоферов"
-        },
-        "description": {
-          "en": "Known to Yerevan residents in Soviet times as the 'Chauffeurs' Shop' building due to the store operating here.",
-          "hy": "Խորհրդային տարիներից այն երևանցիների հիշողության մեջ մնացել է «Շոֆերների խանութի» շենք անունով՝ կապված այստեղ գործող խանութի հետ։",
-          "ru": "В советские годы здание запомнилось ереванцам как «Магазин шоферов» из-за действовавшего здесь магазина."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "pushkin-node-2",
-        "title": {
-          "en": "Toros Toramanian's Legacy",
-          "hy": "Թորոս Թորամանյանի Ժառանգությունը",
-          "ru": "Наследие Тороса Тораманяна"
-        },
-        "description": {
-          "en": "Toros Toramanian, a key figure in preserving Armenian medieval architecture, lived on the first floor of 31 Pushkin. A memorial plaque in front of the building features the Zvartnots Temple in his honor.",
-          "hy": "Թորոս Թորամանյանը ապրել է Պուշկինի 31-ի առաջին հարկում։ Շենքի դիմաց այսօր տեղադրված է նրա հուշատախտակը՝ Զվարթնոցի տաճարի պատկերով։",
-          "ru": "Торос Тораманян жил на первом этаже дома 31 по улице Пушкина. Перед зданием сегодня установлена мемориальная доска с изображением храма Звартноц в его честь."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
+  {
+    "id": "deangelo-node-1",
+    "title": {
+      "en": "DE ANGELO — Pushkin 31",
+      "hy": "DE ANGELO Պուշկինի 31",
+      "ru": "DE ANGELO — Пушкина 31"
+    },
+    "description": {
+      "en": "On Pushkin Street in Yerevan, there is a building that one can pass by today without imagining how many different lives have passed within its walls. Today it is known as the building at 31 Pushkin Street, but during the Soviet years it remained in the memory of Yerevan residents as the building of the \"Drivers' Store.\" The name was connected to the store that operated here. But the history of the building does not begin there and, more interestingly, it does not end there.\n\nThe building is located in the part of Pushkin Street that was rapidly changing during the first half of the 20th century, gradually transforming the old Yerevan street environment into new urban development. Photographs from the 1930s already show the multi-apartment urban environment formed here, with tuff buildings, shops, and everyday life taking place in the street.",
+      "hy": "Երևանի Պուշկինի փողոցում կա մի շենք, որի կողքով այսօր կարելի է անցնել առանց պատկերացնելու, թե որքան տարբեր կյանքեր են անցել նրա պատերի ներսում։ Այսօր այն հայտնի է որպես Պուշկինի 31 հասցեի շենք, սակայն խորհրդային տարիներից այն երևանցիների հիշողության մեջ մնացել է «Շոֆերների խանութի» շենք անունով։ Այդ անվանումը կապված էր այստեղ գործող խանութի հետ։ Բայց շենքի պատմությունը դրանով չի սկսվում և, առավել հետաքրքիր է, դրանով էլ չի ավարտվում։ \n\nՇենքը Պուշկինի փողոցի այն հատվածում է, որը 20-րդ դարի առաջին կեսին արագորեն փոխվում էր՝ հին Երևանի փողոցային միջավայրը աստիճանաբար վերածելով նոր, քաղաքային կառուցապատման։ 1930-ականների լուսանկարներում արդեն տեսնում ենք այստեղ ձևավորված բազմաբնակարան քաղաքային միջավայրը՝ տուֆե շենքերով, խանութներով և փողոցում ընթացող առօրյա կյանքով։",
+      "ru": "На улице Пушкина в Ереване есть здание, мимо которого сегодня можно пройти, не представляя, сколько разных жизней прошло внутри его стен. Сегодня оно известно как здание по адресу Пушкина 31, однако с советских лет в памяти ереванцев оно осталось как здание «магазина шоферов». Это название было связано с магазином, работавшим здесь. Но история здания не начинается с этого и, что еще интереснее, на этом не заканчивается.\n\nЗдание находится на том участке улицы Пушкина, который в первой половине XX века быстро менялся, постепенно превращая старую уличную среду Еревана в новую городскую застройку. На фотографиях 1930-х годов мы уже видим сформировавшуюся здесь многоквартирную городскую среду — здания из туфа, магазины и повседневную жизнь на улице."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/deangelo1.PNG"
+  },
+  {
+    "id": "deangelo-node-2",
+    "title": {
+      "en": "Toros Toramanian",
+      "hy": "Թորոս Թորամանյան",
+      "ru": "Торос Тораманян"
+    },
+    "description": {
+      "en": "But one of the most important stories connected to this building is related to Toros Toramanian. Toramanian was not simply an architect. He was one of the people who played a major role in the study and preservation of medieval Armenian architecture. He studied and worked in Constantinople, Bulgaria, Italy, Greece, and Egypt, and at the beginning of the 20th century participated in the excavations of Ani with Nikolai Marr. He also studied the Zvartnots Cathedral and attempted to reconstruct its original architectural form. And it is precisely this building that is connected with the final years of this great scholar's life.\n\nToros Toramanian lived on the first floor of 31 Pushkin Street. That is, in the very same building that Yerevan residents would later know by a completely different name—the building of the \"Drivers' Store.\" This fact makes the history of the building particularly special. It is no longer simply an example of Yerevan's residential development of the 1930s; within its walls lived a man whose studies have allowed us to understand the heritage of medieval Armenian architecture much better today.\n\nA memorial plaque dedicated to Toros Toramanian is installed in front of the building today, and it is not by chance that Zvartnots Cathedral is depicted on it. This is directly connected to his scholarly legacy and especially to his studies of Zvartnots.",
+      "hy": "Բայց այս շենքի ամենակարևոր պատմություններից մեկը կապված է Թորոս Թորամանյանի հետ։ Թորամանյանը պարզապես ճարտարապետ չէր։ Նա այն մարդկանցից էր, ովքեր մեծ դեր ունեցան հայկական միջնադարյան ճարտարապետության ուսումնասիրության և պահպանման գործում։ Նա սովորել ու աշխատել էր Կոստանդնուպոլսում, Բուլղարիայում, Իտալիայում, Հունաստանում և Եգիպտոսում, իսկ 20-րդ դարի սկզբին մասնակցել էր Անիի պեղումներին՝ Նիկոլայ Մառի հետ։ Նա ուսումնասիրել է նաև Զվարթնոցի տաճարը և փորձել վերականգնել դրա նախնական ճարտարապետական կերպարը։  Եվ ահա այդ մեծ գիտնականի կյանքի վերջին տարիների հետ կապված հենց այս շենքն է։\n\nԹորոս Թորամանյանն ապրել է Պուշկինի 31-ի առաջին հարկում։ Այսինքն՝ այն նույն շենքում, որը հետագայում երևանցիները պիտի ճանաչեին բոլորովին այլ անունով՝ «Շոֆերների խանութի» շենք։  Այս փաստը շենքի պատմությունը դարձնում է առանձնահատուկ։ Այն այլևս պարզապես 1930-ականների Երևանի բնակելի կառուցապատման օրինակ չէ․ նրա պատերի ներսում ապրել է մարդ, որի ուսումնասիրությունների շնորհիվ մենք այսօր շատ ավելի լավ ենք պատկերացնում հայկական միջնադարյան ճարտարապետության ժառանգությունը։ \n\nՇենքի դիմաց այսօր տեղադրված է Թորոս Թորամանյանի հուշատախտակը, որի վրա պատահականորեն չէ, որ պատկերված է Զվարթնոցի տաճարը։ Դա անմիջականորեն կապված է նրա գիտական ժառանգության և հատկապես Զվարթնոցի ուսումնասիրության հետ։",
+      "ru": "Но одна из самых важных историй, связанных с этим зданием, относится к Торосу Тораманяну. Тораманян был не просто архитектором. Он был одним из тех людей, которые сыграли большую роль в изучении и сохранении средневековой армянской архитектуры. Он учился и работал в Константинополе, Болгарии, Италии, Греции и Египте, а в начале XX века участвовал в раскопках Ани вместе с Николаем Марром. Он также изучал собор Звартноц и пытался восстановить его первоначальный архитектурный облик. И именно с этим зданием связаны последние годы жизни этого великого ученого.\n\nТорос Тораманян жил на первом этаже дома 31 по улице Пушкина. То есть в том самом здании, которое позднее ереванцы должны были узнать под совершенно другим названием — здание «магазина шоферов». Этот факт делает историю здания особенно интересной. Это уже не просто пример жилой застройки Еревана 1930-х годов; в его стенах жил человек, благодаря исследованиям которого сегодня мы гораздо лучше представляем наследие средневековой армянской архитектуры.\n\nСегодня перед зданием установлена мемориальная доска Торосу Тораманяну, и изображение собора Звартноц на ней не случайно. Это непосредственно связано с его научным наследием и особенно с изучением Звартноца."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/deangelo2.PNG"
+  },
+  {
+    "id": "deangelo-node-3",
+    "title": {
+      "en": "A Life That Changed Again",
+      "hy": "Կյանք, որը կրկին փոխվեց",
+      "ru": "Жизнь, которая снова изменилась"
+    },
+    "description": {
+      "en": "Toramanian's life, like the history of this building, was not easy or peaceful. His daughter, Nazik Toramanian, left memoirs about her father that have been preserved in archives. In these memoirs, she describes her father's character, daily life, and even his relationship with Alexander Tamanyan. In the memoirs, Toramanian is presented as a strict, meticulous, and extremely devoted person when it came to his work.\n\nAlmost a century later, the life of the same address has changed once again. Today, De Angelo restaurant operates at 31 Pushkin Street, with European cuisine, a café-like atmosphere, and an outdoor terrace.",
+      "hy": "Թորամանյանի կյանքն էլ, ինչպես այս շենքի պատմությունը, հեշտ ու հանգիստ չէր։ Նրա դուստրը՝ Նազիկ Թորամանյանը, հոր մասին հուշեր է թողել, որոնք պահպանվել են արխիվներում։ Այդ հուշերում նա նկարագրում է հոր բնավորությունը, առօրյան և նույնիսկ նրա հարաբերությունները Ալեքսանդր Թամանյանի հետ։ Հուշագրություններում Թորամանյանը ներկայացվում է որպես խիստ, բծախնդիր և աշխատանքի նկատմամբ չափազանց նվիրված մարդ։ \n\nԳրեթե մեկ դար անց նույն հասցեի կյանքը կրկին փոխվել է։ Պուշկինի 31-ում այսօր գործում է De Angelo ռեստորանը՝ եվրոպական խոհանոցով, սրճարանային միջավայրով և բացօթյա պատշգամբով։",
+      "ru": "Жизнь Тораманяна, как и история этого здания, не была легкой и спокойной. Его дочь Назик Тораманян оставила воспоминания об отце, которые сохранились в архивах. В этих воспоминаниях она описывает характер отца, его повседневную жизнь и даже его отношения с Александром Таманяном. В мемуарах Тораманян представлен как строгий, дотошный и чрезвычайно преданный своей работе человек.\n\nПочти столетие спустя жизнь по тому же адресу снова изменилась. Сегодня по адресу Пушкина 31 работает ресторан De Angelo с европейской кухней, атмосферой кафе и открытой террасой."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/deangelo3.png"
+  },
+  {
+    "id": "deangelo-node-4",
+    "title": {
+      "en": "One Address, Different Lives",
+      "hy": "Մի հասցե, տարբեր կյանքեր",
+      "ru": "Один адрес, разные жизни"
+    },
+    "description": {
+      "en": "So, if we stand in front of 31 Pushkin Street today, we will not simply see an old tuff building. We will see a building that has had different names and roles at different times: at one time Toros Toramanian lived here, during the Soviet years it became known as the building of the \"Drivers' Store,\" and today the ground-floor space of the same building is home to the modern De Angelo café at 31 Pushkin Street. And this is where one of the most beautiful contrasts of old Yerevan is hidden:\n\nThe same address, different times, different people, different lives. But the building continues to remain part of the same Yerevan.",
+      "hy": "Այսպիսով, եթե այսօր կանգնենք Պուշկինի 31-ի առջև, մեր դիմաց պարզապես հին տուֆե շենք չի լինի։ Մենք կտեսնենք մի շենք, որը տարբեր ժամանակներում տարբեր անուններ ու դերեր է ունեցել․ մի ժամանակ այստեղ ապրում էր Թորոս Թորամանյանը, խորհրդային տարիներին այն հայտնի դարձավ «Շոֆերների խանութի» անունով, իսկ այսօր նույն շենքի առաջին հարկի տարածքում գործում է ժամանակակից De Angelo սրճարանը՝ Պուշկինի 31 հասցեում։ Եվ հենց այստեղ է թաքնված հին Երևանի ամենագեղեցիկ հակադրություններից մեկը․\n\nՄիևնույն հասցեում՝ տարբեր ժամանակներ, տարբեր մարդիկ, տարբեր կյանքեր։ Բայց շենքը շարունակում է մնալ նույն Երևանի մի մասը։",
+      "ru": "Таким образом, если сегодня мы встанем перед домом 31 по улице Пушкина, перед нами будет не просто старое здание из туфа. Мы увидим здание, которое в разные времена имело разные названия и роли: когда-то здесь жил Торос Тораманян, в советские годы оно стало известно как здание «магазина шоферов», а сегодня на первом этаже того же здания работает современное кафе De Angelo по адресу Пушкина 31. И именно здесь скрывается один из самых красивых контрастов старого Еревана:\n\nОдин и тот же адрес — разные времена, разные люди, разные жизни. Но здание продолжает оставаться частью того же Еревана."
+    },
+    "mediaType": "video",
+    "mediaUrl": "https://www.youtube.com/embed/6F_oAMS0GxM?si=fak3ByEY4s5MMeh9"
+  }
+],
     "nearbyBusinesses": [
       {
         "id": "biz_push_1",
         "name": { "en": "Dolmama", "hy": "Դոլմամա", "ru": "Долмама" },
         "type": { "en": "Authentic Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Аутентичный Ресторан" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRetzwfmtjB5aLdsj9Hf0-zUR_j3FirRSgREG8X7ili_6YmHDQMUFkvIBip&s=10",
         "address": { "en": "10 Pushkin St", "hy": "Պուշկինի 10", "ru": "ул. Пушкина 10" },
         "description": { 
           "en": "A celebrated restaurant bringing a creative and modern touch to traditional Armenian recipes.", 
@@ -425,7 +662,7 @@
         "id": "biz_push_2",
         "name": { "en": "Tapastan", "hy": "Տապաստան", "ru": "Тапастан" },
         "type": { "en": "Tapas Bar", "hy": "Տապաս Բար", "ru": "Тапас Бар" },
-        "image": "/placeholder.jpg",
+        "image": "https://lh3.googleusercontent.com/grass-cs/ACvplmP51_SpI1tMowiSSHo3d0SyKuvzzvKmTEhebpY2BrVO_VhouFlUbD6k82N244WCM5tGe-Ku5ei_WiIs4UQ2cV1YjGdR3c22ICvzu3JLv4A7CkqAtpGFfI0hPuPWgmAUOBczghg=w289-h312-n-k-no",
         "address": { "en": "6 Saryan St", "hy": "Սարյան 6", "ru": "ул. Сарьяна 6" },
         "description": { 
           "en": "Armenian and Spanish fusion tapas bar known for its lively ambiance and creative appetizers.", 
@@ -439,7 +676,7 @@
         "id": "biz_push_3",
         "name": { "en": "Gouroo Club & Garden", "hy": "Գուրու Ակումբ և Այգի", "ru": "Гуру Клуб и Сад" },
         "type": { "en": "Healthy Living Restaurant", "hy": "Առողջ Ապրելակերպի Ռեստորան", "ru": "Ресторан Здорового Питания" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ3eGCYSdIqeqElRp-3YcFJl8KKlVHWW-8vQhB7geuYA&s=10",
         "address": { "en": "13 Saryan St", "hy": "Սարյան 13", "ru": "ул. Сарьяна 13" },
         "description": { 
           "en": "A cozy, garden-like setting offering organic, plant-based, and healthy Mediterranean meals.", 
@@ -453,7 +690,7 @@
   },
   {
     "id": "moscow-cinema",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/moscow_stamp.jpeg",
     "title": {
       "en": "Moscow Cinema",
       "hy": "«Մոսկվա» Կինոթատրոն",
@@ -477,65 +714,153 @@
           "hy": "Կինոթատրոնի Կառուցումը (1930-ականներ vs Այսօր)",
           "ru": "Строительство кинотеатра (1930-е vs Настоящее время)"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/cinema_old.png",
+        "newImage": "/cinema_modern.png",
         "oldYear": "1936",
+        "newYear": "2026"
+      },
+      {
+        "id": "slider-mos-2",
+        "title": {
+          "en": "Grand Hotel",
+          "hy": "Գրանտ Հոթել",
+          "ru": "Грант Отель"
+        },
+        "oldImage": "/hotel_aligned_old.png",
+        "newImage": "/hotel_aligned_modern.png",
+        "oldYear": "1930",
         "newYear": "2026"
       }
     ],
     "storyline": [
-      {
-        "id": "moscow-node-1",
-        "date": "1936",
-        "title": {
-          "en": "Built Over a Church",
-          "hy": "Կառուցվել է Եկեղեցու Տեղում",
-          "ru": "Построен на месте церкви"
-        },
-        "description": {
-          "en": "The Moscow Cinema opened in 1936 with the screening of the first Armenian sound film, Pepo, built on the site of the demolished St. Poghos-Petros Church.",
-          "hy": "«Մոսկվա» կինոթատրոնը բացվել է 1936 թվականին հայկական առաջին հնչյունային ֆիլմի՝ Պեպոյի ցուցադրումով՝ քանդված Սուրբ Պողոս-Պետրոս եկեղեցու տեղում։",
-          "ru": "Кинотеатр «Москва» открылся в 1936 году показом первого армянского звукового фильма «Пэпо», построенный на месте снесенной церкви Св. Погос-Петрос."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "moscow-node-2",
-        "title": {
-          "en": "Cinematic Reliefs",
-          "hy": "Կինեմատոգրաֆիական Խորաքանդակներ",
-          "ru": "Кинематографические барельефы"
-        },
-        "description": {
-          "en": "The building's facade is decorated with bas-reliefs based on themes of famous Soviet films like Chapaev, Pepo, David Bek, and Sayat-Nova.",
-          "hy": "Շենքի ճակատը զարդարված է հայտնի խորհրդային ֆիլմերի թեմաներով կատարված խորաքանդակներով՝ «Չապաև», «Պեպո», «Դավիթ Բեկ», «Սայաթ-Նովա»։",
-          "ru": "Фасад здания украшен барельефами на темы известных советских фильмов: «Чапаев», «Пэпо», «Давид Бек», «Саят-Нова»."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
+  {
+    "id": "moscow-node-1",
+    "title": {
+      "en": "Moscow Cinema",
+      "hy": "«Մոսկվա» կինոթատրոն",
+      "ru": "Кинотеатр «Москва»"
+    },
+    "description": {
+      "en": "Moscow Cinema opened in 1936 with the screening of Pepo, the first Armenian sound film.\n\nThe Saint Paul and Peter Church previously stood on the site of the cinema building.\n\nIn the 1930s, active reconstruction of the city was taking place in Soviet Armenia. During this period, many old religious structures were demolished and new public and cultural buildings were constructed in their place.\n\nAs a result of this process, the Saint Paul and Peter Church was also demolished, and it was decided to build a large modern cinema in its place, which was later named Moscow. The facade of the building is decorated with bas-reliefs based on themes from famous Soviet films—Chapaev, Pepo, David Bek, Sayat-Nova, as well as symbolic sculptures called Dance and Stage.\n\nThe design of the cinema was entrusted to architects Tiran Yerkanyan and Gevorg Kochar.",
+      "hy": "«Մոսկվա» կինոթատրոնը բացվել է 1936 թվականին հայկական առաջին հնչյունային ֆիլմի՝ Պեպոյի ցուցադրումով։\n\nԿինոթատրոնի շենքի փոխարեն նախկինում եղել է Պողոս-Պետրոս եկեղեցին։\n\n1930-ական թվականներին Խորհրդային Հայաստանում տեղի էր ունենում քաղաքի ակտիվ վերակառուցում։ Այդ ժամանակաշրջանում բազմաթիվ հին կրոնական կառույցներ քանդվեցին և դրանց տեղերում կառուցվեցին նոր հասարակական ու մշակութային շենքեր։\n\nԱյդ գործընթացի արդյունքում Սուրբ Պողոս-Պետրոս եկեղեցին նույնպես քանդվեց, իսկ նրա տեղում որոշվեց կառուցել մեծ ժամանակակից կինոթատրոն, որը հետագայում կոչվեց «Մոսկվա» անունով: Շենքի ճակատը զարդարված է հայտնի խորհրդային ֆիլմերի թեմաներով կատարված խորաքանդակներով՝ «Չապաև», «Պեպո», «Դավիթ Բեկ», «Սայաթ-Նովա», ինչպես նաև «Պար» և «Բեմ» խորհրդանշական քանդակներով։\n\nԿինոթատրոնի նախագծման աշխատանքները վստահվեցին ճարտարապետներ **Տիրան Երկանյանին և Գևորգ Քոչարին**։",
+      "ru": "Кинотеатр «Москва» открылся в 1936 году показом «Пепо» — первого армянского звукового фильма.\n\nНа месте здания кинотеатра ранее находилась церковь Святого Павла и Петра.\n\nВ 1930-х годах в Советской Армении проходила активная реконструкция города. В этот период многие старые религиозные сооружения были снесены, а на их месте были построены новые общественные и культурные здания.\n\nВ результате этого процесса церковь Святого Павла и Петра также была снесена, а на ее месте было решено построить большой современный кинотеатр, который впоследствии получил название «Москва». Фасад здания украшен горельефами на темы известных советских фильмов — «Чапаев», «Пепо», «Давид Бек», «Саят-Нова», а также символическими скульптурами «Танец» и «Сцена».\n\nПроектирование кинотеатра было поручено архитекторам Тирану Ерканяну и Геворгу Кочару."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/mosscow5.PNG"
+  },
+  {
+    "id": "moscow-node-2",
+    "title": {
+      "en": "Construction and Architecture",
+      "hy": "Կառուցումն ու ճարտարապետությունը",
+      "ru": "Строительство и архитектура"
+    },
+    "description": {
+      "en": "The project was developed in 1933, while construction was carried out in the mid-1930s. Official Yerevan sources indicate the building's construction period as 1933–1936, while some sources date the completion of the building to 1937.\n\nThe cinema has four halls: the Red Hall with 491 seats, the Blue Hall with 350 seats, the Small Red Hall with 49 seats, and the Small Blue Hall with 35 seats. The halls are equipped with modern technical equipment.\n\nAlongside film screenings, Moscow Cinema organizes various events and film festivals.",
+      "hy": "Նախագիծը մշակվել էր 1933 թվականին, իսկ շինարարությունն իրականացվեց 1930-ականների կեսերին։ Պաշտոնական Երևանի աղբյուրներում շենքի կառուցման ժամանակահատվածը նշվում է **1933–1936 թվականներ**, իսկ որոշ աղբյուրներ շենքի ավարտը թվագրում են 1937 թվականով։\n\nԿինոթատրոնը ունի չորս դահլիճ՝«Կարմիր» դահլիճ՝ 491 նստատեղ, «Կապույտ» դահլիճ՝ 350 նստատեղ, «Կարմիր փոքր դահլիճ՝»  49 նստատեղ, «Կապույտ փոքր դահլիճ»՝  35 նստատեղ: Դահլիճները հագեցած են ժամանակակից տեխնիկական սարքավորումներով:\n\nՖիլմերի ցուցադրություններին զուգահեռ «Մոսկվա» կինոթատրոնում կազակերպվում են զանազան միջոցառումներ և կինոփառատոններ:",
+      "ru": "Проект был разработан в 1933 году, а строительство велось в середине 1930-х годов. В официальных источниках Еревана период строительства здания указывается как 1933–1936 годы, а некоторые источники датируют завершение здания 1937 годом.\n\nВ кинотеатре четыре зала: «Красный» зал на 491 место, «Синий» зал на 350 мест, «Малый красный зал» на 49 мест и «Малый синий зал» на 35 мест. Залы оснащены современным техническим оборудованием.\n\nНаряду с показами фильмов в кинотеатре «Москва» организуются различные мероприятия и кинофестивали."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/mosscow2.jpg"
+  },
+  {
+    "id": "moscow-node-3",
+    "title": {
+      "en": "Film Festivals",
+      "hy": "Կինոփառատոններ",
+      "ru": "Кинофестивали"
+    },
+    "description": {
+      "en": "Throughout the year, various festivals are held at the cinema: the Golden Apricot International Film Festival, the British Film Festival, the Rolan Children's and Youth Film Festival, the ReAnimania Animation Film Festival, the Apricot Tree International Documentary Film Festival, and others.\n\nIn cooperation with the embassies of various countries in Armenia, Japanese, Chinese, Indian, French, Italian, German, Russian, and Greek film weeks are regularly organized at the theater. Alongside film screenings, various exhibitions are held in the cinema's lobby.",
+      "hy": "Ամբողջ տարվա ընթացքում կինոթատրոնում իրականացվում եմ բազմաբնույթ փառատոններ՝ «Ոսկե ծիրան» միջազգային կինոփառատոն, «Բրիտանական  ֆիլմերի փառատոն», «Ռոլան» մանկապատանեկան ֆիլմերի փառատոն, «ՌեԱնիմանիա» անիմացիոն ֆիլմերի փառատոն, «Ծիրանի ծառ» վավերագրական ֆիլմերի միջազգային փառատոն և այլն:\n\nՀամագործակցելով ՀՀ-ում գտնվող տարբեր երկրների դեսպանությունների հետ թատրոնում մշտապես կազմակերպվում են ճապոնական, չինական, հնդկական, ֆրանսիական, իտալական, գերմանական, ռուսական, հունական ֆիլմերի կինոշաբաթներ: Կինոցուցադրություններին զուգահեռ կինոթատրոնի սպասասրահում իրականացվում են տարաբնույթ ցուցահանդեսներ:",
+      "ru": "В течение всего года в кинотеатре проводятся различные фестивали: Международный кинофестиваль «Золотой абрикос», «Фестиваль британских фильмов», детско-юношеский кинофестиваль «Ролан», фестиваль анимационных фильмов «РеАнимания», Международный фестиваль документальных фильмов «Абрикосовое дерево» и другие.\n\nВ сотрудничестве с посольствами различных стран, находящимися в Армении, в кинотеатре постоянно организуются недели японского, китайского, индийского, французского, итальянского, немецкого, русского и греческого кино. Наряду с кинопоказами в фойе кинотеатра проводятся различные выставки."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/mosscow3.PNG"
+  },
+  {
+    "id": "moscow-node-4",
+    "title": {
+      "en": "Grand Hotel",
+      "hy": "Grand hotel",
+      "ru": "Grand Hotel"
+    },
+    "description": {
+      "en": "At the beginning of the 20th century, Yerevan was not yet the city we know today. Republic Square, Freedom Square, and many of the city's current central buildings did not yet exist. One of the main routes of the old city was Astafyan Street, today's Abovyan Street. It was built in the 19th century and gradually became one of Yerevan's most important urban streets.\n\nAt that time, Yerevan's hotel life was also quite active. Hotels, inns, and guesthouses often operated on the first and second floors of the city's central streets, where both local visitors and foreign travelers stayed. Among the well-known hotels of old Yerevan were London, Grant, Marseille, Lyon, Orient, and others.\n\nBut then a building appeared in Yerevan that was no longer simply a hotel. In 1926, construction of a new, large-scale hotel began on Abovyan Street. It was designed by Nikolay Buniatyan, the first chief architect of Yerevan. The building was completed in 1928 and became one of the first major public structures of the new Soviet Yerevan.",
+      "hy": "20-րդ դարի սկզբին Երևանը դեռ այն քաղաքը չէր, որը մենք այսօր ճանաչում ենք։ Հանրապետության հրապարակը, Ազատության հրապարակը և քաղաքի ներկայիս կենտրոնական շատ շենքեր դեռ գոյություն չունեին։ Իսկ հին քաղաքի գլխավոր ուղիներից մեկը Աստաֆյան փողոցն էր՝ ներկայիս Աբովյան փողոցը։ Այն կառուցվել էր 19-րդ դարում և աստիճանաբար վերածվել էր Երևանի ամենակարևոր քաղաքային փողոցներից մեկի։\n\nԱյդ ժամանակ Երևանի հյուրանոցային կյանքը նույնպես բավական աշխույժ էր։ Քաղաքի կենտրոնական փողոցների առաջին և երկրորդ հարկերում հաճախ գործում էին հյուրանոցներ, պանդոկներ ու հյուրատներ, որտեղ կանգ էին առնում ինչպես տեղի այցելուները, այնպես էլ օտարերկրյա ճանապարհորդները։ Հին Երևանի հյուրանոցներից հայտնի էին «Լոնդոն», «Գրանտ», «Մարսել», «Լիոն», «Օրիենտ» և այլ հյուրանոցներ։\n\nԲայց հետո Երևանում հայտնվեց մի շենք, որն արդեն պարզապես հյուրանոց չէր։ 1926 թվականին Աբովյան փողոցում սկսվեց նոր, մեծածավալ հյուրանոցի շինարարությունը։ Այն նախագծել էր Երևանի առաջին գլխավոր ճարտարապետ Նիկողայոս Բունիաթյանը։ Շենքը ավարտվեց 1928 թվականին և դարձավ խորհրդային նոր Երևանի առաջին խոշոր հասարակական կառույցներից մեկը։",
+      "ru": "В начале XX века Ереван еще не был тем городом, который мы знаем сегодня. Площади Республики, площади Свободы и многих нынешних центральных зданий города еще не существовало. Одной из главных улиц старого города была улица Астафяна — нынешняя улица Абовяна. Она была построена в XIX веке и постепенно стала одной из важнейших городских улиц Еревана.\n\nВ то время гостиничная жизнь Еревана также была довольно оживленной. На первых и вторых этажах центральных улиц города часто работали гостиницы, постоялые дворы и гостевые дома, где останавливались как местные посетители, так и иностранные путешественники. Среди известных гостиниц старого Еревана были «Лондон», «Грант», «Марсель», «Лион», «Ориент» и другие.\n\nНо затем в Ереване появилось здание, которое уже не было просто гостиницей. В 1926 году на улице Абовяна началось строительство новой крупной гостиницы. Ее спроектировал Николай Буниатян, первый главный архитектор Еревана. Здание было завершено в 1928 году и стало одним из первых крупных общественных сооружений нового советского Еревана."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/mosscow4.PNG"
+  },
+  {
+    "id": "moscow-node-5",
+    "title": {
+      "en": "Grand Hotel — The City's Skyscraper",
+      "hy": "Grand Hotel — Երևանի «երկնաքերը»",
+      "ru": "Grand Hotel — «небоскреб» Еревана"
+    },
+    "description": {
+      "en": "During those years, Yerevan was undergoing major changes. Alexander Tamanyan had already developed the city's new master plan, but many of the symbolic structures he designed had not yet been built. Under these conditions, the new hotel—with its four floors—was truly an impressive structure for the city and for some time was even perceived as Yerevan's \"skyscraper.\"\n\nThe architecture of the building was also distinctive. It was built in the style of early 20th-century Russian Neoclassicism. The most recognizable part is the semicircular corner section with pairs of white Ionic columns, which seems to embrace both the square and Abovyan Street. Interestingly, the building was initially planned to have three floors, but a fourth floor was added during construction, which also changed the entire architectural solution.\n\nThe hotel had quite modern infrastructure for its time. Three floors contained 78 spacious rooms, 10 of which were luxury suites. The first and basement floors housed a restaurant, kitchen, confectionery workshop, parking area, laundry, hairdresser, currency kiosk, photography studio, and library. In other words, the hotel was essentially a small urban center, with its own services and a constant flow of people.",
+      "hy": "Այդ տարիներին Երևանը մեծ փոփոխությունների մեջ էր։ Ալեքսանդր Թամանյանն արդեն մշակել էր քաղաքի նոր գլխավոր հատակագիծը, սակայն նրա նախագծած քաղաքի բազմաթիվ խորհրդանշական կառույցներ դեռ չէին կառուցվել։ Այդ պայմաններում նոր հյուրանոցը՝ իր չորս հարկերով, քաղաքի համար իսկապես տպավորիչ կառույց էր և որոշ ժամանակ նույնիսկ ընկալվում էր որպես Երևանի «երկնաքեր»։\n\nՇենքի ճարտարապետությունը նույնպես առանձնահատուկ էր։ Այն կառուցված է վաղ 20-րդ դարի ռուսական նեոկլասիցիզմի ոճով։ Ամենաճանաչելի հատվածը կիսաշրջանաձև անկյունային մասն է՝ սպիտակ իոնական սյուների զույգերով, որը կարծես միաժամանակ գրկում է հրապարակը և Աբովյան փողոցը։ Հետաքրքիր է, որ շենքը սկզբում նախատեսված էր երեք հարկով, սակայն շինարարության ընթացքում ավելացվեց չորրորդ հարկը, ինչի արդյունքում փոխվեց նաև ամբողջ ճարտարապետական լուծումը։\n\nՀյուրանոցն իր ժամանակի համար բավական ժամանակակից ենթակառուցվածք ուներ։ Երեք հարկերում տեղակայված էին 78 ընդարձակ սենյակներ, որոնցից 10-ը՝ լյուքս համարներ։ Առաջին և նկուղային հարկերում գործում էին ռեստորան, խոհանոց, հրուշակեղենի արտադրամաս, ավտոկայանատեղի, լվացքատուն, վարսավիրանոց, տարադրամի կրպակ, լուսանկարչական սրահ և գրադարան։ Այսինքն՝ հյուրանոցը փաստացի փոքրիկ քաղաքային կենտրոն էր՝ իր ծառայություններով ու մարդկանց մշտական հոսքով։",
+      "ru": "В те годы Ереван переживал большие изменения. Александр Таманян уже разработал новый генеральный план города, однако многие символические сооружения, спроектированные им, еще не были построены. В этих условиях новая гостиница с четырьмя этажами действительно была впечатляющим сооружением для города и некоторое время даже воспринималась как «небоскреб» Еревана.\n\nАрхитектура здания также была особенной. Оно построено в стиле русского неоклассицизма начала XX века. Самая узнаваемая часть — полукруглый угловой объем с парами белых ионических колонн, который словно одновременно обнимает площадь и улицу Абовяна. Интересно, что изначально здание планировалось трехэтажным, однако во время строительства был добавлен четвертый этаж, в результате чего изменилось и все архитектурное решение.\n\nДля своего времени гостиница имела достаточно современную инфраструктуру. На трех этажах располагались 78 просторных номеров, 10 из которых были люксами. На первом и цокольном этажах работали ресторан, кухня, кондитерская мастерская, парковка, прачечная, парикмахерская, валютный киоск, фотосалон и библиотека. Иными словами, гостиница фактически была небольшим городским центром со своими услугами и постоянным потоком людей."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/mosscow1.jpg"
+  },
+  {
+    "id": "grand-node-1",
+    "title": {
+      "en": "Grand Hotel — Artists, Writers, and Radio",
+      "hy": "Grand Hotel — Գրողներ, նկարիչներ և ռադիո",
+      "ru": "Grand Hotel — писатели, художники и радио"
+    },
+    "description": {
+      "en": "And this is where the most interesting story of the building begins. Writers, artists, musicians, and even the first radio broadcast. From 1928 to 1935, the great Armenian poet Yeghishe Charents lived in room 21 on the hotel's second floor. In the 1930s, the hotel's café had become a meeting place for Yerevan's intellectuals and artists. Shirvanzade, Gurgen Mahari, Yeghishe Charents, Ara Sargsyan, Panos Terlemezyan, and others often gathered here.\n\nThe hotel is also connected to an important episode in the history of Soviet Armenian radio: in 1929, a radio broadcast was transmitted for the first time from the building's fourth floor. And in 1935, composer Aram Khachaturian wrote the music for the film Pepo in one of the hotel's rooms.\n\nHowever, the hotel's history also has much darker pages. On the night of August 9, 1936, Gurgen Mahari was arrested right in the hotel's restaurant. The political repressions of those years also entered places that at first glance were simply centers of cultural and social gatherings.",
+      "hy": "Եվ հենց այստեղ է սկսվում շենքի ամենահետաքրքիր պատմությունը։ Գրողներ, նկարիչներ, երաժիշտներ և նույնիսկ առաջին ռադիոհաղորդումը։ 1928–1935 թվականներին հյուրանոցի երկրորդ հարկի 21-րդ համարում ապրել է հայ մեծ բանաստեղծ Եղիշե Չարենցը։ 1930-ականներին հյուրանոցի սրճարանը դարձել էր Երևանի մտավորականների ու արվեստագետների հանդիպման վայր։ Այստեղ հաճախ էին լինում Շիրվանզադեն, Գուրգեն Մահարին, Եղիշե Չարենցը, Արա Սարգսյանը, Փանոս Թերլեմեզյանը և ուրիշներ։\n\nՀյուրանոցի հետ կապված է նաև խորհրդային Հայաստանի ռադիոյի պատմության մի կարևոր դրվագ․ 1929 թվականին առաջին անգամ ռադիոհաղորդում է հեռարձակվել շենքի չորրորդ հարկից։ Իսկ 1935 թվականին կոմպոզիտոր Արամ Խաչատրյանը հյուրանոցի սենյակներից մեկում գրել է «Պեպո» ֆիլմի երաժշտությունը։\n\nՍակայն հյուրանոցի պատմությունն ունի նաև շատ ավելի մռայլ էջեր։ 1936 թվականի օգոստոսի 9-ի գիշերը Գուրգեն Մահարին ձերբակալվեց հենց հյուրանոցի ռեստորանում։ Այդ տարիների քաղաքական բռնաճնշումները ներթափանցում էին նաև այնպիսի վայրեր, որոնք առաջին հայացքից պարզապես մշակութային և հասարակական հանդիպումների կենտրոններ էին։",
+      "ru": "Именно здесь начинается самая интересная история здания. Писатели, художники, музыканты и даже первая радиопередача. В 1928–1935 годах в номере 21 на втором этаже гостиницы жил великий армянский поэт Егише Чаренц. В 1930-е годы кафе гостиницы стало местом встреч ереванской интеллигенции и деятелей искусства. Здесь часто бывали Ширванзаде, Гурген Маари, Егише Чаренц, Ара Саргсян, Панос Терлемезян и другие.\n\nС гостиницей связан и важный эпизод в истории радио Советской Армении: в 1929 году из четвертого этажа здания впервые была передана радиопередача. А в 1935 году композитор Арам Хачатурян в одном из номеров гостиницы написал музыку к фильму «Пепо».\n\nОднако история гостиницы имеет и гораздо более мрачные страницы. В ночь на 9 августа 1936 года Гурген Маари был арестован прямо в ресторане гостиницы. Политические репрессии тех лет проникали и в места, которые на первый взгляд были просто центрами культурных и общественных встреч."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/grand1.jpg"
+  },
+  {
+    "id": "grand-node-2",
+    "title": {
+      "en": "From Intourist to Grand Hotel Yerevan",
+      "hy": "«Ինտուրիստից» մինչև Grand Hotel Yerevan",
+      "ru": "От «Интуриста» до Grand Hotel Yerevan"
+    },
+    "description": {
+      "en": "The hotel changed its name, but did not lose its place in the city's history.\n\nDuring the Soviet years, the building was known by different names at different times. It was initially associated with the name Intourist, and later became known as the Yerevan Hotel. Later, during the period of independent Armenia, the building was renovated and became the Golden Tulip Grand Hotel Yerevan, and today it operates as Grand Hotel Yerevan.",
+      "hy": "Հյուրանոցը փոխեց իր անունը, բայց չկորցրեց իր տեղը քաղաքի պատմության մեջ։\n\nԽորհրդային տարիներին շենքը տարբեր ժամանակներում հայտնի է եղել տարբեր անուններով։ Այն սկզբում կապված էր «Ինտուրիստ» անվան հետ, այնուհետև հայտնի դարձավ որպես «Երևան» հյուրանոց։ Հետագայում, անկախ Հայաստանի շրջանում, շենքը վերանորոգվեց և դարձավ Golden Tulip Grand Hotel Yerevan, իսկ այսօր գործում է որպես Grand Hotel Yerevan։",
+      "ru": "Гостиница меняла свое название, но не потеряла свое место в истории города.\n\nВ советские годы здание в разные периоды было известно под разными названиями. Сначала оно было связано с названием «Интурист», затем стало известно как гостиница «Ереван». Позже, в период независимой Армении, здание было отремонтировано и стало Golden Tulip Grand Hotel Yerevan, а сегодня работает как Grand Hotel Yerevan."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/grand2.png"
+  },
+  {
+    "id": "grand-node-3",
+    "title": {
+      "en": "The House of Artists",
+      "hy": "Նկարիչների տունը",
+      "ru": "Дом художников"
+    },
+    "description": {
+      "en": "In 1959, the House of Artists was also added to the eastern side of the hotel, designed by Rafael Israelyan. The facade of its exhibition hall continued the architectural language of the hotel, making the entire complex more unified.",
+      "hy": "1959 թվականին հյուրանոցի արևելյան կողմում ավելացվեց նաև Նկարիչների տունը՝ Ռաֆայել Իսրայելյանի նախագծով։ Նրա ցուցասրահի ճակատը շարունակեց հյուրանոցի ճարտարապետական լեզուն՝ ամբողջ համալիրը դարձնելով ավելի ամբողջական։",
+      "ru": "В 1959 году к восточной стороне гостиницы также был пристроен Дом художников, спроектированный Рафаэлем Исраеляном. Фасад его выставочного зала продолжил архитектурный язык гостиницы, сделав весь комплекс более цельным."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/grand3.jpg"
+  }
+],
     "nearbyBusinesses": [
-      {
-        "id": "biz_mos_1",
-        "name": { "en": "ArtBridge Bookstore Cafe", "hy": "ԱրտԲրիջ Գրախանութ-Սրճարան", "ru": "Книжный магазин-кафе АртБридж" },
-        "type": { "en": "Cafe & Bookstore", "hy": "Սրճարան և Գրախանութ", "ru": "Кафе и Книжный Магазин" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "20 Abovyan St", "hy": "Աբովյան 20", "ru": "ул. Абовяна 20" },
-        "description": { 
-          "en": "A cultural staple where intellectuals and artists gather over coffee, light meals, and literature.", 
-          "hy": "Մշակութային վայր, որտեղ արվեստագետները հավաքվում են սուրճի, թեթև նախաճաշի և գրականության շուրջ:", 
-          "ru": "Культурное заведение, где интеллектуалы и художники собираются за кофе и литературой." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Abovyan+20",
-        "socials": { "instagram": "https://instagram.com/artbridge_yerevan", "facebook": "https://facebook.com/artbridgecafe" }
-      },
+     
       {
         "id": "biz_mos_2",
         "name": { "en": "Dalan Art Gallery", "hy": "Դալան Պատկերասրահ", "ru": "Арт-галерея Далан" },
         "type": { "en": "Gallery Cafe & Souvenirs", "hy": "Պատկերասրահ-Սրճարան", "ru": "Галерея-Кафе и Сувениры" },
-        "image": "/placeholder.jpg",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQDvB3eGAkGlM6pdT8sDYhJ0qYD1LmMyg4J4Squ73ENKjFM3nfR8tvmetfCsOjsYmrYBpwuWQsNlqQA3nrH6O3f6PNN1gxnRyYGYf4yOJzEbY9C3TFgKFeSS6DJD5SfkmRt9rGGw=s1360-w1360-h1020-rw",
         "address": { "en": "12 Abovyan St", "hy": "Աբովյան 12", "ru": "ул. Абовяна 12" },
         "description": { 
           "en": "A hidden gem combining an art gallery, an open-air cafe, and authentic handmade souvenirs.", 
@@ -547,23 +872,23 @@
       },
       {
         "id": "biz_mos_3",
-        "name": { "en": "Kino Cafe", "hy": "Կինո Սրճարան", "ru": "Кино Кафе" },
-        "type": { "en": "Cafe / Bar", "hy": "Սրճարան / Բար", "ru": "Кафе / Бар" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "18 Abovyan St", "hy": "Աբովյան 18", "ru": "ул. Абовяна 18" },
+        "name": { "en": "Martini Royale", "hy": "Մարտինի Ռոյալ", "ru": "Мартини Роял" },
+        "type": { "en": "Italian Restaurant & Bar", "hy": "Իտալական Ռեստորան և Բար", "ru": "Итальянский Ресторан и Бар" },
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdAkIC0sdEInABJILDevp9U2xcYLElCDgMP7mhWCWBXkMQEC1joAlizthHA5o7sq87hPekBXZITwiGDHMaqhGi0AJ_dT_A3CHuwQlhmZmv5ymZ8OVBkqB7ZSQzRVLqbTDUjvkvLg=s1360-w1360-h1020-rw",
+        "address": { "en": "22 Tumanyan St", "hy": "Թումանյան 22", "ru": "ул. Туманяна 22" },
         "description": { 
-          "en": "A cinema-themed lounge located just a few steps from Moscow Cinema, offering great cocktails.", 
-          "hy": "Կինոյի թեմատիկայով լաունջ՝ տեղակայված «Մոսկվա» կինոթատրոնից ընդամենը մի քանի քայլ հեռավորության վրա:", 
-          "ru": "Кинематографический лаунж, расположенный в нескольких шагах от кинотеатра «Москва»." 
+          "en": "Elegant setting offering European cuisine, signature cocktails, and a view of Swan Lake.", 
+          "hy": "Նրբագեղ միջավայր՝ եվրոպական խոհանոցով, ֆիրմային կոկտեյլներով և դեպի Կարապի լիճ տեսարանով:", 
+          "ru": "Элегантная обстановка, предлагающая блюда европейской кухни, авторские коктейли и вид на Лебединое озеро." 
         },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Abovyan+18",
-        "socials": { "twitter": "https://twitter.com/kinocafe_yerevan", "facebook": "https://facebook.com/kinocafeyvn" }
+        "mapLink": "https://maps.google.com/?q=Yerevan+Tumanyan+22",
+        "socials": { "instagram": "https://instagram.com/martini_royale", "facebook": "https://facebook.com/martiniyerevan" }
       }
     ]
   },
   {
     "id": "shahumyan-square",
-    "stampImage": "/placeholder.jpg",
+    "stampImage": "/shahumyan_stamp.jpeg",
     "title": {
       "en": "Stepan Shahumyan Square",
       "hy": "Ստեփան Շահումյանի Հրապարակ",
@@ -587,52 +912,80 @@
           "hy": "Շահումյանի Արձանի Տեսքը",
           "ru": "Вид на памятник Шаумяну"
         },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
+        "oldImage": "/statue_old.png",
+        "newImage": "/statue_modern.png",
         "oldYear": "1931",
         "newYear": "2026"
       }
     ],
     "storyline": [
-      {
-        "id": "shahumyan-node-1",
-        "date": "1931",
-        "title": {
-          "en": "Yerevan's First Monument",
-          "hy": "Երևանի Առաջին Կոթողային Հուշարձանը",
-          "ru": "Первый Монумент Еревана"
-        },
-        "description": {
-          "en": "On September 20, 1931, the monument to Stepan Shahumyan was opened, considered the first officially installed monumental statue in Yerevan.",
-          "hy": "1931 թվականի սեպտեմբերի 20-ին հրապարակում բացվեց Ստեփան Շահումյանի հուշարձանը, որը համարվում է Երևանում տեղադրված առաջին կոթողային հուշարձանը։",
-          "ru": "20 сентября 1931 года был открыт памятник Степану Шаумяну, считающийся первым официально установленным монументальным памятником в Ереване."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      },
-      {
-        "id": "shahumyan-node-2",
-        "date": "1960",
-        "title": {
-          "en": "Eternal Flame",
-          "hy": "Հավերժական Կրակ",
-          "ru": "Вечный Огонь"
-        },
-        "description": {
-          "en": "In 1960, the 'Eternal Flame' monument dedicated to the 40th anniversary of the Sovietization of Armenia was installed in the connecting park.",
-          "hy": "1960 թվականին պուրակում տեղադրվել է Հայաստանի խորհրդայնացման 40-ամյակին նվիրված «Հավերժական կրակ» հուշարձանը։",
-          "ru": "В 1960 году в парке был установлен памятник «Вечный огонь», посвященный 40-летию советизации Армении."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
+  {
+    "id": "shahumyan-node-1",
+    "title": {
+      "en": "Stepan Shahumyan Square and Park",
+      "hy": "Ստեփան Շահումյանի հրապարակն ու պուրակը",
+      "ru": "Площадь и парк Степана Шаумяна"
+    },
+    "description": {
+      "en": "Today's Stepan Shahumyan Square is located in the center of Yerevan, not far from Republic Square. It is connected to the city's central streets and to Shahumyan Park, which stretches toward Republic Square. Walking through this area today, it is difficult to imagine what Yerevan looked like here a century ago.\n\nAt the beginning of the 20th century, this part of Yerevan was not yet the urban environment we see today. The city center was gradually changing, and beginning in the 1920s, the reconstruction of Yerevan gained new momentum. New streets, squares, administrative and public buildings were being formed, and different parts of the city were beginning to connect with one another according to a new urban planning logic.\n\nThe present-day Shahumyan Square also occupied an important place in these changes. During the Soviet years, a new public square was formed here, which gradually acquired its current name and political significance.",
+      "hy": "Այսօրվա Ստեփան Շահումյանի հրապարակը գտնվում է Երևանի կենտրոնում՝ Հանրապետության հրապարակից ոչ հեռու։ Այն միացված է քաղաքի կենտրոնական փողոցներին և Շահումյանի անվան պուրակին, որը ձգվում է դեպի Հանրապետության հրապարակ։ Այս տարածքով անցնելիս այսօր դժվար է պատկերացնել, թե ինչ տեսք ուներ այստեղի Երևանը մեկ դար առաջ։\n\n20-րդ դարի սկզբին Երևանի այս հատվածը դեռ այն քաղաքային միջավայրը չէր, որը մենք այսօր տեսնում ենք։ Քաղաքի կենտրոնը աստիճանաբար փոխվում էր, իսկ 1920-ականներից սկսած՝ Երևանի վերակառուցումը նոր թափ ստացավ։ Ձևավորվում էին նոր փողոցներ, հրապարակներ, վարչական ու հասարակական շենքեր, և քաղաքի տարբեր հատվածներ սկսում էին կապվել միմյանց հետ նոր քաղաքաշինական տրամաբանությամբ։\n\nԱյս փոփոխությունների մեջ կարևոր տեղ էր զբաղեցնում նաև ներկայիս Շահումյանի հրապարակը։ Խորհրդային տարիներին այստեղ ձևավորվեց նոր հրապարակային տարածք, որն աստիճանաբար ստացավ իր ներկայիս անվանումը և քաղաքական նշանակությունը։",
+      "ru": "Сегодняшняя площадь Степана Шаумяна находится в центре Еревана, недалеко от площади Республики. Она соединена с центральными улицами города и парком имени Шаумяна, который тянется к площади Республики. Проходя сегодня по этой территории, трудно представить, как выглядел Ереван здесь столетие назад.\n\nВ начале XX века эта часть Еревана еще не была той городской средой, которую мы видим сегодня. Центр города постепенно менялся, а начиная с 1920-х годов реконструкция Еревана получила новый импульс. Формировались новые улицы, площади, административные и общественные здания, а разные части города начинали соединяться между собой в соответствии с новой градостроительной логикой.\n\nВ этих изменениях важное место занимала и нынешняя площадь Шаумяна. В советские годы здесь сформировалось новое общественное пространство, которое постепенно получило свое нынешнее название и политическое значение."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/shahumyan1.PNG"
+  },
+  {
+    "id": "shahumyan-node-2",
+    "title": {
+      "en": "Who Was Stepan Shahumyan?",
+      "hy": "Ո՞վ է Ստեփան Շահումյանը",
+      "ru": "Кем был Степан Шаумян?"
+    },
+    "description": {
+      "en": "Who Was Stepan Shahumyan?\n\nStepan Shahumyan (1878–1918) was a Bolshevik revolutionary, political figure, and publicist. He is best known for being one of the leaders of the Baku Commune. During the Soviet period, a square and adjacent areas in Yerevan were named after him. However, the most visible trace of his presence in this place became not only the name, but also the monument erected here.\n\nOn September 20, 1931, a monument to Stepan Shahumyan was unveiled in the square. It was built on the site of the former Russian St. Nicholas Church, which was located in what was then Cathedral Square, today's Shahumyan Square. The sculptor of the monument was Sergey Merkurov, and the architect was Ivan Zholtovsky.\n\nThe monument has a special place in the history of Yerevan: the official tourism source of Yerevan presents it as the first monumental monument officially installed in Yerevan. It consists of Shahumyan's statue and a dark basalt decorative wall rising behind it, with seven rectangular pillars standing out on it. The statue is made from a single piece of pink granite and is about 3.5 meters high.",
+      "hy": "*Ո՞վ է Ստեփան Շահումյանը*\n\nՍտեփան Շահումյանը (1878–1918) բոլշևիկյան հեղափոխական, քաղաքական գործիչ և հրապարակախոս էր։ Նա առավել հայտնի է Բաքվի կոմունայի ղեկավարներից մեկը լինելու հանգամանքով։ Խորհրդային շրջանում նրա անունով Երևանում անվանակոչվեցին հրապարակ և հարակից տարածքներ։ Սակայն այս վայրի պատմության ամենատեսանելի հետքը դարձավ ոչ թե միայն անվանումը, այլ այստեղ կանգնեցված հուշարձանը։\n\n1931 թվականի սեպտեմբերի 20-ին հրապարակում բացվեց Ստեփան Շահումյանի հուշարձանը։ Այն կառուցվեց նախկին ռուսական Սուրբ Նիկոլայ եկեղեցու տեղում, որը գտնվում էր այն ժամանակվա Տաճարական հրապարակում՝ ներկայիս Շահումյանի հրապարակում։ Հուշարձանի քանդակագործը Սերգեյ Մերկուրովն էր, իսկ ճարտարապետը՝ Իվան Ժոլտովսկին։ \n\nՀուշարձանն առանձնահատուկ տեղ ունի Երևանի պատմության մեջ․ Երևանի պաշտոնական զբոսաշրջային աղբյուրը այն ներկայացնում է որպես Երևանում պաշտոնապես տեղադրված առաջին կոթողային հուշարձան։ Այն կազմված է Շահումյանի արձանից և դրա հետևում բարձրացող մուգ բազալտե ձևավոր պատից, որի վրա առանձնանում են յոթ ուղղանկյուն մույթեր։ Արձանը պատրաստված է վարդագույն գրանիտի ամբողջական կտորից և ունի մոտ 3,5 մետր բարձրություն։",
+      "ru": "*Кем был Степан Шаумян?*\n\nСтепан Шаумян (1878–1918) был большевистским революционером, политическим деятелем и публицистом. Он наиболее известен как один из руководителей Бакинской коммуны. В советский период его именем в Ереване были названы площадь и прилегающие территории. Однако наиболее заметным следом его присутствия здесь стало не только название, но и установленный здесь памятник.\n\n20 сентября 1931 года на площади был открыт памятник Степану Шаумяну. Он был построен на месте бывшей русской церкви Святого Николая, которая находилась на тогдашней Соборной площади, нынешней площади Шаумяна. Скульптором памятника был Сергей Меркуров, а архитектором — Иван Жолтовский.\n\nПамятник занимает особое место в истории Еревана: официальный туристический источник Еревана представляет его как первый монументальный памятник, официально установленный в Ереване. Он состоит из статуи Шаумяна и поднимающейся за ней декоративной стены из темного базальта, на которой выделяются семь прямоугольных пилонов. Статуя выполнена из цельного куска розового гранита и имеет высоту около 3,5 метра."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/shahumyan2.PNG"
+  },
+  {
+    "id": "shahumyan-node-3",
+    "title": {
+      "en": "From Square to Park",
+      "hy": "Հրապարակից դեպի պուրակ",
+      "ru": "От площади к парку"
+    },
+    "description": {
+      "en": "Thus, if we stand in this square today, there is more than just a single statue before us. The area tells the story of a period when Yerevan's urban environment was being transformed, while new squares and monuments of the Soviet period were being created in place of former structures.\n\nShahumyan Square is not an isolated space. It is connected to Republic Square by a park stretching between them. Today, Shahumyan Park forms one of the green areas of the central city and connects the two important squares.\n\nThere is also another historical monument in this area. In 1960, the \"Eternal Flame\" monument dedicated to the 40th anniversary of the Sovietization of Armenia was installed here. It is located in the park connecting Republic Square and Shahumyan Square and is considered the first monument with an eternal flame in Armenia.\n\nDuring the 20th century, alongside the reconstruction of central Yerevan, a new urban environment was formed here and along the surrounding streets. Buildings of different purposes appeared in the area:\n\n• administrative structures,\n\n• residential buildings,\n\n• hotels,\n\n• commercial spaces,\n\n• public-purpose buildings.\n\nAs a result of these changes, the area, which had previously contained structures and spaces of different purposes, gradually became part of Yerevan's central urban system.",
+      "hy": "Այսպիսով, եթե այսօր կանգնում ենք այս հրապարակում, մեր առջև միայն մեկ արձան չէ։ Տարածքը պատմում է այն ժամանակաշրջանի մասին, երբ Երևանի քաղաքային միջավայրը վերափոխվում էր, իսկ նախկին կառույցների տեղում ստեղծվում էին խորհրդային շրջանի նոր հրապարակներ և հուշարձաններ։\n\nՇահումյանի հրապարակը միայնակ առանձնացված տարածք չէ։ Այն կապված է Հանրապետության հրապարակի հետ ձգվող պուրակի միջոցով։ Այսօր այստեղ գտնվող Շահումյանի պուրակը ձևավորում է կենտրոնական քաղաքի կանաչ հատվածներից մեկը և միացնում երկու կարևոր հրապարակները։ \n\nԱյս տարածքում կա նաև մեկ այլ պատմական հուշարձան։ 1960 թվականին այստեղ տեղադրվել է Հայաստանի խորհրդայնացման 40-ամյակին նվիրված «Հավերժական կրակ» հուշարձանը։ Այն գտնվում է հենց Հանրապետության և Շահումյանի հրապարակները միացնող զբոսայգում և համարվում է Հայաստանում հավերժական կրակով առաջին հուշարձանը։ \n\n20-րդ դարի ընթացքում Երևանի կենտրոնի վերակառուցմանը զուգահեռ այստեղ և հարակից փողոցներում ձևավորվեց նոր քաղաքային միջավայր։ Տարածքում հայտնվեցին տարբեր նշանակության շենքեր՝\n\n• վարչական կառույցներ,\n\n• բնակելի շենքեր,\n\n• հյուրանոցներ,\n\n• առևտրային տարածքներ,\n\n• հասարակական նշանակության կառույցներ։\n\nԱյս փոփոխությունների արդյունքում նախկինում տարբեր նշանակության կառույցներով և տարածքներով հատվածը աստիճանաբար դարձավ Երևանի կենտրոնական քաղաքային համակարգի մի մասը։",
+      "ru": "Таким образом, если сегодня мы стоим на этой площади, перед нами не просто одна статуя. Территория рассказывает о периоде, когда городская среда Еревана преобразовывалась, а на месте прежних сооружений создавались новые площади и памятники советского периода.\n\nПлощадь Шаумяна не является изолированным пространством. Она соединена с площадью Республики парком, протянувшимся между ними. Сегодня парк Шаумяна образует одну из зеленых зон центральной части города и соединяет две важные площади.\n\nВ этой части города есть и другой исторический памятник. В 1960 году здесь был установлен памятник «Вечный огонь», посвященный 40-летию советизации Армении. Он находится в парке, соединяющем площади Республики и Шаумяна, и считается первым памятником с вечным огнем в Армении.\n\nВ течение XX века, параллельно с реконструкцией центра Еревана, здесь и на прилегающих улицах формировалась новая городская среда. В этом районе появились здания различного назначения:\n\n• административные здания,\n\n• жилые здания,\n\n• гостиницы,\n\n• торговые пространства,\n\n• общественные здания.\n\nВ результате этих изменений территория, ранее состоявшая из сооружений и пространств различного назначения, постепенно стала частью центральной городской системы Еревана."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/shahumyan3.PNG"
+  },
+  {
+    "id": "shahumyan-node-4",
+    "title": {
+      "en": "A Journey Through Yerevan's History",
+      "hy": "Ճանապարհ Երևանի պատմության միջով",
+      "ru": "Путешествие через историю Еревана"
+    },
+    "description": {
+      "en": "Thus, this short route from Shahumyan Square to Republic Square actually passes through several different periods of Yerevan's history: the site of a former church, a square and monument of the Soviet period, then the central green zone of the city, and finally Republic Square.",
+      "hy": "Այսպիսով, այս կարճ ճանապարհը՝ Շահումյանի հրապարակից դեպի Հանրապետության հրապարակ, իրականում անցնում է Երևանի պատմության մի քանի տարբեր ժամանակաշրջանների միջով․ նախկին եկեղեցու տարածք, խորհրդային շրջանի հրապարակ և հուշարձան, ապա՝ քաղաքի կենտրոնական կանաչ գոտի և վերջում՝ Հանրապետության հրապարակ։",
+      "ru": "Таким образом, этот короткий путь от площади Шаумяна к площади Республики на самом деле проходит через несколько разных периодов истории Еревана: территорию бывшей церкви, площадь и памятник советского периода, затем центральную зеленую зону города и, наконец, площадь Республики."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/shahumyan4.png"
+  }
+],
     "nearbyBusinesses": [
       {
         "id": "biz_shah_1",
         "name": { "en": "The Alexander, a Luxury Collection Hotel", "hy": "Ալեքսանդր Հյուրանոց", "ru": "Отель The Alexander" },
         "type": { "en": "Luxury Hotel", "hy": "Շքեղ Հյուրանոց", "ru": "Роскошный Отель" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2V9AU4BSoUxTxxONrGYYw6ZWEid5dYqfMLOIWMt1gurV2cbCbJRGydTo&s=10",
         "address": { "en": "3/4 Abovyan St", "hy": "Աբովյան 3/4", "ru": "ул. Абовяна 3/4" },
         "description": { 
           "en": "A world-class hotel featuring exceptional design, sophisticated dining, and a premium cigar lounge.", 
@@ -646,7 +999,7 @@
         "id": "biz_shah_2",
         "name": { "en": "Black Angus", "hy": "Բլեք Անգուս", "ru": "Блэк Ангус" },
         "type": { "en": "Burger & Steak House", "hy": "Բուրգեր և Սթեյք Հաուս", "ru": "Бургерная и Стейк-хаус" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSWMdvv10hiCi471HgCT6WcuJumM2PjyyMGzNH0dAN-jjYq8Kn0SNZPYD&s=10",
         "address": { "en": "2/1 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2/1", "ru": "ул. Вазгена Саргсяна 2/1" },
         "description": { 
           "en": "A popular destination for high-quality meat lovers, offering the best burgers and steaks in town.", 
@@ -660,7 +1013,7 @@
         "id": "biz_shah_3",
         "name": { "en": "Seasons Restaurant", "hy": "Սիզնս Ռեստորան", "ru": "Ресторан Seasons" },
         "type": { "en": "Fine Dining", "hy": "Բարձրակարգ Ռեստորան", "ru": "Изысканный Ресторан" },
-        "image": "/placeholder.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MDAZnnCHc2AjqIIEin3RqUl67lrPl9V4bWjVOtfHRp3dFZfhU_2ZQpg&s=10",
         "address": { "en": "15/5 Mashtots Ave", "hy": "Մաշտոցի 15/5", "ru": "пр. Маштоца 15/5" },
         "description": { 
           "en": "A sophisticated culinary project providing seasonal menus and an elegant parkside atmosphere.", 
@@ -669,117 +1022,6 @@
         },
         "mapLink": "https://maps.google.com/?q=Yerevan+Mashtots+15/5",
         "socials": { "website": "https://seasons.am", "facebook": "https://facebook.com/seasonsyerevan" }
-      }
-    ]
-  },
-  {
-    "id": "melik-adamyan-2",
-    "stampImage": "/placeholder.jpg",
-    "title": {
-      "en": "Melik-Adamyan 2",
-      "hy": "Մելիք-Ադամյան 2",
-      "ru": "Мелик-Адамян 2"
-    },
-    "subtitle": {
-      "en": "Declaration of Independence Building",
-      "hy": "Անկախության Հռչակագրի Շենք",
-      "ru": "Здание Декларации Независимости"
-    },
-    "location": {
-      "en": "2 Melik-Adamyan St, Yerevan",
-      "hy": "Մելիք-Ադամյան 2, Երևան",
-      "ru": "ул. Мелик-Адамяна 2, Ереван"
-    },
-    "sliders": [
-      {
-        "id": "slider-melik-1",
-        "title": {
-          "en": "Building Facade View",
-          "hy": "Շենքի Ճակատային Տեսքը",
-          "ru": "Вид на фасад здания"
-        },
-        "oldImage": "/placeholder.jpg",
-        "newImage": "/placeholder.jpg",
-        "oldYear": "1990",
-        "newYear": "2026"
-      }
-    ],
-    "storyline": [
-      {
-        "id": "melik-node-1",
-        "date": "1990",
-        "title": {
-          "en": "Declaration of Independence",
-          "hy": "Անկախության Հռչակագիր",
-          "ru": "Декларация Независимости"
-        },
-        "description": {
-          "en": "On August 23, 1990, the Supreme Council of the Armenian SSR adopted the Declaration of Independence of Armenia inside this building.",
-          "hy": "1990 թվականի օգոստոսի 23-ին Հայկական ԽՍՀ Գերագույն խորհուրդը այս շենքում ընդունեց «Հայաստանի անկախության մասին» հռչակագիրը։",
-          "ru": "23 августа 1990 года Верховный Совет Армянской ССР принял в этом здании Декларацию независимости Армении."
-        },
-        "mediaType": "video",
-        "mediaUrl": "https://www.youtube.com/embed/kOHFGpg2EBQ"
-      },
-      {
-        "id": "melik-node-2",
-        "date": "1991",
-        "title": {
-          "en": "The Path to Sovereignty",
-          "hy": "Ուղի Դեպի Ինքնիշխանություն",
-          "ru": "Путь к Суверенитету"
-        },
-        "description": {
-          "en": "The decisions made here laid the foundation for the September 21, 1991 referendum, which officially led to Armenia's independence.",
-          "hy": "Այստեղ ընդունված որոշումները հիմք հանդիսացան 1991 թվականի սեպտեմբերի 21-ի հանրաքվեի համար, որը հանգեցրեց Հայաստանի անկախությանը։",
-          "ru": "Принятые здесь решения заложили основу для референдума 21 сентября 1991 года, который официально привел к независимости Армении."
-        },
-        "mediaType": "image",
-        "mediaUrl": "/placeholder.jpg"
-      }
-    ],
-    "nearbyBusinesses": [
-      {
-        "id": "biz_mel_1",
-        "name": { "en": "AGBU Cafe", "hy": "ՀԲԸՄ Սրճարան", "ru": "Кафе AGBU" },
-        "type": { "en": "Modern Cafe", "hy": "Ժամանակակից Սրճարան", "ru": "Современное Кафе" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "2/2 Melik-Adamyan St", "hy": "Մելիք-Ադամյան 2/2", "ru": "ул. Мелик-Адамяна 2/2" },
-        "description": { 
-          "en": "A sleek, contemporary spot inside the AGBU building ideal for business lunches and coffee.", 
-          "hy": "Ժամանակակից վայր ՀԲԸՄ շենքում, որն իդեալական է բիզնես լանչերի համար:", 
-          "ru": "Стильное современное место в здании AGBU, идеальное для деловых обедов и кофе." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Melik-Adamyan+2/2",
-        "socials": { "instagram": "https://instagram.com/agbucafe", "facebook": "https://facebook.com/agbucafe" }
-      },
-      {
-        "id": "biz_mel_2",
-        "name": { "en": "Dors Craft Beer & Kitchen", "hy": "Դորս Գարեջրատուն", "ru": "Дорс Крафтовое Пиво" },
-        "type": { "en": "Pub & Grill", "hy": "Փաբ և Գրիլ", "ru": "Паб и Гриль" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "38 Hanrapetutyan St", "hy": "Հանրապետության 38", "ru": "ул. Анрапетутяна 38" },
-        "description": { 
-          "en": "A lively gastropub featuring local craft beers on tap and hearty pub fare.", 
-          "hy": "Աշխույժ գաստրոփաբ, որը ներկայացնում է տեղական կրաֆտ գարեջուր և հագեցնող ուտեստներ:", 
-          "ru": "Оживленный гастропаб с местным крафтовым разливным пивом и сытными блюдами." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Hanrapetutyan+38",
-        "socials": { "instagram": "https://instagram.com/dorscraftbeer", "website": "https://dors.am" }
-      },
-      {
-        "id": "biz_mel_3",
-        "name": { "en": "Montmartre Restaurant-Cafe", "hy": "Մոնմարտր Ռեստորան-Սրճարան", "ru": "Ресторан-кафе Монмартр" },
-        "type": { "en": "Rooftop Restaurant", "hy": "Տանիքի Ռեստորան", "ru": "Ресторан на Крыше" },
-        "image": "/placeholder.jpg",
-        "address": { "en": "4/6 Amiryan St", "hy": "Ամիրյան 4/6", "ru": "ул. Амиряна 4/6" },
-        "description": { 
-          "en": "Located atop the Paris Hotel, offering stunning panoramic views of Yerevan and Mount Ararat.", 
-          "hy": "Տեղակայված Փարիզ Հյուրանոցի տանիքին՝ առաջարկելով Երևանի հիանալի տեսարաններ:", 
-          "ru": "Расположен на крыше отеля Париж, предлагает потрясающий панорамный вид на Ереван." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+4/6",
-        "socials": { "facebook": "https://facebook.com/montmartreyerevan", "twitter": "https://twitter.com/montmartreyvn" }
       }
     ]
   }

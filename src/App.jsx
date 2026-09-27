@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { LanguageProvider } from './i18n/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
-import { Header } from './components/Header';
-import { BottomNav } from './components/BottomNav';
+
+// Components
+import Header from './components/Header'; // <-- Default import
+import { BottomNav } from './components/BottomNav'; // <-- Named imports
 import { Footer } from './components/Footer';
 import { AuthModal } from './components/AuthModal';
 import { QRScannerModal } from './components/QRScannerModal';
+
+// Pages
 import { HeroPage } from './pages/HeroPage';
 import { PlacePage } from './pages/PlacePage';
 import { PassportPage } from './pages/PassportPage';
+
 import { API_BASE_URL } from './config';
 
 export default function App() {
@@ -27,6 +32,11 @@ export default function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
+  
+  // NEW: Scroll to top whenever the route (currentPath) changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [currentPath]);
 
   useEffect(() => {
     fetch(`${API_BASE_URL}/api/places`)
@@ -58,6 +68,8 @@ export default function App() {
                 <HeroPage
                   onExplorePlace={(id) => navigateTo(`/place/${id}`)}
                   places={places}
+                  onNavigate={navigateTo}
+                  onOpenQR={() => setIsQRModalOpen(true)} 
                 />
               )}
 

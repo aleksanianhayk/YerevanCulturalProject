@@ -36,7 +36,7 @@ export const BeforeAfterSlider = ({ sliderData }) => {
 
       <div
         ref={containerRef}
-        className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden select-none touch-none shadow-2xl border border-stone-800 bg-stone-900"
+        className="relative w-full aspect-[9/5] rounded-2xl overflow-hidden select-none touch-none shadow-2xl border border-stone-800 bg-stone-900"
         onMouseDown={() => (isDragging.current = true)}
         onMouseUp={() => (isDragging.current = false)}
         onMouseLeave={() => (isDragging.current = false)}

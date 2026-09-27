@@ -20,12 +20,8 @@ export const Header = ({ onNavigate, currentPage, onOpenQR }) => {
         
         {/* Brand Logo */}
         <button onClick={() => onNavigate('/')} className="flex items-center gap-2.5 text-left group">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 via-orange-500 to-rose-500 flex items-center justify-center text-white font-bold shadow-md shadow-orange-500/20 group-hover:scale-105 transition">
-            <Camera className="w-5 h-5 text-white" />
-          </div>
-          <div>
-            <span className="font-black tracking-tight text-stone-900 block text-lg leading-none">TimeLens</span>
-            <span className="text-[10px] text-amber-600 font-extrabold uppercase tracking-wider">YEREVAN</span>
+          <div className="group-hover:scale-105 transition">
+            <img src="/logo-no-background.png" alt="logo"  style={{ width: 'auto', height: '50px', maxWidth: '300px' }} />
           </div>
         </button>
 
@@ -104,3 +100,4 @@ export const Header = ({ onNavigate, currentPage, onOpenQR }) => {
     </header>
   );
 };
+export default Header;

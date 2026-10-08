@@ -120,7 +120,7 @@ export const PlacePage = ({ place }) => {
               <BookOpen className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-lg font-black text-stone-900 uppercase tracking-wide">Historical Narrative</h2>
+              <h2 className="text-lg font-black text-stone-900 uppercase tracking-wide">{t('historicalNarrative')}</h2>
               <div className="flex items-center gap-1.5 text-stone-500 font-bold text-[11px] uppercase tracking-wider mt-0.5">
                 <Clock className="w-3.5 h-3.5 text-amber-500" />
                 <span>{readTime} {t('readTime')}</span>
@@ -128,25 +128,29 @@ export const PlacePage = ({ place }) => {
             </div>
           </div>
           
-          <button 
-            onClick={handleTTS}
-            disabled={isLoadingAudio}
-            className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all shadow-sm ${
-              isPlaying 
-                ? 'bg-rose-100 text-rose-700 hover:bg-rose-200 border border-rose-200'
-                : 'bg-stone-900 text-white hover:bg-stone-800 disabled:opacity-50'
-            }`}
-          >
-            {isLoadingAudio ? (
-              <Loader2 className="w-4 h-4 animate-spin text-amber-500" />
-            ) : isPlaying ? (
-              <VolumeX className="w-4 h-4" />
-            ) : (
-              <Volume2 className="w-4 h-4" />
-            )}
-            
-            {isLoadingAudio ? 'Loading...' : isPlaying ? t('stopListen') : t('listen')}
-          </button>
+          
+{lang !== 'hy' && (
+  <button 
+    onClick={handleTTS}
+    disabled={isLoadingAudio}
+    className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition-all shadow-sm ${
+      isPlaying 
+        ? 'bg-rose-100 text-rose-700 hover:bg-rose-200 border border-rose-200'
+        : 'bg-stone-900 text-white hover:bg-stone-800 disabled:opacity-50'
+    }`}
+  >
+    {isLoadingAudio ? (
+      <Loader2 className="w-4 h-4 animate-spin text-amber-500" />
+    ) : isPlaying ? (
+      <VolumeX className="w-4 h-4" />
+    ) : (
+      <Volume2 className="w-4 h-4" />
+    )}
+    
+    {isLoadingAudio ? 'Loading...' : isPlaying ? t('stopListen') : t('listen')}
+  </button>
+)}
+
         </div>
 
         {/* Narrative Core */}

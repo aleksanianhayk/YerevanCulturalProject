@@ -1,201 +1,5 @@
 [
   {
-    "id": "republic-square",
-    "stampImage": "/republic_stamp.jpeg",
-    "title": {
-      "en": "Republic Square",
-      "hy": "Հանրապետության Հրապարակ",
-      "ru": "Площадь Республики"
-    },
-    "subtitle": {
-      "en": "Central Hub of Yerevan",
-      "hy": "Երևանի Կենտրոնական Հրապարակը",
-      "ru": "Центральная площадь Еревана"
-    },
-    "location": {
-      "en": "Kentron District, Yerevan",
-      "hy": "Կենտրոն վարչական շրջան, Երևան",
-      "ru": "Район Кентрон, Ереван"
-    },
-    "sliders": [
-      {
-        "id": "slider-1",
-        "title": {
-          "en": "Main Square View (1920 vs Present)",
-          "hy": "Հրապարակի տեսքը (1920 թ. vs Այսօր)",
-          "ru": "Вид на площадь (1920 г. vs Настоящее время)"
-        },
-        "oldImage": "/republic_square_aligned_old.jpg",
-        "newImage": "/republic_square_aligned_new.png",
-        "oldYear": "1920",
-        "newYear": "2026"
-      },
-      {
-        "id": "slider-2",
-        "title": {
-          "en": "Government Building Construction",
-          "hy": "Կառավարական տան կառուցումը",
-          "ru": "Строительство здания Правительства"
-        },
-        "oldImage": "/republic_square_aligned_old.jpg",
-        "newImage": "/republic_square_aligned_new.png",
-        "oldYear": "1935",
-        "newYear": "2026"
-      }
-    ],
-    "storyline": [
-  {
-    "id": "republic-node-1",
-    "title": {
-      "en": "Republic Square",
-      "hy": "Հանրապետության հրապարակ",
-      "ru": "Площадь Республики"
-    },
-    "description": {
-      "en": "Imagine standing where the singing fountains are today and looking toward the area where Republic Square is located. The Yerevan in front of you is not the Yerevan we are used to. The square does not yet exist. In front of you is a large, open, dusty area filled with the noise of construction and the activity of workers. Everything here was yet to begin.\n\nAt the beginning of the 20th century, the center of Yerevan looked completely different. The area of today's Republic Square was part of the city's old residential development; there were residential houses and various public buildings here. In the 1920s, Yerevan's urban environment was preparing to change completely. According to Alexander Tamanyan's master plan for Yerevan, developed in 1924, this very area was designated as the main square of the city's new administrative and public center.",
-      "hy": "Պատկերացրեք՝ կանգնած եք այնտեղ, որտեղ այսօր երգող շատրվաններն են, և նայում եք դեպի այն տարածքը, որտեղ Հանրապետության հրապարակն է։ Ձեր առջև այն Երևանը չէ, որին մենք սովոր ենք։ Հրապարակը դեռ չկա։ Ձեր առջև մեծ, բաց ու փոշոտ տարածք է՝ շինարարության աղմուկով և աշխատող մարդկանց եռուզեռով։ Այստեղ դեռ ամեն ինչ սկսվելու էր։\n\n20-րդ դարի սկզբին Երևանի կենտրոնը բոլորովին այլ տեսք ուներ։ Այսօրվա Հանրապետության հրապարակի տարածքը մտնում էր քաղաքի հին բնակելի կառուցապատման մեջ․ այստեղ կային բնակելի տներ և տարբեր հասարակական կառույցներ։ 1920-ականներին Երևանի քաղաքային միջավայրը պատրաստվում էր ամբողջությամբ փոխվել։ 1924 թվականին Ալեքսանդր Թամանյանի մշակած Երևանի գլխավոր հատակագծով հենց այս հատվածը նախատեսվեց որպես քաղաքի նոր վարչական և հասարակական կենտրոնի գլխավոր հրապարակ։",
-      "ru": "Представьте, что вы стоите там, где сегодня находятся поющие фонтаны, и смотрите в сторону территории, где находится Площадь Республики. Перед вами не тот Ереван, к которому мы привыкли. Площади еще нет. Перед вами большое, открытое и пыльное пространство, наполненное шумом строительства и суетой работающих людей. Здесь все только должно было начаться.\n\nВ начале XX века центр Еревана выглядел совершенно иначе. Территория сегодняшней Площади Республики входила в старую жилую застройку города; здесь находились жилые дома и различные общественные здания. В 1920-е годы городская среда Еревана готовилась полностью измениться. Согласно генеральному плану Еревана, разработанному Александром Таманяном в 1924 году, именно эта территория была предназначена для главной площади нового административного и общественного центра города."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic1.JPG"
-  },
-  {
-    "id": "republic-node-2",
-    "title": {
-      "en": "The Heart of the New Yerevan",
-      "hy": "Նոր Երևանի սիրտը",
-      "ru": "Сердце нового Еревана"
-    },
-    "description": {
-      "en": "Alexander Tamanyan's idea was not simply to create another square. He was trying to shape the heart of a new Yerevan—a space where government institutions, culture, public life, and the city's main streets would come together. Yerevan was no longer supposed to be simply a regional city; according to the new plan, it was gradually to acquire a center appropriate for a modern capital.\n\nOne of the first important constructions on Republic Square was the two-story building of the People's Commissariat of Agriculture on Nalbandyan Street, which was later incorporated into the First Government House.",
-      "hy": "Ալեքսանդր Թամանյանի գաղափարը պարզապես ևս մեկ հրապարակ ստեղծելը չէր։ Նա փորձում էր ձևավորել նոր Երևանի սիրտը՝ մի տարածք, որտեղ պիտի միավորվեին պետական կառույցները, մշակույթը, հասարակական կյանքն ու քաղաքի գլխավոր փողոցները։ Երևանը պետք է այլևս չլիներ պարզապես տարածաշրջանային քաղաք․ նոր հատակագծով այն աստիճանաբար պետք է ստանար ժամանակակից մայրաքաղաքին համապատասխան կենտրոն։\n\nՀանրապետության հրապարակում առաջին կարևոր շինարարություններից մեկը Նալբանդյան փողոցում կառուցված երկհարկանի Ժողովրդական կոմիսարիատի գյուղատնտեսության շենքն էր, որը հետագայում ներառվեց Առաջին կառավարության տան կազմում։",
-      "ru": "Идея Александра Таманяна заключалась не просто в создании еще одной площади. Он стремился сформировать сердце нового Еревана — пространство, где должны были объединиться государственные учреждения, культура, общественная жизнь и главные улицы города. Ереван больше не должен был быть просто региональным городом; согласно новому плану, он постепенно должен был получить центр, соответствующий современному столичному городу.\n\nОдним из первых важных сооружений на Площади Республики стало двухэтажное здание Народного комиссариата сельского хозяйства на улице Налбандяна, которое позднее вошло в состав Дома первого правительства."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic2.JPG"
-  },
-  {
-    "id": "republic-node-3",
-    "title": {
-      "en": "A Unified Architectural Ensemble",
-      "hy": "Միասնական ճարտարապետական համալիր",
-      "ru": "Единый архитектурный ансамбль"
-    },
-    "description": {
-      "en": "Later, the Government House became one of the main architectural anchors of the square, while the other structures surrounding the square were built in such a way that they formed one unified image. That is why the buildings standing here today do not seem like separate structures; together, they create the appearance of Republic Square that we recognize.\n\nIt is especially noteworthy that the square was being built at a time when a new architectural language for Yerevan was already taking shape in Alexander Tamanyan's life and work. In Tamanyan's designs, elements of historical Armenian architecture were combined with modern urban planning. On the facades of the buildings of Republic Square, one can see forms inspired by medieval Armenian architecture—motifs from the monuments of Tekor, Dvin, Zvartnots, and Talin.",
-      "hy": "Հետագայում կառավարական տունը դարձավ հրապարակի հիմնական ճարտարապետական հենակետերից մեկը, իսկ հրապարակը շրջապատող մյուս կառույցները կառուցվեցին այնպես, որ միմյանց հետ կազմեն մեկ ամբողջական պատկեր։ Այդ պատճառով այսօր այստեղ կանգնած շենքերը պարզապես առանձին կառույցներ չեն թվում․ դրանք միասին ստեղծում են Հանրապետության հրապարակի այն տեսքը, որը մենք ճանաչում ենք։\n\nՀատկապես ուշագրավ է, որ հրապարակը կառուցվում էր այն ժամանակ, երբ Ալեքսանդր Թամանյանի կյանքում և աշխատանքում արդեն ձևավորվում էր Երևանի նոր ճարտարապետական լեզուն։ Թամանյանի նախագծերում հայկական պատմական ճարտարապետության տարրերը միավորվում էին ժամանակակից քաղաքաշինության հետ։ Հանրապետության հրապարակի շենքերի ճակատներում կարելի է տեսնել հայկական միջնադարյան ճարտարապետությունից ներշնչված ձևեր՝ Տեկորի, Դվինի, Զվարթնոցի և Տալինի հուշարձանների մոտիվներ։",
-      "ru": "Позднее Дом правительства стал одним из главных архитектурных опорных элементов площади, а остальные здания вокруг площади строились таким образом, чтобы составлять единую композицию. Поэтому здания, которые мы видим здесь сегодня, не воспринимаются просто как отдельные сооружения; вместе они создают тот облик Площади Республики, который мы знаем.\n\nОсобенно примечательно, что площадь строилась в период, когда в жизни и работе Александра Таманяна уже формировался новый архитектурный язык Еревана. В проектах Таманяна элементы исторической армянской архитектуры сочетались с современным градостроительством. На фасадах зданий Площади Республики можно увидеть формы, вдохновленные средневековой армянской архитектурой — мотивы памятников Текора, Двина, Звартноца и Талина."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic3.JPG"
-  },
-  {
-    "id": "republic-node-4",
-    "title": {
-      "en": "Construction After Tamanyan",
-      "hy": "Շինարարությունը Թամանյանից հետո",
-      "ru": "Строительство после Таманяна"
-    },
-    "description": {
-      "en": "But after Tamanyan's death in 1936, the square was still unfinished. Part of the construction was continued by his son, Gevorg Tamanyan, while the entire complex took shape in different stages. Construction of the main section of the First Government House had begun in 1935, while work on separate parts of the complex continued in the following decades.\n\nThe square gradually became not only an administrative center, but also the main stage of urban life. State and public events, celebrations, concerts, public gatherings, and other important events for the city have been held here. The square is also one of Yerevan's main transportation and urban-planning hubs.",
-      "hy": "Բայց Թամանյանի մահից հետո՝ 1936 թվականին, հրապարակը դեռ ավարտված չէր։ Շինարարության մի մասը շարունակեց նրա որդին՝ Գևորգ Թամանյանը, իսկ ամբողջ համալիրը ձևավորվեց տարբեր փուլերում։ Առաջին կառավարության տան հիմնական հատվածի շինարարությունը սկսվել էր 1935 թվականին, իսկ համալիրի առանձին հատվածների աշխատանքները շարունակվել են նաև հետագա տասնամյակներում։\n\nՀրապարակն աստիճանաբար դարձավ ոչ միայն վարչական, այլև քաղաքային կյանքի գլխավոր բեմը։ Այստեղ անցկացվել են պետական և հասարակական միջոցառումներ, տոնակատարություններ, համերգներ, հանրային հավաքներ և քաղաքի համար կարևոր այլ իրադարձություններ։ Հրապարակը նաև Երևանի գլխավոր տրանսպորտային և քաղաքաշինական հանգույցներից մեկն է։",
-      "ru": "Однако после смерти Таманяна в 1936 году площадь еще не была завершена. Часть строительства продолжил его сын Геворг Таманян, а весь комплекс формировался в несколько этапов. Строительство основной части Дома первого правительства началось в 1935 году, а работы над отдельными частями комплекса продолжались и в последующие десятилетия.\n\nПостепенно площадь стала не только административным центром, но и главной сценой городской жизни. Здесь проводились государственные и общественные мероприятия, празднования, концерты, общественные собрания и другие важные для города события. Площадь также является одним из главных транспортных и градостроительных узлов Еревана."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic4.JPG"
-  },
-  {
-    "id": "republic-node-5",
-    "title": {
-      "en": "Lenin Square",
-      "hy": "Լենինի հրապարակ",
-      "ru": "Площадь Ленина"
-    },
-    "description": {
-      "en": "However, Republic Square was not always called Republic Square.\n\nFrom 1940 until 1990, it was called Lenin Square. At its center stood a statue of Vladimir Lenin, one of the most famous symbols of Soviet Yerevan. The statue was placed in the center of the square and for many years served as the visual focal point of the area. On April 13, 1991, it was removed from its pedestal based on a decision of the Yerevan City Council dated March 28, 1991. The pedestal remained in place for several more years and was finally dismantled in 1996.",
-      "hy": "Այնուամենայնիվ, Հանրապետության հրապարակը միշտ չէ, որ կոչվել է Հանրապետության հրապարակ։\n\n1940 թվականից մինչև 1990 թվականը այն կոչվում էր Լենինի հրապարակ։ Նրա կենտրոնում կանգնած էր Վլադիմիր Լենինի արձանը՝ խորհրդային Երևանի ամենահայտնի խորհրդանիշներից մեկը։ Արձանը տեղադրվել էր հրապարակի կենտրոնում և երկար տարիներ հանդիսանում էր տարածքի տեսողական առանցքը։ 1991 թվականի ապրիլի 13-ին այն հանվեց պատվանդանից՝ Երևանի քաղաքային խորհրդի 1991 թվականի մարտի 28-ի որոշման հիման վրա։ Պատվանդանն իր տեղում մնաց ևս մի քանի տարի և վերջնականապես ապամոնտաժվեց 1996 թվականին։",
-      "ru": "Однако Площадь Республики не всегда называлась Площадью Республики.\n\nС 1940 по 1990 год она называлась площадью Ленина. В ее центре стояла статуя Владимира Ленина — один из самых известных символов советского Еревана. Статуя была установлена в центре площади и долгие годы являлась визуальной доминантой пространства. 13 апреля 1991 года она была снята с постамента на основании решения Ереванского городского совета от 28 марта 1991 года. Постамент оставался на своем месте еще несколько лет и окончательно был демонтирован в 1996 году."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic5.PNG"
-  },
-  {
-    "id": "republic-node-6",
-    "title": {
-      "en": "A Square That Did Not Yet Exist",
-      "hy": "Հրապարակ, որը դեռ գոյություն չուներ",
-      "ru": "Площадь, которой еще не существовало"
-    },
-    "description": {
-      "en": "But the most interesting thing is that this entire history, which seems so natural and unchanged to us today, did not yet exist in 1926, almost a century ago.",
-      "hy": "Բայց ամենահետաքրքիրն այն է, որ այս ամբողջ պատմությունը, որը մեզ այսօր թվում է այնքան բնական ու անփոփոխ, 1926 թվականին՝ շուրջ մեկ դար առաջ դեռ գոյություն չուներ։",
-      "ru": "Но самое интересное заключается в том, что вся эта история, которая сегодня кажется нам настолько естественной и неизменной, в 1926 году, почти столетие назад, еще не существовала."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic6.JPG"
-  },
-  {
-    "id": "republic-node-7",
-    "title": {
-      "en": "Republic Square Today",
-      "hy": "Հանրապետության հրապարակն այսօր",
-      "ru": "Площадь Республики сегодня"
-    },
-    "description": {
-      "en": "Years later, this same area would become one of the most recognizable places in Yerevan—the Republic Square.",
-      "hy": "Տարիներ անց այդ նույն տարածքը պիտի դառնար Երևանի ամենաճանաչելի վայրերից մեկը՝ Հանրապետության Հրապրակը։ ",
-      "ru": "Годы спустя эта же территория должна была стать одним из самых узнаваемых мест Еревана — Площадью Республики."
-    },
-    "mediaType": "image",
-    "mediaUrl": "/republic7.PNG"
-  }
-  ],
-    "nearbyBusinesses": [
-      {
-        "id": "biz_rep_1",
-        "name": { "en": "Sherep Restaurant", "hy": "Շերեփ Ռեստորան", "ru": "Ресторан Шереп" },
-        "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
-        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIMeEt3ggqBPzifI0wg2vSXVA4cMN3w0BaP3vP-_nao-Yj0BtQJQ7qNlcpelifGpLP_dN3GkxQkO_xW-tfWDNVAbjzl1-YWT8gnqrgCbzmLsIgh_vqffmZ0AxYujmHL6g9w38S=s1360-w1360-h1020-rw",
-        "address": { "en": "1 Amiryan St", "hy": "Ամիրյան 1", "ru": "ул. Амиряна 1" },
-        "description": { 
-          "en": "The first restaurant with an open kitchen in Armenia, offering authentic local flavors.", 
-          "hy": "Հայաստանում բաց խոհանոցով առաջին ռեստորանը:", 
-          "ru": "Первый ресторан с открытой кухней в Армении." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+1",
-        "socials": { "instagram": "https://instagram.com/sherep", "facebook": "https://facebook.com/sherep" }
-      },
-      {
-        "id": "biz_rep_2",
-        "name": { "en": "Tavern Yerevan", "hy": "Պանդոկ Երևան", "ru": "Таверна Ереван" },
-        "type": { "en": "Traditional Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Традиционный Ресторан" },
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NHxG9-HAs8q8Juq82us7AnLlCUEFVFGPq8chorvq87681IHmwTjX72s&s=10",
-        "address": { "en": "5 Amiryan St", "hy": "Ամիրյան 5", "ru": "ул. Амиряна 5" },
-        "description": { 
-          "en": "Famous for its cozy atmosphere and rich menu of traditional Armenian cuisine.", 
-          "hy": "Հայտնի է իր հարմարավետ մթնոլորտով և ավանդական հայկական խոհանոցով:", 
-          "ru": "Славится уютной атмосферой и богатым меню традиционной армянской кухни." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+5",
-        "socials": { "website": "https://tavernyerevan.com", "facebook": "https://facebook.com/tavernyerevan" }
-      },
-      {
-        "id": "biz_rep_3",
-        "name": { "en": "Armenia Marriott Hotel", "hy": "Արմենիա Մարիոթ Հյուրանոց", "ru": "Гостиница Армения Марриотт" },
-        "type": { "en": "Hotel & Lounge", "hy": "Հյուրանոց և Լաունջ", "ru": "Отель и Лаунж" },
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4uhyu8BzSjBtIBpW5pjun_pg4ve5SiH1dEZdaPTvLvSU5yc-8G7p4HKM&s=10",
-        "address": { "en": "2 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2", "ru": "ул. Вазгена Саргсяна 2" },
-        "description": { 
-          "en": "A prominent luxury hotel offering fine dining right on Republic Square.", 
-          "hy": "Հայտնի շքեղ հյուրանոց, որն առաջարկում է բարձրակարգ սպասարկում Հանրապետության հրապարակում:", 
-          "ru": "Известный роскошный отель, предлагающий изысканную кухню прямо на площади Республики." 
-        },
-        "mapLink": "https://maps.google.com/?q=Yerevan+Vazgen+Sargsyan+2",
-        "socials": { "instagram": "https://instagram.com/marriottarmenia", "twitter": "https://twitter.com/marriottyerevan" }
-      }
-    ]
-  },
-  {
     "id": "opera-theater",
     "stampImage": "/opera_stamp.jpeg",
     "title": {
@@ -218,7 +22,7 @@
         "id": "slider-opera-1",
         "title": {
           "en": "Opera Building (1933 vs Present)",
-          "hy": "Օպերայի շենքը (1933 թ. vs Այսօր)",
+          "hy": "Օպերայի շենքը (1933 թ. – Այսօր)",
           "ru": "Здание Оперы (1933 г. vs Настоящее время)"
         },
         "oldImage": "/opera_old_aligned.png",
@@ -241,7 +45,7 @@
       "ru": "Сегодня здание Оперы, стоящее в центре Еревана, настолько привычно для нас, что трудно представить, что когда-то это было не просто здание, а прекрасная идея — создать место, где музыка и город должны были объединиться.\n\nАлександр Таманян спроектировал здание Театра оперы и балета в 1926–1936 годах, первоначально назвав его Народным домом. Торжественная закладка фундамента состоялась 28 ноября 1930 года."
     },
     "mediaType": "image",
-    "mediaUrl": "/opera1.PNG"
+    "mediaUrl": "/opera1.jpeg"
   },
   {
     "id": "opera-node-2",
@@ -388,7 +192,7 @@
         "id": "slider-cas-1",
         "title": {
           "en": "Cascade Hillside (1971 vs Present)",
-          "hy": "Կասկադի բլուրը (1971 թ. vs Այսօր)",
+          "hy": "Կասկադի բլուրը (1971 թ. – Այսօր)",
           "ru": "Склон Каскада (1971 г. vs Настоящее время)"
         },
         "oldImage": "/cascade_old.png",
@@ -572,7 +376,7 @@
         "id": "slider-pushkin-1",
         "title": {
           "en": "Pushkin 31 (1930s vs Present)",
-          "hy": "Պուշկինի 31 (1930-ականներ vs Այսօր)",
+          "hy": "Պուշկինի 31 (1930-ականներ – Այսօր)",
           "ru": "Пушкина 31 (1930-е vs Настоящее время)"
         },
         "oldImage": "/deangelo_aligned_old.png",
@@ -689,6 +493,190 @@
     ]
   },
   {
+    "id": "republic-square",
+    "stampImage": "/republic_stamp.jpeg",
+    "title": {
+      "en": "Republic Square",
+      "hy": "Հանրապետության Հրապարակ",
+      "ru": "Площадь Республики"
+    },
+    "subtitle": {
+      "en": "Central Hub of Yerevan",
+      "hy": "Երևանի Կենտրոնական Հրապարակը",
+      "ru": "Центральная площадь Еревана"
+    },
+    "location": {
+      "en": "Kentron District, Yerevan",
+      "hy": "Կենտրոն վարչական շրջան, Երևան",
+      "ru": "Район Кентрон, Ереван"
+    },
+    "sliders": [
+      {
+        "id": "slider-1",
+        "title": {
+          "en": "Main Square View (1920 vs Present)",
+          "hy": "Հրապարակի տեսքը (1920 թ. – Այսօր)",
+          "ru": "Вид на площадь (1920 г. vs Настоящее время)"
+        },
+        "oldImage": "/republic_square_aligned_old.jpg",
+        "newImage": "/republic_square_aligned_new.png",
+        "oldYear": "1920",
+        "newYear": "2026"
+      }
+    ],
+    "storyline": [
+  {
+    "id": "republic-node-1",
+    "title": {
+      "en": "Republic Square",
+      "hy": "Հանրապետության հրապարակ",
+      "ru": "Площадь Республики"
+    },
+    "description": {
+      "en": "Imagine standing where the singing fountains are today and looking toward the area where Republic Square is located. The Yerevan in front of you is not the Yerevan we are used to. The square does not yet exist. In front of you is a large, open, dusty area filled with the noise of construction and the activity of workers. Everything here was yet to begin.\n\nAt the beginning of the 20th century, the center of Yerevan looked completely different. The area of today's Republic Square was part of the city's old residential development; there were residential houses and various public buildings here. In the 1920s, Yerevan's urban environment was preparing to change completely. According to Alexander Tamanyan's master plan for Yerevan, developed in 1924, this very area was designated as the main square of the city's new administrative and public center.",
+      "hy": "Պատկերացրեք՝ կանգնած եք այնտեղ, որտեղ այսօր երգող շատրվաններն են, և նայում եք դեպի այն տարածքը, որտեղ Հանրապետության հրապարակն է։ Ձեր առջև այն Երևանը չէ, որին մենք սովոր ենք։ Հրապարակը դեռ չկա։ Ձեր առջև մեծ, բաց ու փոշոտ տարածք է՝ շինարարության աղմուկով և աշխատող մարդկանց եռուզեռով։ Այստեղ դեռ ամեն ինչ սկսվելու էր։\n\n20-րդ դարի սկզբին Երևանի կենտրոնը բոլորովին այլ տեսք ուներ։ Այսօրվա Հանրապետության հրապարակի տարածքը մտնում էր քաղաքի հին բնակելի կառուցապատման մեջ․ այստեղ կային բնակելի տներ և տարբեր հասարակական կառույցներ։ 1920-ականներին Երևանի քաղաքային միջավայրը պատրաստվում էր ամբողջությամբ փոխվել։ 1924 թվականին Ալեքսանդր Թամանյանի մշակած Երևանի գլխավոր հատակագծով հենց այս հատվածը նախատեսվեց որպես քաղաքի նոր վարչական և հասարակական կենտրոնի գլխավոր հրապարակ։",
+      "ru": "Представьте, что вы стоите там, где сегодня находятся поющие фонтаны, и смотрите в сторону территории, где находится Площадь Республики. Перед вами не тот Ереван, к которому мы привыкли. Площади еще нет. Перед вами большое, открытое и пыльное пространство, наполненное шумом строительства и суетой работающих людей. Здесь все только должно было начаться.\n\nВ начале XX века центр Еревана выглядел совершенно иначе. Территория сегодняшней Площади Республики входила в старую жилую застройку города; здесь находились жилые дома и различные общественные здания. В 1920-е годы городская среда Еревана готовилась полностью измениться. Согласно генеральному плану Еревана, разработанному Александром Таманяном в 1924 году, именно эта территория была предназначена для главной площади нового административного и общественного центра города."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic1.JPG"
+  },
+  {
+    "id": "republic-node-2",
+    "title": {
+      "en": "The Heart of the New Yerevan",
+      "hy": "Նոր Երևանի սիրտը",
+      "ru": "Сердце нового Еревана"
+    },
+    "description": {
+      "en": "Alexander Tamanyan's idea was not simply to create another square. He was trying to shape the heart of a new Yerevan—a space where government institutions, culture, public life, and the city's main streets would come together. Yerevan was no longer supposed to be simply a regional city; according to the new plan, it was gradually to acquire a center appropriate for a modern capital.\n\nOne of the first important constructions on Republic Square was the two-story building of the People's Commissariat of Agriculture on Nalbandyan Street, which was later incorporated into the First Government House.",
+      "hy": "Ալեքսանդր Թամանյանի գաղափարը պարզապես ևս մեկ հրապարակ ստեղծելը չէր։ Նա փորձում էր ձևավորել նոր Երևանի սիրտը՝ մի տարածք, որտեղ պիտի միավորվեին պետական կառույցները, մշակույթը, հասարակական կյանքն ու քաղաքի գլխավոր փողոցները։ Երևանը պետք է այլևս չլիներ պարզապես տարածաշրջանային քաղաք․ նոր հատակագծով այն աստիճանաբար պետք է ստանար ժամանակակից մայրաքաղաքին համապատասխան կենտրոն։\n\nՀանրապետության հրապարակում առաջին կարևոր շինարարություններից մեկը Նալբանդյան փողոցում կառուցված երկհարկանի Ժողովրդական կոմիսարիատի գյուղատնտեսության շենքն էր, որը հետագայում ներառվեց Առաջին կառավարության տան կազմում։",
+      "ru": "Идея Александра Таманяна заключалась не просто в создании еще одной площади. Он стремился сформировать сердце нового Еревана — пространство, где должны были объединиться государственные учреждения, культура, общественная жизнь и главные улицы города. Ереван больше не должен был быть просто региональным городом; согласно новому плану, он постепенно должен был получить центр, соответствующий современному столичному городу.\n\nОдним из первых важных сооружений на Площади Республики стало двухэтажное здание Народного комиссариата сельского хозяйства на улице Налбандяна, которое позднее вошло в состав Дома первого правительства."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic2.JPG"
+  },
+  {
+    "id": "republic-node-3",
+    "title": {
+      "en": "A Unified Architectural Ensemble",
+      "hy": "Միասնական ճարտարապետական համալիր",
+      "ru": "Единый архитектурный ансамбль"
+    },
+    "description": {
+      "en": "Later, the Government House became one of the main architectural anchors of the square, while the other structures surrounding the square were built in such a way that they formed one unified image. That is why the buildings standing here today do not seem like separate structures; together, they create the appearance of Republic Square that we recognize.\n\nIt is especially noteworthy that the square was being built at a time when a new architectural language for Yerevan was already taking shape in Alexander Tamanyan's life and work. In Tamanyan's designs, elements of historical Armenian architecture were combined with modern urban planning. On the facades of the buildings of Republic Square, one can see forms inspired by medieval Armenian architecture—motifs from the monuments of Tekor, Dvin, Zvartnots, and Talin.",
+      "hy": "Հետագայում կառավարական տունը դարձավ հրապարակի հիմնական ճարտարապետական հենակետերից մեկը, իսկ հրապարակը շրջապատող մյուս կառույցները կառուցվեցին այնպես, որ միմյանց հետ կազմեն մեկ ամբողջական պատկեր։ Այդ պատճառով այսօր այստեղ կանգնած շենքերը պարզապես առանձին կառույցներ չեն թվում․ դրանք միասին ստեղծում են Հանրապետության հրապարակի այն տեսքը, որը մենք ճանաչում ենք։\n\nՀատկապես ուշագրավ է, որ հրապարակը կառուցվում էր այն ժամանակ, երբ Ալեքսանդր Թամանյանի կյանքում և աշխատանքում արդեն ձևավորվում էր Երևանի նոր ճարտարապետական լեզուն։ Թամանյանի նախագծերում հայկական պատմական ճարտարապետության տարրերը միավորվում էին ժամանակակից քաղաքաշինության հետ։ Հանրապետության հրապարակի շենքերի ճակատներում կարելի է տեսնել հայկական միջնադարյան ճարտարապետությունից ներշնչված ձևեր՝ Տեկորի, Դվինի, Զվարթնոցի և Տալինի հուշարձանների մոտիվներ։",
+      "ru": "Позднее Дом правительства стал одним из главных архитектурных опорных элементов площади, а остальные здания вокруг площади строились таким образом, чтобы составлять единую композицию. Поэтому здания, которые мы видим здесь сегодня, не воспринимаются просто как отдельные сооружения; вместе они создают тот облик Площади Республики, который мы знаем.\n\nОсобенно примечательно, что площадь строилась в период, когда в жизни и работе Александра Таманяна уже формировался новый архитектурный язык Еревана. В проектах Таманяна элементы исторической армянской архитектуры сочетались с современным градостроительством. На фасадах зданий Площади Республики можно увидеть формы, вдохновленные средневековой армянской архитектурой — мотивы памятников Текора, Двина, Звартноца и Талина."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic3.JPG"
+  },
+  {
+    "id": "republic-node-4",
+    "title": {
+      "en": "Construction After Tamanyan",
+      "hy": "Շինարարությունը Թամանյանից հետո",
+      "ru": "Строительство после Таманяна"
+    },
+    "description": {
+      "en": "But after Tamanyan's death in 1936, the square was still unfinished. Part of the construction was continued by his son, Gevorg Tamanyan, while the entire complex took shape in different stages. Construction of the main section of the First Government House had begun in 1935, while work on separate parts of the complex continued in the following decades.\n\nThe square gradually became not only an administrative center, but also the main stage of urban life. State and public events, celebrations, concerts, public gatherings, and other important events for the city have been held here. The square is also one of Yerevan's main transportation and urban-planning hubs.",
+      "hy": "Բայց Թամանյանի մահից հետո՝ 1936 թվականին, հրապարակը դեռ ավարտված չէր։ Շինարարության մի մասը շարունակեց նրա որդին՝ Գևորգ Թամանյանը, իսկ ամբողջ համալիրը ձևավորվեց տարբեր փուլերում։ Առաջին կառավարության տան հիմնական հատվածի շինարարությունը սկսվել էր 1935 թվականին, իսկ համալիրի առանձին հատվածների աշխատանքները շարունակվել են նաև հետագա տասնամյակներում։\n\nՀրապարակն աստիճանաբար դարձավ ոչ միայն վարչական, այլև քաղաքային կյանքի գլխավոր բեմը։ Այստեղ անցկացվել են պետական և հասարակական միջոցառումներ, տոնակատարություններ, համերգներ, հանրային հավաքներ և քաղաքի համար կարևոր այլ իրադարձություններ։ Հրապարակը նաև Երևանի գլխավոր տրանսպորտային և քաղաքաշինական հանգույցներից մեկն է։",
+      "ru": "Однако после смерти Таманяна в 1936 году площадь еще не была завершена. Часть строительства продолжил его сын Геворг Таманян, а весь комплекс формировался в несколько этапов. Строительство основной части Дома первого правительства началось в 1935 году, а работы над отдельными частями комплекса продолжались и в последующие десятилетия.\n\nПостепенно площадь стала не только административным центром, но и главной сценой городской жизни. Здесь проводились государственные и общественные мероприятия, празднования, концерты, общественные собрания и другие важные для города события. Площадь также является одним из главных транспортных и градостроительных узлов Еревана."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic4.JPG"
+  },
+  {
+    "id": "republic-node-5",
+    "title": {
+      "en": "Lenin Square",
+      "hy": "Լենինի հրապարակ",
+      "ru": "Площадь Ленина"
+    },
+    "description": {
+      "en": "However, Republic Square was not always called Republic Square.\n\nFrom 1940 until 1990, it was called Lenin Square. At its center stood a statue of Vladimir Lenin, one of the most famous symbols of Soviet Yerevan. The statue was placed in the center of the square and for many years served as the visual focal point of the area. On April 13, 1991, it was removed from its pedestal based on a decision of the Yerevan City Council dated March 28, 1991. The pedestal remained in place for several more years and was finally dismantled in 1996.",
+      "hy": "Այնուամենայնիվ, Հանրապետության հրապարակը միշտ չէ, որ կոչվել է Հանրապետության հրապարակ։\n\n1940 թվականից մինչև 1990 թվականը այն կոչվում էր Լենինի հրապարակ։ Նրա կենտրոնում կանգնած էր Վլադիմիր Լենինի արձանը՝ խորհրդային Երևանի ամենահայտնի խորհրդանիշներից մեկը։ Արձանը տեղադրվել էր հրապարակի կենտրոնում և երկար տարիներ հանդիսանում էր տարածքի տեսողական առանցքը։ 1991 թվականի ապրիլի 13-ին այն հանվեց պատվանդանից՝ Երևանի քաղաքային խորհրդի 1991 թվականի մարտի 28-ի որոշման հիման վրա։ Պատվանդանն իր տեղում մնաց ևս մի քանի տարի և վերջնականապես ապամոնտաժվեց 1996 թվականին։",
+      "ru": "Однако Площадь Республики не всегда называлась Площадью Республики.\n\nС 1940 по 1990 год она называлась площадью Ленина. В ее центре стояла статуя Владимира Ленина — один из самых известных символов советского Еревана. Статуя была установлена в центре площади и долгие годы являлась визуальной доминантой пространства. 13 апреля 1991 года она была снята с постамента на основании решения Ереванского городского совета от 28 марта 1991 года. Постамент оставался на своем месте еще несколько лет и окончательно был демонтирован в 1996 году."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic5.PNG"
+  },
+  {
+    "id": "republic-node-6",
+    "title": {
+      "en": "A Square That Did Not Yet Exist",
+      "hy": "Հրապարակ, որը դեռ գոյություն չուներ",
+      "ru": "Площадь, которой еще не существовало"
+    },
+    "description": {
+      "en": "But the most interesting thing is that this entire history, which seems so natural and unchanged to us today, did not yet exist in 1926, almost a century ago.",
+      "hy": "Բայց ամենահետաքրքիրն այն է, որ այս ամբողջ պատմությունը, որը մեզ այսօր թվում է այնքան բնական ու անփոփոխ, 1926 թվականին՝ շուրջ մեկ դար առաջ դեռ գոյություն չուներ։",
+      "ru": "Но самое интересное заключается в том, что вся эта история, которая сегодня кажется нам настолько естественной и неизменной, в 1926 году, почти столетие назад, еще не существовала."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic6.JPG"
+  },
+  {
+    "id": "republic-node-7",
+    "title": {
+      "en": "Republic Square Today",
+      "hy": "Հանրապետության հրապարակն այսօր",
+      "ru": "Площадь Республики сегодня"
+    },
+    "description": {
+      "en": "Years later, this same area would become one of the most recognizable places in Yerevan—the Republic Square.",
+      "hy": "Տարիներ անց այդ նույն տարածքը պիտի դառնար Երևանի ամենաճանաչելի վայրերից մեկը՝ Հանրապետության Հրապրակը։ ",
+      "ru": "Годы спустя эта же территория должна была стать одним из самых узнаваемых мест Еревана — Площадью Республики."
+    },
+    "mediaType": "image",
+    "mediaUrl": "/republic7.PNG"
+  }
+  ],
+    "nearbyBusinesses": [
+      {
+        "id": "biz_rep_1",
+        "name": { "en": "Sherep Restaurant", "hy": "Շերեփ Ռեստորան", "ru": "Ресторан Шереп" },
+        "type": { "en": "Restaurant", "hy": "Ռեստորան", "ru": "Ресторан" },
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIMeEt3ggqBPzifI0wg2vSXVA4cMN3w0BaP3vP-_nao-Yj0BtQJQ7qNlcpelifGpLP_dN3GkxQkO_xW-tfWDNVAbjzl1-YWT8gnqrgCbzmLsIgh_vqffmZ0AxYujmHL6g9w38S=s1360-w1360-h1020-rw",
+        "address": { "en": "1 Amiryan St", "hy": "Ամիրյան 1", "ru": "ул. Амиряна 1" },
+        "description": { 
+          "en": "The first restaurant with an open kitchen in Armenia, offering authentic local flavors.", 
+          "hy": "Հայաստանում բաց խոհանոցով առաջին ռեստորանը:", 
+          "ru": "Первый ресторан с открытой кухней в Армении." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+1",
+        "socials": { "instagram": "https://instagram.com/sherep", "facebook": "https://facebook.com/sherep" }
+      },
+      {
+        "id": "biz_rep_2",
+        "name": { "en": "Tavern Yerevan", "hy": "Պանդոկ Երևան", "ru": "Таверна Ереван" },
+        "type": { "en": "Traditional Restaurant", "hy": "Ավանդական Ռեստորան", "ru": "Традиционный Ресторан" },
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NHxG9-HAs8q8Juq82us7AnLlCUEFVFGPq8chorvq87681IHmwTjX72s&s=10",
+        "address": { "en": "5 Amiryan St", "hy": "Ամիրյան 5", "ru": "ул. Амиряна 5" },
+        "description": { 
+          "en": "Famous for its cozy atmosphere and rich menu of traditional Armenian cuisine.", 
+          "hy": "Հայտնի է իր հարմարավետ մթնոլորտով և ավանդական հայկական խոհանոցով:", 
+          "ru": "Славится уютной атмосферой и богатым меню традиционной армянской кухни." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Amiryan+5",
+        "socials": { "website": "https://tavernyerevan.com", "facebook": "https://facebook.com/tavernyerevan" }
+      },
+      {
+        "id": "biz_rep_3",
+        "name": { "en": "Armenia Marriott Hotel", "hy": "Արմենիա Մարիոթ Հյուրանոց", "ru": "Гостиница Армения Марриотт" },
+        "type": { "en": "Hotel & Lounge", "hy": "Հյուրանոց և Լաունջ", "ru": "Отель и Лаунж" },
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4uhyu8BzSjBtIBpW5pjun_pg4ve5SiH1dEZdaPTvLvSU5yc-8G7p4HKM&s=10",
+        "address": { "en": "2 Vazgen Sargsyan St", "hy": "Վազգեն Սարգսյան 2", "ru": "ул. Вазгена Саргсяна 2" },
+        "description": { 
+          "en": "A prominent luxury hotel offering fine dining right on Republic Square.", 
+          "hy": "Հայտնի շքեղ հյուրանոց, որն առաջարկում է բարձրակարգ սպասարկում Հանրապետության հրապարակում:", 
+          "ru": "Известный роскошный отель, предлагающий изысканную кухню прямо на площади Республики." 
+        },
+        "mapLink": "https://maps.google.com/?q=Yerevan+Vazgen+Sargsyan+2",
+        "socials": { "instagram": "https://instagram.com/marriottarmenia", "twitter": "https://twitter.com/marriottyerevan" }
+      }
+    ]
+  },
+  {
     "id": "moscow-cinema",
     "stampImage": "/moscow_stamp.jpeg",
     "title": {
@@ -710,9 +698,9 @@
       {
         "id": "slider-moscow-1",
         "title": {
-          "en": "Cinema Construction (1930s vs Present)",
-          "hy": "Կինոթատրոնի Կառուցումը (1930-ականներ vs Այսօր)",
-          "ru": "Строительство кинотеатра (1930-е vs Настоящее время)"
+          "en": "Cinema 1930s vs Present",
+          "hy": "Կինոթատրոնը 1930-ականներ – Այսօր",
+          "ru": "Кинотеатр 1930-е vs Настоящее время"
         },
         "oldImage": "/cinema_old.png",
         "newImage": "/cinema_modern.png",
@@ -742,7 +730,7 @@
     },
     "description": {
       "en": "Moscow Cinema opened in 1936 with the screening of Pepo, the first Armenian sound film.\n\nThe Saint Paul and Peter Church previously stood on the site of the cinema building.\n\nIn the 1930s, active reconstruction of the city was taking place in Soviet Armenia. During this period, many old religious structures were demolished and new public and cultural buildings were constructed in their place.\n\nAs a result of this process, the Saint Paul and Peter Church was also demolished, and it was decided to build a large modern cinema in its place, which was later named Moscow. The facade of the building is decorated with bas-reliefs based on themes from famous Soviet films—Chapaev, Pepo, David Bek, Sayat-Nova, as well as symbolic sculptures called Dance and Stage.\n\nThe design of the cinema was entrusted to architects Tiran Yerkanyan and Gevorg Kochar.",
-      "hy": "«Մոսկվա» կինոթատրոնը բացվել է 1936 թվականին հայկական առաջին հնչյունային ֆիլմի՝ Պեպոյի ցուցադրումով։\n\nԿինոթատրոնի շենքի փոխարեն նախկինում եղել է Պողոս-Պետրոս եկեղեցին։\n\n1930-ական թվականներին Խորհրդային Հայաստանում տեղի էր ունենում քաղաքի ակտիվ վերակառուցում։ Այդ ժամանակաշրջանում բազմաթիվ հին կրոնական կառույցներ քանդվեցին և դրանց տեղերում կառուցվեցին նոր հասարակական ու մշակութային շենքեր։\n\nԱյդ գործընթացի արդյունքում Սուրբ Պողոս-Պետրոս եկեղեցին նույնպես քանդվեց, իսկ նրա տեղում որոշվեց կառուցել մեծ ժամանակակից կինոթատրոն, որը հետագայում կոչվեց «Մոսկվա» անունով: Շենքի ճակատը զարդարված է հայտնի խորհրդային ֆիլմերի թեմաներով կատարված խորաքանդակներով՝ «Չապաև», «Պեպո», «Դավիթ Բեկ», «Սայաթ-Նովա», ինչպես նաև «Պար» և «Բեմ» խորհրդանշական քանդակներով։\n\nԿինոթատրոնի նախագծման աշխատանքները վստահվեցին ճարտարապետներ **Տիրան Երկանյանին և Գևորգ Քոչարին**։",
+      "hy": "«Մոսկվա» կինոթատրոնը բացվել է 1936 թվականին հայկական առաջին հնչյունային ֆիլմի՝ Պեպոյի ցուցադրումով։\n\nԿինոթատրոնի շենքի փոխարեն նախկինում եղել է Պողոս-Պետրոս եկեղեցին։\n\n1930-ական թվականներին Խորհրդային Հայաստանում տեղի էր ունենում քաղաքի ակտիվ վերակառուցում։ Այդ ժամանակաշրջանում բազմաթիվ հին կրոնական կառույցներ քանդվեցին և դրանց տեղերում կառուցվեցին նոր հասարակական ու մշակութային շենքեր։\n\nԱյդ գործընթացի արդյունքում Սուրբ Պողոս-Պետրոս եկեղեցին նույնպես քանդվեց, իսկ նրա տեղում որոշվեց կառուցել մեծ ժամանակակից կինոթատրոն, որը հետագայում կոչվեց «Մոսկվա» անունով: Շենքի ճակատը զարդարված է հայտնի խորհրդային ֆիլմերի թեմաներով կատարված խորաքանդակներով՝ «Չապաև», «Պեպո», «Դավիթ Բեկ», «Սայաթ-Նովա», ինչպես նաև «Պար» և «Բեմ» խորհրդանշական քանդակներով։\n\nԿինոթատրոնի նախագծման աշխատանքները վստահվեցին ճարտարապետներ Տիրան Երկանյանին և Գևորգ Քոչարին։",
       "ru": "Кинотеатр «Москва» открылся в 1936 году показом «Пепо» — первого армянского звукового фильма.\n\nНа месте здания кинотеатра ранее находилась церковь Святого Павла и Петра.\n\nВ 1930-х годах в Советской Армении проходила активная реконструкция города. В этот период многие старые религиозные сооружения были снесены, а на их месте были построены новые общественные и культурные здания.\n\nВ результате этого процесса церковь Святого Павла и Петра также была снесена, а на ее месте было решено построить большой современный кинотеатр, который впоследствии получил название «Москва». Фасад здания украшен горельефами на темы известных советских фильмов — «Чапаев», «Пепо», «Давид Бек», «Саят-Нова», а также символическими скульптурами «Танец» и «Сцена».\n\nПроектирование кинотеатра было поручено архитекторам Тирану Ерканяну и Геворгу Кочару."
     },
     "mediaType": "image",
@@ -757,7 +745,7 @@
     },
     "description": {
       "en": "The project was developed in 1933, while construction was carried out in the mid-1930s. Official Yerevan sources indicate the building's construction period as 1933–1936, while some sources date the completion of the building to 1937.\n\nThe cinema has four halls: the Red Hall with 491 seats, the Blue Hall with 350 seats, the Small Red Hall with 49 seats, and the Small Blue Hall with 35 seats. The halls are equipped with modern technical equipment.\n\nAlongside film screenings, Moscow Cinema organizes various events and film festivals.",
-      "hy": "Նախագիծը մշակվել էր 1933 թվականին, իսկ շինարարությունն իրականացվեց 1930-ականների կեսերին։ Պաշտոնական Երևանի աղբյուրներում շենքի կառուցման ժամանակահատվածը նշվում է **1933–1936 թվականներ**, իսկ որոշ աղբյուրներ շենքի ավարտը թվագրում են 1937 թվականով։\n\nԿինոթատրոնը ունի չորս դահլիճ՝«Կարմիր» դահլիճ՝ 491 նստատեղ, «Կապույտ» դահլիճ՝ 350 նստատեղ, «Կարմիր փոքր դահլիճ՝»  49 նստատեղ, «Կապույտ փոքր դահլիճ»՝  35 նստատեղ: Դահլիճները հագեցած են ժամանակակից տեխնիկական սարքավորումներով:\n\nՖիլմերի ցուցադրություններին զուգահեռ «Մոսկվա» կինոթատրոնում կազակերպվում են զանազան միջոցառումներ և կինոփառատոններ:",
+      "hy": "Նախագիծը մշակվել էր 1933 թվականին, իսկ շինարարությունն իրականացվեց 1930-ականների կեսերին։ Պաշտոնական Երևանի աղբյուրներում շենքի կառուցման ժամանակահատվածը նշվում է 1933–1936 թվականներ, իսկ որոշ աղբյուրներ շենքի ավարտը թվագրում են 1937 թվականով։\n\nԿինոթատրոնը ունի չորս դահլիճ՝«Կարմիր» դահլիճ՝ 491 նստատեղ, «Կապույտ» դահլիճ՝ 350 նստատեղ, «Կարմիր փոքր դահլիճ՝»  49 նստատեղ, «Կապույտ փոքր դահլիճ»՝  35 նստատեղ: Դահլիճները հագեցած են ժամանակակից տեխնիկական սարքավորումներով:\n\nՖիլմերի ցուցադրություններին զուգահեռ «Մոսկվա» կինոթատրոնում կազակերպվում են զանազան միջոցառումներ և կինոփառատոններ:",
       "ru": "Проект был разработан в 1933 году, а строительство велось в середине 1930-х годов. В официальных источниках Еревана период строительства здания указывается как 1933–1936 годы, а некоторые источники датируют завершение здания 1937 годом.\n\nВ кинотеатре четыре зала: «Красный» зал на 491 место, «Синий» зал на 350 мест, «Малый красный зал» на 49 мест и «Малый синий зал» на 35 мест. Залы оснащены современным техническим оборудованием.\n\nНаряду с показами фильмов в кинотеатре «Москва» организуются различные мероприятия и кинофестивали."
     },
     "mediaType": "image",
@@ -943,8 +931,8 @@
     },
     "description": {
       "en": "Who Was Stepan Shahumyan?\n\nStepan Shahumyan (1878–1918) was a Bolshevik revolutionary, political figure, and publicist. He is best known for being one of the leaders of the Baku Commune. During the Soviet period, a square and adjacent areas in Yerevan were named after him. However, the most visible trace of his presence in this place became not only the name, but also the monument erected here.\n\nOn September 20, 1931, a monument to Stepan Shahumyan was unveiled in the square. It was built on the site of the former Russian St. Nicholas Church, which was located in what was then Cathedral Square, today's Shahumyan Square. The sculptor of the monument was Sergey Merkurov, and the architect was Ivan Zholtovsky.\n\nThe monument has a special place in the history of Yerevan: the official tourism source of Yerevan presents it as the first monumental monument officially installed in Yerevan. It consists of Shahumyan's statue and a dark basalt decorative wall rising behind it, with seven rectangular pillars standing out on it. The statue is made from a single piece of pink granite and is about 3.5 meters high.",
-      "hy": "*Ո՞վ է Ստեփան Շահումյանը*\n\nՍտեփան Շահումյանը (1878–1918) բոլշևիկյան հեղափոխական, քաղաքական գործիչ և հրապարակախոս էր։ Նա առավել հայտնի է Բաքվի կոմունայի ղեկավարներից մեկը լինելու հանգամանքով։ Խորհրդային շրջանում նրա անունով Երևանում անվանակոչվեցին հրապարակ և հարակից տարածքներ։ Սակայն այս վայրի պատմության ամենատեսանելի հետքը դարձավ ոչ թե միայն անվանումը, այլ այստեղ կանգնեցված հուշարձանը։\n\n1931 թվականի սեպտեմբերի 20-ին հրապարակում բացվեց Ստեփան Շահումյանի հուշարձանը։ Այն կառուցվեց նախկին ռուսական Սուրբ Նիկոլայ եկեղեցու տեղում, որը գտնվում էր այն ժամանակվա Տաճարական հրապարակում՝ ներկայիս Շահումյանի հրապարակում։ Հուշարձանի քանդակագործը Սերգեյ Մերկուրովն էր, իսկ ճարտարապետը՝ Իվան Ժոլտովսկին։ \n\nՀուշարձանն առանձնահատուկ տեղ ունի Երևանի պատմության մեջ․ Երևանի պաշտոնական զբոսաշրջային աղբյուրը այն ներկայացնում է որպես Երևանում պաշտոնապես տեղադրված առաջին կոթողային հուշարձան։ Այն կազմված է Շահումյանի արձանից և դրա հետևում բարձրացող մուգ բազալտե ձևավոր պատից, որի վրա առանձնանում են յոթ ուղղանկյուն մույթեր։ Արձանը պատրաստված է վարդագույն գրանիտի ամբողջական կտորից և ունի մոտ 3,5 մետր բարձրություն։",
-      "ru": "*Кем был Степан Шаумян?*\n\nСтепан Шаумян (1878–1918) был большевистским революционером, политическим деятелем и публицистом. Он наиболее известен как один из руководителей Бакинской коммуны. В советский период его именем в Ереване были названы площадь и прилегающие территории. Однако наиболее заметным следом его присутствия здесь стало не только название, но и установленный здесь памятник.\n\n20 сентября 1931 года на площади был открыт памятник Степану Шаумяну. Он был построен на месте бывшей русской церкви Святого Николая, которая находилась на тогдашней Соборной площади, нынешней площади Шаумяна. Скульптором памятника был Сергей Меркуров, а архитектором — Иван Жолтовский.\n\nПамятник занимает особое место в истории Еревана: официальный туристический источник Еревана представляет его как первый монументальный памятник, официально установленный в Ереване. Он состоит из статуи Шаумяна и поднимающейся за ней декоративной стены из темного базальта, на которой выделяются семь прямоугольных пилонов. Статуя выполнена из цельного куска розового гранита и имеет высоту около 3,5 метра."
+      "hy": "Ո՞վ է Ստեփան Շահումյանը\n\nՍտեփան Շահումյանը (1878–1918) բոլշևիկյան հեղափոխական, քաղաքական գործիչ և հրապարակախոս էր։ Նա առավել հայտնի է Բաքվի կոմունայի ղեկավարներից մեկը լինելու հանգամանքով։ Խորհրդային շրջանում նրա անունով Երևանում անվանակոչվեցին հրապարակ և հարակից տարածքներ։ Սակայն այս վայրի պատմության ամենատեսանելի հետքը դարձավ ոչ թե միայն անվանումը, այլ այստեղ կանգնեցված հուշարձանը։\n\n1931 թվականի սեպտեմբերի 20-ին հրապարակում բացվեց Ստեփան Շահումյանի հուշարձանը։ Այն կառուցվեց նախկին ռուսական Սուրբ Նիկոլայ եկեղեցու տեղում, որը գտնվում էր այն ժամանակվա Տաճարական հրապարակում՝ ներկայիս Շահումյանի հրապարակում։ Հուշարձանի քանդակագործը Սերգեյ Մերկուրովն էր, իսկ ճարտարապետը՝ Իվան Ժոլտովսկին։ \n\nՀուշարձանն առանձնահատուկ տեղ ունի Երևանի պատմության մեջ․ Երևանի պաշտոնական զբոսաշրջային աղբյուրը այն ներկայացնում է որպես Երևանում պաշտոնապես տեղադրված առաջին կոթողային հուշարձան։ Այն կազմված է Շահումյանի արձանից և դրա հետևում բարձրացող մուգ բազալտե ձևավոր պատից, որի վրա առանձնանում են յոթ ուղղանկյուն մույթեր։ Արձանը պատրաստված է վարդագույն գրանիտի ամբողջական կտորից և ունի մոտ 3,5 մետր բարձրություն։",
+      "ru": "Кем был Степан Шаумян?\n\nСтепан Шаумян (1878–1918) был большевистским революционером, политическим деятелем и публицистом. Он наиболее известен как один из руководителей Бакинской коммуны. В советский период его именем в Ереване были названы площадь и прилегающие территории. Однако наиболее заметным следом его присутствия здесь стало не только название, но и установленный здесь памятник.\n\n20 сентября 1931 года на площади был открыт памятник Степану Шаумяну. Он был построен на месте бывшей русской церкви Святого Николая, которая находилась на тогдашней Соборной площади, нынешней площади Шаумяна. Скульптором памятника был Сергей Меркуров, а архитектором — Иван Жолтовский.\n\nПамятник занимает особое место в истории Еревана: официальный туристический источник Еревана представляет его как первый монументальный памятник, официально установленный в Ереване. Он состоит из статуи Шаумяна и поднимающейся за ней декоративной стены из темного базальта, на которой выделяются семь прямоугольных пилонов. Статуя выполнена из цельного куска розового гранита и имеет высоту около 3,5 метра."
     },
     "mediaType": "image",
     "mediaUrl": "/shahumyan2.PNG"

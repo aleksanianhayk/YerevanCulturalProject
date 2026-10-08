@@ -36,7 +36,7 @@ export const PassportPage = ({ places, onSelectPlace }) => {
         </div>
 
         <div className="pt-3 border-t border-stone-200 flex justify-between text-xs font-bold">
-          <span className="text-stone-500">Total Unlocked Stamps:</span>
+          <span className="text-stone-500">{t('totalUnlocked')}</span>
           <span className="font-black text-amber-700">
             {collectedPlaceIds.size} / {places.length}
           </span>

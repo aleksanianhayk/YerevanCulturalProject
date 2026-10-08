@@ -1,8 +1,10 @@
+
 import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { Communicate } from 'edge-tts.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -43,23 +45,49 @@ const writeData = (filePath, data) => {
 };
 
 // Helper function to split text into chunks for TTS processing
+
 function splitTextIntoChunks(text, maxLength = 180) {
-  if (!text) return [];
-  const sentences = text.match(/[^.!?\n]+[.!?\n]+/g) || [text];
+  if (!text?.trim()) return [];
+
+  const sentences = text.match(/[^.!?\n]+(?:[.!?\n]+|$)/g) || [text];
+
   const chunks = [];
   let currentChunk = '';
 
   for (const sentence of sentences) {
-    if ((currentChunk + sentence).length <= maxLength) {
-      currentChunk += sentence;
-    } else {
-      if (currentChunk.trim()) chunks.push(currentChunk.trim());
-      currentChunk = sentence;
+    const words = sentence.trim().split(/\s+/);
+
+    for (const word of words) {
+      if (currentChunk.length + word.length + 1 > maxLength) {
+        if (currentChunk) {
+          chunks.push(currentChunk.trim());
+          currentChunk = '';
+        }
+      }
+
+      // Handle individual words longer than maxLength
+      if (word.length > maxLength) {
+        for (let i = 0; i < word.length; i += maxLength) {
+          const part = word.slice(i, i + maxLength);
+          if (part.length === maxLength) {
+            chunks.push(part);
+          } else {
+            currentChunk = part;
+          }
+        }
+      } else {
+        currentChunk += (currentChunk ? ' ' : '') + word;
+      }
     }
   }
-  if (currentChunk.trim()) chunks.push(currentChunk.trim());
-  return chunks.length > 0 ? chunks : [text];
+
+  if (currentChunk.trim()) {
+    chunks.push(currentChunk.trim());
+  }
+
+  return chunks;
 }
+
 
 // Base route for health check
 app.get('/', (req, res) => {
@@ -139,51 +167,67 @@ app.post(`/api/users/stamp`, (req, res) => {
   res.json(userWithoutPassword);
 });
 
-// POST: Multi-language Text-To-Speech (English, Russian, Armenian)
-// POST: Multi-language Text-To-Speech (English, Russian, Armenian)
+
+ // POST: Multi-language Text-To-Speech using Edge Neural Voices
 app.post('/api/tts', async (req, res) => {
+  let filePath;
+
   try {
     const { text, lang } = req.body;
     if (!text) return res.status(400).json({ error: 'Text is required' });
 
-    const langMap = { en: 'en', ru: 'ru', hy: 'hy' };
-    const targetLang = langMap[lang] || 'en';
-
-    const chunks = splitTextIntoChunks(text, 180);
-    const audioBuffers = [];
-
-    for (const chunk of chunks) {
-      // Switch to client=gtx and translate.googleapis.com for stable, token-less access
-      const url = `https://translate.googleapis.com/translate_tts?client=gtx&ie=UTF-8&tl=${targetLang}&q=${encodeURIComponent(chunk)}`;
-      
-      const response = await fetch(url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-        }
+    // Armenian TTS is currently unavailable
+    if (lang === 'hy') {
+      return res.status(503).json({
+        error: 'Հայերեն ձայնային ընթերցումը ներկայումս հասանելի չէ։'
       });
-
-      if (!response.ok) {
-        const errText = await response.text();
-        throw new Error(`Google TTS rejected request with status ${response.status}: ${errText}`);
-      }
-
-      const arrayBuffer = await response.arrayBuffer();
-      audioBuffers.push(Buffer.from(arrayBuffer));
     }
 
-    const combinedBuffer = Buffer.concat(audioBuffers);
-    
+    // Define the Neural voices for available languages
+    const voiceMap = {
+      en: { code: 'en-US', name: 'en-US-AriaNeural' },
+      ru: { code: 'ru-RU', name: 'ru-RU-SvetlanaNeural' }
+    };
+
+    const targetVoice = voiceMap[lang] || voiceMap.en;
+
+    // Generate speech using Edge TTS without an API key
+    const tts = new Communicate(text, targetVoice.name);
+
+    // Create a unique temporary MP3 file
+    filePath = path.join(
+      __dirname,
+      `tts_${Date.now()}_${Math.random().toString(36).slice(2)}.mp3`
+    );
+
+    await tts.save(filePath);
+
+    // Read generated audio
+    const buffer = fs.readFileSync(filePath);
+
     res.set({
       'Content-Type': 'audio/mpeg',
-      'Content-Length': combinedBuffer.length,
+      'Content-Length': buffer.length,
     });
-    
-    res.send(combinedBuffer);
+
+    res.send(buffer);
+
   } catch (err) {
-    console.error('TTS Generation Error:', err.message);
-    res.status(500).json({ error: 'Failed to generate TTS audio', details: err.message });
+    console.error('Neural TTS Error:', err.message);
+    res.status(500).json({ error: 'Failed to generate Neural TTS audio' });
+
+  } finally {
+    // Remove temporary audio file
+    if (filePath && fs.existsSync(filePath)) {
+      try {
+        fs.unlinkSync(filePath);
+      } catch (cleanupError) {
+        console.error('TTS cleanup error:', cleanupError.message);
+      }
+    }
   }
 });
+
 
 app.listen(PORT, () => {
   console.log(`🚀 Yerevan TimeLens Server running on port ${PORT}`);

@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "edge-tts.js": "^2.0.4",
     "express": "^4.19.2",
+    "google-tts-api": "^2.0.2",
     "jsqr": "^1.4.0",
     "lucide-react": "^0.378.0",
     "react": "^18.2.0",
